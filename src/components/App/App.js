@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import LandingPage from '../LandingPage/LandingPage';
+import { getAllBuildings } from '../../utilities/apiCalls';
 import './App.scss';
 
 class App extends Component {
@@ -9,6 +10,11 @@ class App extends Component {
     currentUser: {},
     userBuilding: {},
     userInterests: []
+  }
+
+  async componentDidMount() {
+    const buildings = await getAllBuildings();
+    console.log(buildings)
   }
 
   render() {
