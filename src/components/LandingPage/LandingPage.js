@@ -1,12 +1,17 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+
 import './LandingPage.scss';
 
 import SignUpModal from '../SignUpModal/SignUpModal';
 
 class LandingPage extends Component {
-  state = {
-    modalOpen: false
-  };
+  constructor() {
+    super();
+    this.state = {
+      modalOpen: false
+    };
+  }
 
   handleClick = () => {
     this.setState({ modalOpen: true });
@@ -35,5 +40,10 @@ class LandingPage extends Component {
     );
   }
 }
+
+LandingPage.propTypes = {
+  setUser: PropTypes.func,
+  buildings: PropTypes.array
+};
 
 export default LandingPage;

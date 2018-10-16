@@ -1,15 +1,19 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import { PrefixTrie } from 'complete-me';
 import './SignUpModal.scss';
 
 class SignUpModal extends Component {
-  state = {
-    searchValue: '',
-    autoCompleteResults: [],
-    name: '',
-    email: '',
-    buildingsTrie: {}
-  };
+  constructor() {
+    super();
+    this.state = {
+      searchValue: '',
+      autoCompleteResults: [],
+      name: '',
+      email: '',
+      buildingsTrie: {}
+    };
+  }
 
   componentDidMount() {
     const { buildings } = this.props;
@@ -89,5 +93,11 @@ class SignUpModal extends Component {
     );
   }
 }
+
+SignUpModal.propTypes = {
+  buildings: PropTypes.array,
+  setUser: PropTypes.func,
+  handleModalClose: PropTypes.func
+};
 
 export default SignUpModal;

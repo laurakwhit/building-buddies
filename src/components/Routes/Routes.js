@@ -1,29 +1,39 @@
 import React, { Component } from 'react';
 import { Route, withRouter } from 'react-router-dom';
+import PropTypes from 'prop-types';
+
 import { getAllBuildings } from '../../utilities/buildingApiCalls';
+import { getAllInterests } from '../../utilities/interestApiCalls';
 
 import LandingPage from '../LandingPage/LandingPage';
-import HomePage from '../HomePage/HomePage';
-import MainContentContainer from '../MainContentContainer/MainContenteContainer';
+import MyProfile from '../MyProfile/MyProfile';
+import MyNeighbors from '../MyNeighbors/MyNeighbors';
+import BuildingInfo from '../BuildingInfo/BuildingInfo';
 
 class Routes extends Component {
-  state = {
-    buildings: [],
-    interests: [],
-    currentUser: {},
-    userBuilding: {},
-    userInterests: []
-  };
+  constructor() {
+    super();
+    this.state = {
+      buildings: [],
+      interests: [],
+      currentUser: {},
+      userBuilding: {},
+      userInterests: []
+    };
+  }
 
   async componentDidMount() {
     const buildings = await getAllBuildings();
-    this.setState({ buildings });
+    const interests = await getAllInterests();
+    this.setState({ buildings, interests });
   }
 
   setUser = ({ name, email, searchValue }) => {
+    const { buildings } = this.state;
     const currentUser = { name, email };
-    this.setState({ currentUser, userBuilding: searchValue });
-    this.props.history.push('/home');
+    const userBuilding = buildings.find(building => building.name.toLowerCase() === searchValue.toLowerCase());
+    this.setState({ currentUser, userBuilding });
+    this.props.history.push('/profile');
   };
 
   render() {
@@ -38,10 +48,17 @@ class Routes extends Component {
             <LandingPage setUser={this.setUser} buildings={buildings} />
           )}
         />
-        <Route exact path="/home" component={HomePage} />
+        <Route exact path="/profile" component={MyProfile} />
+        <Route exact path="/neighbors" component={MyNeighbors} />
+        <Route exact path="/building" component={BuildingInfo} />
       </>
     );
   }
+}
+
+Routes.propTypes = {
+  history: PropTypes.object,
+  "history.push": PropTypes.func
 }
 
 export default withRouter(Routes);

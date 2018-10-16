@@ -1,5 +1,9 @@
 module.exports = {
-    extends: 'airbnb-base',
+    extends: [
+      'airbnb-base', 
+      'eslint:recommended', 
+      'plugin:react/recommended'],
+    parser: 'babel-eslint',
     rules: {
       'func-names': 'off',
       'import/order': 'off',
@@ -10,7 +14,11 @@ module.exports = {
       'no-unused-expressions': 'off',
       'no-console': 'off',
       'consistent-return': 'off',
-      'array-callback-return': 'off'
+      'array-callback-return': 'off',
+      'class-methods-use-this': 'off',
+      'global-require': 'off',
+      'import/no-named-as-default': 'off',
+      'import/no-named-as-default-member': 'off'
     }
   };
   

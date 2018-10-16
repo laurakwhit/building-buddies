@@ -17,23 +17,128 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": <h1>
-        MyProfile
-      </h1>,
+      "children": Array [
+        <Nav />,
+        <div
+          className="main-content"
+        >
+          <img
+            alt="profile"
+            src="profile.jpg"
+          />
+          <h2>
+            Name
+          </h2>
+          <article>
+            Humblebrag shabby chic gochujang coloring book, squid XOXO brunch tumeric selvage hammock vape. Lomo lumbersexual glossier, wayfarers skateboard irony humblebrag raclette taxidermy ennui freegan af craft beer PBR&B meh. Asymmetrical thundercats intelligentsia, lo-fi swag fingerstache palo santo skateboard flexitarian lyft selvage vice poke gluten-free. Kombucha ramps chambray street art messenger bag.
+          </article>
+          <div>
+            <h4>
+              interest
+            </h4>
+          </div>
+        </div>,
+      ],
       "className": "my-profile",
     },
     "ref": null,
-    "rendered": Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": "MyProfile",
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
       },
-      "ref": null,
-      "rendered": "MyProfile",
-      "type": "h1",
-    },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <img
+              alt="profile"
+              src="profile.jpg"
+            />,
+            <h2>
+              Name
+            </h2>,
+            <article>
+              Humblebrag shabby chic gochujang coloring book, squid XOXO brunch tumeric selvage hammock vape. Lomo lumbersexual glossier, wayfarers skateboard irony humblebrag raclette taxidermy ennui freegan af craft beer PBR&B meh. Asymmetrical thundercats intelligentsia, lo-fi swag fingerstache palo santo skateboard flexitarian lyft selvage vice poke gluten-free. Kombucha ramps chambray street art messenger bag.
+            </article>,
+            <div>
+              <h4>
+                interest
+              </h4>
+            </div>,
+          ],
+          "className": "main-content",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "profile",
+              "src": "profile.jpg",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Name",
+            },
+            "ref": null,
+            "rendered": "Name",
+            "type": "h2",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Humblebrag shabby chic gochujang coloring book, squid XOXO brunch tumeric selvage hammock vape. Lomo lumbersexual glossier, wayfarers skateboard irony humblebrag raclette taxidermy ennui freegan af craft beer PBR&B meh. Asymmetrical thundercats intelligentsia, lo-fi swag fingerstache palo santo skateboard flexitarian lyft selvage vice poke gluten-free. Kombucha ramps chambray street art messenger bag.",
+            },
+            "ref": null,
+            "rendered": "Humblebrag shabby chic gochujang coloring book, squid XOXO brunch tumeric selvage hammock vape. Lomo lumbersexual glossier, wayfarers skateboard irony humblebrag raclette taxidermy ennui freegan af craft beer PBR&B meh. Asymmetrical thundercats intelligentsia, lo-fi swag fingerstache palo santo skateboard flexitarian lyft selvage vice poke gluten-free. Kombucha ramps chambray street art messenger bag.",
+            "type": "article",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <h4>
+                interest
+              </h4>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "interest",
+              },
+              "ref": null,
+              "rendered": "interest",
+              "type": "h4",
+            },
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+    ],
     "type": "div",
   },
   Symbol(enzyme.__nodes__): Array [
@@ -42,23 +147,128 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": <h1>
-          MyProfile
-        </h1>,
+        "children": Array [
+          <Nav />,
+          <div
+            className="main-content"
+          >
+            <img
+              alt="profile"
+              src="profile.jpg"
+            />
+            <h2>
+              Name
+            </h2>
+            <article>
+              Humblebrag shabby chic gochujang coloring book, squid XOXO brunch tumeric selvage hammock vape. Lomo lumbersexual glossier, wayfarers skateboard irony humblebrag raclette taxidermy ennui freegan af craft beer PBR&B meh. Asymmetrical thundercats intelligentsia, lo-fi swag fingerstache palo santo skateboard flexitarian lyft selvage vice poke gluten-free. Kombucha ramps chambray street art messenger bag.
+            </article>
+            <div>
+              <h4>
+                interest
+              </h4>
+            </div>
+          </div>,
+        ],
         "className": "my-profile",
       },
       "ref": null,
-      "rendered": Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": "MyProfile",
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
         },
-        "ref": null,
-        "rendered": "MyProfile",
-        "type": "h1",
-      },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <img
+                alt="profile"
+                src="profile.jpg"
+              />,
+              <h2>
+                Name
+              </h2>,
+              <article>
+                Humblebrag shabby chic gochujang coloring book, squid XOXO brunch tumeric selvage hammock vape. Lomo lumbersexual glossier, wayfarers skateboard irony humblebrag raclette taxidermy ennui freegan af craft beer PBR&B meh. Asymmetrical thundercats intelligentsia, lo-fi swag fingerstache palo santo skateboard flexitarian lyft selvage vice poke gluten-free. Kombucha ramps chambray street art messenger bag.
+              </article>,
+              <div>
+                <h4>
+                  interest
+                </h4>
+              </div>,
+            ],
+            "className": "main-content",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "profile",
+                "src": "profile.jpg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Name",
+              },
+              "ref": null,
+              "rendered": "Name",
+              "type": "h2",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Humblebrag shabby chic gochujang coloring book, squid XOXO brunch tumeric selvage hammock vape. Lomo lumbersexual glossier, wayfarers skateboard irony humblebrag raclette taxidermy ennui freegan af craft beer PBR&B meh. Asymmetrical thundercats intelligentsia, lo-fi swag fingerstache palo santo skateboard flexitarian lyft selvage vice poke gluten-free. Kombucha ramps chambray street art messenger bag.",
+              },
+              "ref": null,
+              "rendered": "Humblebrag shabby chic gochujang coloring book, squid XOXO brunch tumeric selvage hammock vape. Lomo lumbersexual glossier, wayfarers skateboard irony humblebrag raclette taxidermy ennui freegan af craft beer PBR&B meh. Asymmetrical thundercats intelligentsia, lo-fi swag fingerstache palo santo skateboard flexitarian lyft selvage vice poke gluten-free. Kombucha ramps chambray street art messenger bag.",
+              "type": "article",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <h4>
+                  interest
+                </h4>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "interest",
+                },
+                "ref": null,
+                "rendered": "interest",
+                "type": "h4",
+              },
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
       "type": "div",
     },
   ],

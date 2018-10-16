@@ -1,6 +1,6 @@
 .nav__section {
   height: 100vh;
-  width: 25%;
+  width: 25rem;
   font-size: 2rem;
   img {
     height: 25%;
@@ -20,9 +20,9 @@
         color: grey;
       }
     }
-  }
-  .selected {
-    color: red;
+    .selected {
+      color: red;
+    }
   }
   background-color: pink;
 }
