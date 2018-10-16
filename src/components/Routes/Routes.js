@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { getAllBuildings } from '../../utilities/apiCalls';
 import LandingPage from '../LandingPage/LandingPage';
+import Nav from '../Nav/Nav';
 
 class Routes extends Component {
   state = {
@@ -21,7 +22,7 @@ class Routes extends Component {
     return (
       <Router>
         <div>
-          <Route exact path="/" component={LandingPage} />
+          <Route exact path="/" component={Nav} />
         </div>
       </Router>
     );
