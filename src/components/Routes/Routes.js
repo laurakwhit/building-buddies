@@ -15,22 +15,26 @@ class Routes extends Component {
 
   async componentDidMount() {
     const buildings = await getAllBuildings();
-    console.log(buildings);
+    this.setState({ buildings });
   }
 
-  setUser = ({ name, email }) => {
+  setUser = ({ name, email, searchValue }) => {
     const currentUser = { name, email };
-    this.setState({ currentUser });
+    this.setState({ currentUser, userBuilding: searchValue });
   };
 
   render() {
+    const { buildings } = this.state;
+
     return (
       <Router>
         <>
           <Route
             exact
             path="/"
-            render={() => <LandingPage setUser={this.setUser} />}
+            render={() => (
+              <LandingPage setUser={this.setUser} buildings={buildings} />
+            )}
           />
         </>
       </Router>
