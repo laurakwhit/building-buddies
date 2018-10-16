@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+
 import './LandingPage.scss';
 
 import SignUpModal from '../SignUpModal/SignUpModal';
@@ -38,5 +40,10 @@ class LandingPage extends Component {
     );
   }
 }
+
+LandingPage.propTypes = {
+  setUser: PropTypes.func.isRequired,
+  buildings: PropTypes.array.isRequired
+};
 
 export default LandingPage;

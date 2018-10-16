@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import { PrefixTrie } from 'complete-me';
 import './SignUpModal.scss';
 
@@ -92,5 +93,11 @@ class SignUpModal extends Component {
     );
   }
 }
+
+SignUpModal.propTypes = {
+  buildings: PropTypes.array,
+  setUser: PropTypes.func,
+  handleModalClose: PropTypes.func
+};
 
 export default SignUpModal;

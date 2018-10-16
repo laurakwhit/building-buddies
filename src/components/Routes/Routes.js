@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Route, withRouter } from 'react-router-dom';
+import PropTypes from 'prop-types';
+
 import { getAllBuildings } from '../../utilities/buildingApiCalls';
 import { getAllInterests } from '../../utilities/interestApiCalls';
 
@@ -52,6 +54,11 @@ class Routes extends Component {
       </>
     );
   }
+}
+
+Routes.propTypes = {
+  history: PropTypes.object,
+  "history.push": PropTypes.func
 }
 
 export default withRouter(Routes);

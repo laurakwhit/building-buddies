@@ -3,6 +3,7 @@ module.exports = {
       'airbnb-base', 
       'eslint:recommended', 
       'plugin:react/recommended'],
+    parser: 'babel-eslint',
     rules: {
       'func-names': 'off',
       'import/order': 'off',
