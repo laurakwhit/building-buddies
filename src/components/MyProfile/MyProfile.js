@@ -9,7 +9,14 @@ class MyProfile extends Component {
       <div className="my-profile">
         <Nav />
         <div className="main-content">
-          <h1>MyProfile</h1>
+          <img src={require('../../assets/profile.jpg')} alt='profile picture' />
+          <h2>Name</h2>
+          <article>
+            Humblebrag shabby chic gochujang coloring book, squid XOXO brunch tumeric selvage hammock vape. Lomo lumbersexual glossier, wayfarers skateboard irony humblebrag raclette taxidermy ennui freegan af craft beer PBR&B meh. Asymmetrical thundercats intelligentsia, lo-fi swag fingerstache palo santo skateboard flexitarian lyft selvage vice poke gluten-free. Kombucha ramps chambray street art messenger bag.
+          </article>
+          <div>
+            <h4>interest</h4>
+          </div>
         </div>
       </div>
     );
