@@ -1,16 +1,35 @@
 import React, { Component } from 'react';
+import { getUserInterests } from '../../utilities/userApiCalls';
 import Nav from '../Nav/Nav';
 
 import './MyProfile.scss';
 
 class MyProfile extends Component {
+  state = {
+    userInterests: []
+  }
+
+  async componentDidMount() {
+    const userInterests = await getUserInterests(this.props.currentUser.id);
+    this.setState(userInterests);
+  }
+
   render() {
+    const { currentUser, interests } = this.props;
+    const { userInterests } = this.state;
+    const displayedInterests = interests.map((interest, index) => {
+      const checked = userInterests.includes(interest.name);
+      return <div key={index}>
+        <input type="checkbox" name={interest.name} value={interest.name} checked={checked} onClick={this.updateUserInterests}/> 
+        <label htmlFor={interest.name}>{interest.name}</label>
+      </div>
+    })
     return (
       <div className="my-profile">
         <Nav />
         <div className="main-content">
           <img src={require('../../assets/profile.jpg')} alt='profile' />
-          <h2>Name</h2>
+          <h2>{currentUser.name}</h2>
           <article>
             Humblebrag shabby chic gochujang coloring book, squid XOXO brunch tumeric
             selvage hammock vape. Lomo lumbersexual glossier, wayfarers skateboard irony
@@ -20,7 +39,7 @@ class MyProfile extends Component {
             art messenger bag.
           </article>
           <div>
-            <h4>interest</h4>
+            {displayedInterests}
           </div>
         </div>
       </div>

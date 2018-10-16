@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 
 import { getAllBuildings } from '../../utilities/buildingApiCalls';
 import { getAllInterests } from '../../utilities/interestApiCalls';
+import { addUser } from '../../utilities/userApiCalls';
 
 import LandingPage from '../LandingPage/LandingPage';
 import MyProfile from '../MyProfile/MyProfile';
@@ -15,8 +16,7 @@ class Routes extends Component {
     buildings: [],
     interests: [],
     currentUser: {},
-    userBuilding: {},
-    userInterests: []
+    userBuilding: {}
   };
 
   async componentDidMount() {
@@ -25,16 +25,21 @@ class Routes extends Component {
     this.setState({ buildings, interests });
   }
 
-  setUser = ({ name, email, searchValue }) => {
+  setUser = async ({ name, email, password, searchValue }) => {
     const { buildings } = this.state;
-    const currentUser = { name, email };
     const userBuilding = buildings.find(building => building.name.toLowerCase() === searchValue.toLowerCase());
+    const addedUser = await addUser({ name, email, password, building_id: userBuilding.id });
+    const currentUser = { name, email, building_id: userBuilding.id, id: addedUser.id};
     this.setState({ currentUser, userBuilding });
     this.props.history.push('/profile');
   };
 
   render() {
-    const { buildings, currentUser, interests } = this.state;
+    const { 
+      buildings, 
+      currentUser, 
+      interests, 
+      userBuilding } = this.state;
 
     return (
       <>
@@ -46,7 +51,7 @@ class Routes extends Component {
           )}
         />
         <Route exact path="/profile" render={() => (
-          <MyProfile currentUser={currentUser} interests={interests}/>
+          <MyProfile currentUser={currentUser} interests={interests} />
         )} />
         <Route exact path="/neighbors" render={() => (
           <MyNeighbors userBuilding={userBuilding}/>

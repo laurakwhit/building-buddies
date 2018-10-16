@@ -9,6 +9,7 @@ class SignUpModal extends Component {
     autoCompleteResults: [],
     name: '',
     email: '',
+    password: '',
     buildingsTrie: {}
   };
 
@@ -35,7 +36,7 @@ class SignUpModal extends Component {
   handleSubmit = e => {
     e.preventDefault();
     this.props.setUser(this.state);
-    this.setState({ name: '', email: '', searchValue: '' });
+    this.setState({ name: '', email: '', password: '', searchValue: '' });
   };
 
   handleSuggestionClick = e => {
@@ -44,7 +45,7 @@ class SignUpModal extends Component {
 
   render() {
     const { handleModalClose } = this.props;
-    const { name, email, autoCompleteResults, searchValue } = this.state;
+    const { name, email, password, autoCompleteResults, searchValue } = this.state;
 
     const suggestionOptions = autoCompleteResults.map((suggestion, i) => (
       <option
@@ -82,6 +83,13 @@ class SignUpModal extends Component {
               name="email"
               value={email}
               placeholder="Email"
+            />
+            <input
+              onChange={this.handleChange}
+              type="password"
+              name="password"
+              value={password}
+              placeholder="password"
             />
             <button>Sign Up</button>
           </form>
