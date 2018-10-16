@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
-import { getAllBuildings } from '../../utilities/apiCalls';
+import { Route, withRouter } from 'react-router-dom';
+import { getAllBuildings } from '../../utilities/buildingApiCalls';
+
 import LandingPage from '../LandingPage/LandingPage';
+import HomePage from '../HomePage/HomePage';
+import MainContentContainer from '../MainContentContainer/MainContenteContainer';
 
 class Routes extends Component {
   state = {
@@ -14,18 +17,31 @@ class Routes extends Component {
 
   async componentDidMount() {
     const buildings = await getAllBuildings();
-    console.log(buildings);
+    this.setState({ buildings });
   }
 
+  setUser = ({ name, email, searchValue }) => {
+    const currentUser = { name, email };
+    this.setState({ currentUser, userBuilding: searchValue });
+    this.props.history.push('/home');
+  };
+
   render() {
+    const { buildings } = this.state;
+
     return (
-      <Router>
-        <div>
-          <Route exact path="/" component={LandingPage} />
-        </div>
-      </Router>
+      <>
+        <Route
+          exact
+          path="/"
+          render={() => (
+            <LandingPage setUser={this.setUser} buildings={buildings} />
+          )}
+        />
+        <Route exact path="/home" component={HomePage} />
+      </>
     );
   }
 }
 
-export default Routes;
+export default withRouter(Routes);

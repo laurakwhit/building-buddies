@@ -1,0 +1,46 @@
+.sign-up-modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 99;
+
+  .modal-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: 500px;
+    width: 70%;
+    background-color: crimson;
+    border-radius: 10px;
+  }
+
+  .sign-up-form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+  }
+
+  .sign-up-form input {
+    margin-top: 1rem;
+  }
+
+  .sign-up-form button {
+    margin-top: 1rem;
+  }
+
+  #suggestions {
+    display: block;
+    color: #fff;
+    height: 100px;
+    overflow: scroll;
+  }
+}
