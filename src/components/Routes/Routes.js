@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Route, withRouter } from 'react-router-dom';
 import { getAllBuildings } from '../../utilities/buildingApiCalls';
+import { getAllInterests } from '../../utilities/interestApiCalls';
 
 import LandingPage from '../LandingPage/LandingPage';
 import MyProfile from '../MyProfile/MyProfile';
@@ -16,12 +17,15 @@ class Routes extends Component {
 
   async componentDidMount() {
     const buildings = await getAllBuildings();
-    this.setState({ buildings });
+    const interests = await getAllInterests();
+    this.setState({ buildings, interests });
   }
 
   setUser = ({ name, email, searchValue }) => {
+    const { buildings } = this.state;
     const currentUser = { name, email };
-    this.setState({ currentUser, userBuilding: searchValue });
+    const userBuilding = buildings.find(building => building.name.toLowerCase() === searchValue.toLowerCase());
+    this.setState({ currentUser, userBuilding });
     this.props.history.push('/profile');
   };
 
