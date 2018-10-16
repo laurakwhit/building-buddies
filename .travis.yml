@@ -1,14 +1,14 @@
 language: node_js
 node_js:
-  - "node"
+- node
 script:
-  - npm test
-  - npm run build
+- npm test
+- npm run build
 notifications:
   email: false
 deploy:
   provider: heroku
   api_key:
-    secure: 
+    secure: XEmGl7E7pSfVxF1BCf5rrfqVG8C0COmXvhW/sruEYZs13F477HlaGduCSFNm2FGv99MdjIOqAZZ8AqCd51pPNrOF/EqX4ZbLB/QNQts95fDLmbc9tkMH7H9U64JssguyjOq3swcanxeUxE62s7xXeE5UHllK5rrveePXLlVYlq8cSH42bpvz5U/LBq6z6flKlbeo6xGmJY5zSL7CiLnLcLJTjJ0ggT/paNFeDcjuifTnOl6eQIIWUbXfkFqAKlYEiBFKkSuogweMIBQlJpd09JRc0bn+5nvIM6LpwkGUVVQ3ZBh8ieoXnHxPL7GiniEzIEbM0kI+psykj8LtPVHEeRu7ncWtR6I2+OdoC7tlSuWeW1Q6e7qAeX01JygNEOS/QqMhV3+sxIPt4igDl8A3w+3774ojIwPLo+uLrm5hgKPZiQAECvTZu4ZvzE9ycBQw6uZ0bV5bdTRwA0bVJmrI77wLEI68wZTI8sFhtQOkYbgFvlP8EaoDRc0FnIimV7/jhfdpCmAhcQfGDAkpD5Xxa2niNWOi9maMvtwWj/GgHnlE116cdOhrk76FN51Th2Jt92J7MBOkIuZNs1rF0dtZ+J/MSk2FXs6XUc365CeRX7QylFV9DQFyYU/01YnOH93zYbN/nH43Y3G8U9jOIKT6GnuKHV5NVsDb7bUfchUEqKw=
   app: building-buddies
   skip_cleanup: true
