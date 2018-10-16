@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { Route, withRouter } from 'react-router-dom';
 import { getAllBuildings } from '../../utilities/buildingApiCalls';
 
 import LandingPage from '../LandingPage/LandingPage';
+import HomePage from '../HomePage/HomePage';
+import MainContentContainer from '../MainContentContainer/MainContenteContainer';
 
 class Routes extends Component {
   state = {
@@ -21,25 +23,25 @@ class Routes extends Component {
   setUser = ({ name, email, searchValue }) => {
     const currentUser = { name, email };
     this.setState({ currentUser, userBuilding: searchValue });
+    this.props.history.push('/home');
   };
 
   render() {
     const { buildings } = this.state;
 
     return (
-      <Router>
-        <>
-          <Route
-            exact
-            path="/"
-            render={() => (
-              <LandingPage setUser={this.setUser} buildings={buildings} />
-            )}
-          />
-        </>
-      </Router>
+      <>
+        <Route
+          exact
+          path="/"
+          render={() => (
+            <LandingPage setUser={this.setUser} buildings={buildings} />
+          )}
+        />
+        <Route exact path="/home" component={HomePage} />
+      </>
     );
   }
 }
 
-export default Routes;
+export default withRouter(Routes);
