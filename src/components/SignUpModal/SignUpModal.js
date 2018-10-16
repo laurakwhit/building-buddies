@@ -4,16 +4,13 @@ import { PrefixTrie } from 'complete-me';
 import './SignUpModal.scss';
 
 class SignUpModal extends Component {
-  constructor() {
-    super();
-    this.state = {
-      searchValue: '',
-      autoCompleteResults: [],
-      name: '',
-      email: '',
-      buildingsTrie: {}
-    };
-  }
+  state = {
+    searchValue: '',
+    autoCompleteResults: [],
+    name: '',
+    email: '',
+    buildingsTrie: {}
+  };
 
   componentDidMount() {
     const { buildings } = this.props;

@@ -6,12 +6,9 @@ import './LandingPage.scss';
 import SignUpModal from '../SignUpModal/SignUpModal';
 
 class LandingPage extends Component {
-  constructor() {
-    super();
-    this.state = {
-      modalOpen: false
-    };
-  }
+  state = {
+    modalOpen: false
+  };
 
   handleClick = () => {
     this.setState({ modalOpen: true });

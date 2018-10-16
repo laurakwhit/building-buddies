@@ -11,16 +11,13 @@ import MyNeighbors from '../MyNeighbors/MyNeighbors';
 import BuildingInfo from '../BuildingInfo/BuildingInfo';
 
 class Routes extends Component {
-  constructor() {
-    super();
-    this.state = {
-      buildings: [],
-      interests: [],
-      currentUser: {},
-      userBuilding: {},
-      userInterests: []
-    };
-  }
+  state = {
+    buildings: [],
+    interests: [],
+    currentUser: {},
+    userBuilding: {},
+    userInterests: []
+  };
 
   async componentDidMount() {
     const buildings = await getAllBuildings();
@@ -37,7 +34,7 @@ class Routes extends Component {
   };
 
   render() {
-    const { buildings } = this.state;
+    const { buildings, currentUser, interests } = this.state;
 
     return (
       <>
@@ -48,9 +45,15 @@ class Routes extends Component {
             <LandingPage setUser={this.setUser} buildings={buildings} />
           )}
         />
-        <Route exact path="/profile" component={MyProfile} />
-        <Route exact path="/neighbors" component={MyNeighbors} />
-        <Route exact path="/building" component={BuildingInfo} />
+        <Route exact path="/profile" render={() => (
+          <MyProfile currentUser={currentUser} interests={interests}/>
+        )} />
+        <Route exact path="/neighbors" render={() => (
+          <MyNeighbors userBuilding={userBuilding}/>
+          )} />
+        <Route exact path="/building" render={() => (
+          <BuildingInfo userBuilding={userBuilding} />
+          )} />
       </>
     );
   }
