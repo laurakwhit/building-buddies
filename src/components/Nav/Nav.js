@@ -29,7 +29,6 @@ const Nav = () => {
         </NavLink>
         <NavLink
           className='nav__section-links'
-          activeClassName='selected'
           to='/'>
           Log Out
         </NavLink>

@@ -5,6 +5,8 @@ import { getAllInterests } from '../../utilities/interestApiCalls';
 
 import LandingPage from '../LandingPage/LandingPage';
 import MyProfile from '../MyProfile/MyProfile';
+import MyNeighbors from '../MyNeighbors/MyNeighbors';
+import BuildingInfo from '../BuildingInfo/BuildingInfo';
 
 class Routes extends Component {
   state = {
@@ -42,6 +44,8 @@ class Routes extends Component {
           )}
         />
         <Route exact path="/profile" component={MyProfile} />
+        <Route exact path="/neighbors" component={MyNeighbors} />
+        <Route exact path="/building" component={BuildingInfo} />
       </>
     );
   }
