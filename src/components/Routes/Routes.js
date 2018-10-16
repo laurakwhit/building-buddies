@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { getAllBuildings } from '../../utilities/apiCalls';
+
 import LandingPage from '../LandingPage/LandingPage';
 
 class Routes extends Component {
@@ -17,12 +18,21 @@ class Routes extends Component {
     console.log(buildings);
   }
 
+  setUser = ({ name, email }) => {
+    const currentUser = { name, email };
+    this.setState({ currentUser });
+  };
+
   render() {
     return (
       <Router>
-        <div>
-          <Route exact path="/" component={LandingPage} />
-        </div>
+        <>
+          <Route
+            exact
+            path="/"
+            render={() => <LandingPage setUser={this.setUser} />}
+          />
+        </>
       </Router>
     );
   }
