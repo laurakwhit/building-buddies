@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import Nav from '../Nav/Nav';
+import './HomePage.scss';
 
 class HomePage extends Component {
   render() {
