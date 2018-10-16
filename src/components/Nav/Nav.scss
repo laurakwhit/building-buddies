@@ -1,0 +1,28 @@
+.nav__section {
+  height: 100vh;
+  width: 25%;
+  font-size: 2rem;
+  img {
+    height: 25%;
+    margin-top: 3rem;
+    border-radius: 50%;
+  }
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 2rem;
+    height: 55%;
+    .nav__section-links {
+      text-decoration: none;
+      color: black;
+      &:hover {
+        color: grey;
+      }
+    }
+  }
+  .selected {
+    color: red;
+  }
+  background-color: pink;
+}
