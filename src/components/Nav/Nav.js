@@ -1,13 +1,11 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import PropTypes from 'prop-types';
 
 import './Nav.scss';
 
-const Nav = () => {
-  return (
+const Nav = () => (
     <div className='nav__section'>
-      <img src={require('../../assets/profile.jpg')} alt='profile picture'/>
+      <img src={require('../../assets/profile.jpg')} alt='profile'/>
       <nav>
         <NavLink
           className='nav__section-links'
@@ -34,11 +32,6 @@ const Nav = () => {
         </NavLink>
       </nav>
     </div>
-  )
-}
+);
 
 export default Nav;
-
-Nav.propTypes = {
-
-};

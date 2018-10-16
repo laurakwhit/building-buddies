@@ -9,13 +9,16 @@ import MyNeighbors from '../MyNeighbors/MyNeighbors';
 import BuildingInfo from '../BuildingInfo/BuildingInfo';
 
 class Routes extends Component {
-  state = {
-    buildings: [],
-    interests: [],
-    currentUser: {},
-    userBuilding: {},
-    userInterests: []
-  };
+  constructor() {
+    super();
+    this.state = {
+      buildings: [],
+      interests: [],
+      currentUser: {},
+      userBuilding: {},
+      userInterests: []
+    };
+  }
 
   async componentDidMount() {
     const buildings = await getAllBuildings();
