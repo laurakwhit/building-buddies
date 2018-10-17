@@ -129,3 +129,24 @@ export const mockNeighbor = {
   email: 'boolean.brandon@gmail.com',
   password: 'asdfasdf'
 };
+
+export const mockUserInterests = [
+  {
+    id: 11,
+    name: 'skiing',
+    created_at: '2018-10-10T19:53:00.107Z',
+    updated_at: '2018-10-10T19:53:00.107Z'
+  },
+  {
+    id: 12,
+    name: 'snowboarding',
+    created_at: '2018-10-10T19:53:00.107Z',
+    updated_at: '2018-10-10T19:53:00.107Z'
+  },
+  {
+    id: 13,
+    name: 'mountain biking',
+    created_at: '2018-10-10T19:53:00.107Z',
+    updated_at: '2018-10-10T19:53:00.107Z'
+  }
+];

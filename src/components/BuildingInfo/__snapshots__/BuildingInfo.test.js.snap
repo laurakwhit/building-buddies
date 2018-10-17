@@ -19,10 +19,21 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         <Nav />,
-        <h1>
-          BuildingInfo
-        </h1>,
+        <div
+          className="main-content"
+        >
+          <h1>
+            Building Info
+          </h1>
+          <h2>
+            Name: 
+          </h2>
+          <h2>
+            Address: 
+          </h2>
+        </div>,
       ],
+      "className": "building-info",
     },
     "ref": null,
     "rendered": Array [
@@ -30,7 +41,9 @@ ShallowWrapper {
         "instance": null,
         "key": undefined,
         "nodeType": "function",
-        "props": Object {},
+        "props": Object {
+          "handleLogOut": undefined,
+        },
         "ref": null,
         "rendered": null,
         "type": [Function],
@@ -40,11 +53,68 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "BuildingInfo",
+          "children": Array [
+            <h1>
+              Building Info
+            </h1>,
+            <h2>
+              Name: 
+            </h2>,
+            <h2>
+              Address: 
+            </h2>,
+          ],
+          "className": "main-content",
         },
         "ref": null,
-        "rendered": "BuildingInfo",
-        "type": "h1",
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Building Info",
+            },
+            "ref": null,
+            "rendered": "Building Info",
+            "type": "h1",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "Name: ",
+                undefined,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              "Name: ",
+              undefined,
+            ],
+            "type": "h2",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "Address: ",
+                undefined,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              "Address: ",
+              undefined,
+            ],
+            "type": "h2",
+          },
+        ],
+        "type": "div",
       },
     ],
     "type": "div",
@@ -57,10 +127,21 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <Nav />,
-          <h1>
-            BuildingInfo
-          </h1>,
+          <div
+            className="main-content"
+          >
+            <h1>
+              Building Info
+            </h1>
+            <h2>
+              Name: 
+            </h2>
+            <h2>
+              Address: 
+            </h2>
+          </div>,
         ],
+        "className": "building-info",
       },
       "ref": null,
       "rendered": Array [
@@ -68,7 +149,9 @@ ShallowWrapper {
           "instance": null,
           "key": undefined,
           "nodeType": "function",
-          "props": Object {},
+          "props": Object {
+            "handleLogOut": undefined,
+          },
           "ref": null,
           "rendered": null,
           "type": [Function],
@@ -78,11 +161,68 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "BuildingInfo",
+            "children": Array [
+              <h1>
+                Building Info
+              </h1>,
+              <h2>
+                Name: 
+              </h2>,
+              <h2>
+                Address: 
+              </h2>,
+            ],
+            "className": "main-content",
           },
           "ref": null,
-          "rendered": "BuildingInfo",
-          "type": "h1",
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Building Info",
+              },
+              "ref": null,
+              "rendered": "Building Info",
+              "type": "h1",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "Name: ",
+                  undefined,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                "Name: ",
+                undefined,
+              ],
+              "type": "h2",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "Address: ",
+                  undefined,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                "Address: ",
+                undefined,
+              ],
+              "type": "h2",
+            },
+          ],
+          "type": "div",
         },
       ],
       "type": "div",

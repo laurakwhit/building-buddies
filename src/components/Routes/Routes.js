@@ -7,7 +7,11 @@ import {
   getAllBuildingUsers
 } from '../../utilities/buildingApiCalls';
 import { getAllInterests } from '../../utilities/interestApiCalls';
-import { addUser } from '../../utilities/userApiCalls';
+import {
+  addUser,
+  addUserInterest,
+  deleteUserInterest
+} from '../../utilities/userApiCalls';
 
 import LandingPage from '../LandingPage/LandingPage';
 import MyProfile from '../MyProfile/MyProfile';
@@ -22,7 +26,8 @@ class Routes extends Component {
     currentUser: {},
     userBuilding: {},
     userInterests: [],
-    neighbors: []
+    neighbors: [],
+    error: ''
   };
 
   async componentDidMount() {
@@ -32,13 +37,19 @@ class Routes extends Component {
   }
 
   userSignUp = async ({ name, email, password, searchValue, interests }) => {
-    const { currentUser, userBuilding } = await this.setUser({
+    const setUser = await this.setUser({
       name,
       email,
       password,
       searchValue
     });
-    await this.userInterestPost(interests);
+
+    if (!setUser) {
+      return alert(this.state.error);
+    }
+
+    const { currentUser, userBuilding } = setUser;
+    await this.userInterestPost(currentUser.id, interests);
     this.setState({ currentUser, userBuilding, userInterests: interests });
     this.props.history.push('/profile');
   };
@@ -54,20 +65,52 @@ class Routes extends Component {
       password,
       building_id: userBuilding.id
     });
-    const currentUser = {
-      name,
-      email,
-      building_id: userBuilding.id,
-      id: addedUser.id
-    };
-    return { currentUser, userBuilding };
+    if (addedUser.id) {
+      const currentUser = {
+        name,
+        email,
+        building_id: userBuilding.id,
+        id: addedUser.id
+      };
+      return { currentUser, userBuilding };
+    } else {
+      this.setState({ error: addedUser.error });
+    }
   };
 
-  userInterestPost = interests => {
-    interests.forEach(interest => {
-      // POST each interest
-      console.log(interest);
+  userInterestPost = (userId, interests) => {
+    interests.forEach(async interest => {
+      await addUserInterest({ user_id: userId, interest_id: interest.id });
     });
+  };
+
+  updateUserInterests = async clickedInterest => {
+    const { currentUser, userInterests } = this.state;
+    let newUserInterests;
+
+    const alreadyInterested = userInterests.find(userInterest => {
+      console.log('userInterest', userInterest);
+      console.log('clickedInterest', clickedInterest);
+      return userInterest.id === clickedInterest.id;
+    });
+
+    if (alreadyInterested) {
+      newUserInterests = userInterests.filter(
+        userInterest => userInterest.id !== clickedInterest.id
+      );
+      await deleteUserInterest({
+        user_id: currentUser.id,
+        interest_id: clickedInterest.id
+      });
+    } else {
+      newUserInterests = [...userInterests, clickedInterest];
+      await addUserInterest({
+        user_id: currentUser.id,
+        interest_id: clickedInterest.id
+      });
+    }
+
+    this.setState({ userInterests: newUserInterests });
   };
 
   getNeighbors = async () => {
@@ -80,14 +123,81 @@ class Routes extends Component {
     }
   };
 
+  handleLogOut = () => {
+    this.setState({
+      currentUser: {},
+      userBuilding: {},
+      userInterests: []
+    });
+  };
+
   render() {
     const {
       buildings,
       currentUser,
       interests,
       userBuilding,
-      neighbors
+      neighbors,
+      userInterests
     } = this.state;
+
+    if (currentUser.name) {
+      return (
+        <>
+          <Route
+            exact
+            path="/profile"
+            render={() => (
+              <MyProfile
+                currentUser={currentUser}
+                interests={interests}
+                handleLogOut={this.handleLogOut}
+                userInterests={userInterests}
+                updateUserInterests={this.updateUserInterests}
+              />
+            )}
+          />
+          <Route
+            exact
+            path="/neighbors"
+            render={() => (
+              <MyNeighbors
+                userBuilding={userBuilding}
+                neighbors={neighbors}
+                getNeighbors={this.getNeighbors}
+                handleLogOut={this.handleLogOut}
+              />
+            )}
+          />
+          <Route
+            exact
+            path="/building"
+            render={() => (
+              <BuildingInfo
+                name={userBuilding.name}
+                address={userBuilding.address}
+                handleLogOut={this.handleLogOut}
+              />
+            )}
+          />
+          <Route
+            exact
+            path="/neighbors/:neighbor_id"
+            render={({ match }) => {
+              const neighbor = neighbors.find(
+                n => n.id === +match.params.neighbor_id
+              );
+              return (
+                <NeighborProfile
+                  neighbor={neighbor}
+                  handleLogOut={this.handleLogOut}
+                />
+              );
+            }}
+          />
+        </>
+      );
+    }
 
     return (
       <>
@@ -101,40 +211,6 @@ class Routes extends Component {
               userSignUp={this.userSignUp}
             />
           )}
-        />
-        <Route
-          exact
-          path="/profile"
-          render={() => (
-            <MyProfile currentUser={currentUser} interests={interests} />
-          )}
-        />
-        <Route
-          exact
-          path="/neighbors"
-          render={() => (
-            <MyNeighbors
-              userBuilding={userBuilding}
-              neighbors={neighbors}
-              getNeighbors={this.getNeighbors}
-            />
-          )}
-        />
-        <Route
-          exact
-          path="/building"
-          render={() => <BuildingInfo userBuilding={userBuilding} />}
-        />
-        <Route
-          exact
-          path="/neighbors/:neighbor_id"
-          render={({ match }) => {
-            const neighbor = neighbors.find(
-              n => n.id === +match.params.neighbor_id
-            );
-            console.log(neighbors);
-            return <NeighborProfile neighbor={neighbor} />;
-          }}
         />
       </>
     );
