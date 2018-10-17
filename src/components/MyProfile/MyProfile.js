@@ -24,7 +24,6 @@ class MyProfile extends Component {
   handleUserInterestChange = e => {
     const { userInterests } = this.state;
     const { currentUser, interests } = this.props;
-    console.log(userInterests);
     const alreadyInterested = userInterests.find(
       interest => interest.id === e.target.value
     );
