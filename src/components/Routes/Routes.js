@@ -42,7 +42,7 @@ class Routes extends Component {
   };
 
   userInterestPost = (interests) => {
-    interests.map(interest => {
+    interests.forEach(interest => {
       // POST each interest
       console.log(interest)
     })
