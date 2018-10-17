@@ -1,65 +1,47 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
-import { getUserInterests } from '../../utilities/userApiCalls';
 import {
+  getUserInterests,
   addUserInterest,
   deleteUserInterest
 } from '../../utilities/userApiCalls';
+
 import Nav from '../Nav/Nav';
 
 import './MyProfile.scss';
 
 class MyProfile extends Component {
-  state = {
-    userInterests: []
-  };
-
-  async componentDidMount() {
-    const userInterests = await getUserInterests(this.props.currentUser.id);
-    this.setState({ userInterests });
-  }
-
   handleUserInterestChange = e => {
-    const { userInterests } = this.state;
-    const { currentUser, interests } = this.props;
-    const alreadyInterested = userInterests.find(
-      interest => interest.id === e.target.value
+    const { updateUserInterests, interests } = this.props;
+    console.log('interests', interests);
+    console.log('target', e.target.name);
+    const clickedInterest = interests.find(
+      interest => interest.id === parseInt(e.target.name)
     );
 
-    let newUserInterests;
-
-    if (alreadyInterested) {
-      newUserInterests = userInterests.filter(
-        interest => interest.id !== e.target.value
-      );
-      // await deleteUserInterest(currentUser.id, i.id)
-    } else {
-      const newInterest = interests.find(
-        interest => interest.id === e.target.value
-      );
-      newUserInterests = [...userInterests, newInterest];
-      // await addUserInterest(currentUser.id, i.id);
-    }
-    this.setState({ userInterests: newUserInterests });
+    updateUserInterests(clickedInterest);
   };
 
   render() {
-    const { currentUser, interests, handleLogOut } = this.props;
-    const { userInterests } = this.state;
+    const { currentUser, interests, handleLogOut, userInterests } = this.props;
+
     const displayedInterests = interests.map((interest, index) => {
-      const checked = userInterests.find(i => i.id === interest.id);
+      let checked = userInterests.find(
+        userInterest => userInterest.id === interest.id
+      );
+
+      checked ? (checked = true) : (checked = false);
 
       return (
         <div key={index}>
           <input
             type="checkbox"
-            name={interest.name}
-            value={interest.id}
-            checked={checked}
+            name={interest.id}
             onChange={this.handleUserInterestChange}
+            checked={checked}
           />
-          <label htmlFor={interest.name}>{interest.name}</label>
+          <label htmlFor={interest.id}>{interest.name}</label>
         </div>
       );
     });
