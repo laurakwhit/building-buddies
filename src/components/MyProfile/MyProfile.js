@@ -17,6 +17,7 @@ class MyProfile extends Component {
   render() {
     const { currentUser, interests } = this.props;
     const { userInterests } = this.state;
+    console.log(interests)
     const displayedInterests = interests.map((interest, index) => {
       const checked = userInterests.includes(interest.name);
       return <div key={index}>
