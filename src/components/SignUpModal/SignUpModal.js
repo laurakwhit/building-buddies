@@ -122,8 +122,9 @@ class SignUpModal extends Component {
 
 SignUpModal.propTypes = {
   buildings: PropTypes.array,
-  setUser: PropTypes.func,
-  handleModalClose: PropTypes.func
+  userSignUp: PropTypes.func,
+  handleModalClose: PropTypes.func,
+  interests: PropTypes.array
 };
 
 export default SignUpModal;

@@ -40,8 +40,9 @@ class LandingPage extends Component {
 }
 
 LandingPage.propTypes = {
-  setUser: PropTypes.func,
-  buildings: PropTypes.array
+  buildings: PropTypes.array,
+  interests: PropTypes.array,
+  userSignUp: PropTypes.func
 };
 
 export default LandingPage;

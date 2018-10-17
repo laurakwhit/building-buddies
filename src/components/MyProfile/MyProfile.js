@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import { getUserInterests } from '../../utilities/userApiCalls';
 import Nav from '../Nav/Nav';
 
@@ -47,5 +48,11 @@ class MyProfile extends Component {
     );
   }
 }
+
+MyProfile.propTypes = {
+  currentUser: PropTypes.object,
+  'currentUser.id': PropTypes.num,
+  interests: PropTypes.array
+};
 
 export default MyProfile;
