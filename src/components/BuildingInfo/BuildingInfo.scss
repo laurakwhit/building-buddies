@@ -2,5 +2,18 @@
   display: flex;
   .main-content {
     width: calc(100% - 20rem);
+    color: #112229;
+    margin: auto;
+    h1 {
+      font-size: 3rem;
+    }
+    h2 span {
+      color: #76939e;
+    }
+    .building-details {
+      margin: auto;
+      width: 50%;
+      text-align: left;
+    }
   }
 }

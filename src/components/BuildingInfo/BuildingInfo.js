@@ -5,18 +5,24 @@ import Nav from '../Nav/Nav';
 
 import './BuildingInfo.scss';
 
-const BuildingInfo = ({name, address, handleLogOut}) => {
+const BuildingInfo = ({ name, address, handleLogOut }) => {
   return (
-    <div className='building-info'>
-      <Nav handleLogOut={handleLogOut}/>
-      <div className='main-content'>
-        <h1>Building Info</h1>
-        <h2>Name: {name}</h2>
-        <h2>Address: {address}</h2>
+    <div className="building-info">
+      <Nav handleLogOut={handleLogOut} />
+      <div className="main-content">
+        <div className="building-details">
+          <h1>Building Info</h1>
+          <h2>
+            Name: <span>{name}</span>
+          </h2>
+          <h2>
+            Address: <span>{address}</span>
+          </h2>
+        </div>
       </div>
     </div>
-    );
-}
+  );
+};
 
 BuildingInfo.propTypes = {
   name: PropTypes.string,
