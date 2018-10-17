@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+
 import { getUserInterests } from '../../utilities/userApiCalls';
+import { addUserInterest, deleteUserInterest } from '../../utilities/userApiCalls';
+
 import Nav from '../Nav/Nav';
 
 import './MyProfile.scss';
-import { addUserInterest, deleteUserInterest } from '../../utilities/userApiCalls';
 
 class MyProfile extends Component {
   state = {
@@ -36,7 +38,7 @@ class MyProfile extends Component {
   }
 
   render() {
-    const { currentUser, interests } = this.props;
+    const { currentUser, interests, handleLogOut } = this.props;
     const { userInterests } = this.state;
     const displayedInterests = interests.map((interest, index) => {
       const checked = userInterests.find(i => i.name === interest.name);
@@ -54,7 +56,7 @@ class MyProfile extends Component {
 
     return (
       <div className="my-profile">
-        <Nav />
+        <Nav handleLogOut={handleLogOut} />
         <div className="main-content">
           <img src={require('../../assets/profile.jpg')} alt='profile' />
           <h2>{currentUser.name}</h2>
@@ -77,7 +79,8 @@ class MyProfile extends Component {
 
 MyProfile.propTypes = {
   currentUser: PropTypes.object,
-  interests: PropTypes.array
+  interests: PropTypes.array,
+  handleLogOut: PropTypes.func
 };
 
 export default MyProfile;

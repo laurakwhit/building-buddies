@@ -47,6 +47,14 @@ class Routes extends Component {
     })
   }
 
+  handleLogOut = () => {
+    this.setState({ 
+      currentUser: {},
+      userBuilding: {},
+      userInterests: []
+    });
+  }
+
   render() {
     const { 
       buildings, 
@@ -59,13 +67,13 @@ class Routes extends Component {
       return (
         <>
           <Route exact path="/profile" render={() => (
-            <MyProfile currentUser={currentUser} interests={interests} />
+            <MyProfile currentUser={currentUser} interests={interests} handleLogOut={this.handleLogOut} />
           )} />
           <Route exact path="/neighbors" render={() => (
-            <MyNeighbors userBuilding={userBuilding}/>
+            <MyNeighbors userBuilding={userBuilding} handleLogOut={this.handleLogOut} />
           )} />
           <Route exact path="/building" render={() => (
-            <BuildingInfo name={userBuilding.name} address={userBuilding.address} />
+            <BuildingInfo name={userBuilding.name} address={userBuilding.address} handleLogOut={this.handleLogOut} />
           )} />
         </>
       )
