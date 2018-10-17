@@ -99,6 +99,28 @@ ShallowWrapper {
         },
       ]
     }
+    userInterests={
+      Array [
+        Object {
+          "created_at": "2018-10-10T19:53:00.107Z",
+          "id": 11,
+          "name": "skiing",
+          "updated_at": "2018-10-10T19:53:00.107Z",
+        },
+        Object {
+          "created_at": "2018-10-10T19:53:00.107Z",
+          "id": 12,
+          "name": "snowboarding",
+          "updated_at": "2018-10-10T19:53:00.107Z",
+        },
+        Object {
+          "created_at": "2018-10-10T19:53:00.107Z",
+          "id": 13,
+          "name": "mountain biking",
+          "updated_at": "2018-10-10T19:53:00.107Z",
+        },
+      ]
+    }
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -128,190 +150,190 @@ ShallowWrapper {
           <article>
             Humblebrag shabby chic gochujang coloring book, squid XOXO brunch tumeric selvage hammock vape. Lomo lumbersexual glossier, wayfarers skateboard irony humblebrag raclette taxidermy ennui freegan af craft beer PBR&B meh. Asymmetrical thundercats intelligentsia, lo-fi swag fingerstache palo santo skateboard flexitarian lyft selvage vice poke gluten-free. Kombucha ramps chambray street art messenger bag.
           </article>
-          <div>
+          <form>
             <div>
               <input
-                name="golf"
+                checked={false}
+                name={1}
                 onChange={[Function]}
                 type="checkbox"
-                value="{\\"id\\":1,\\"name\\":\\"golf\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
               />
               <label
-                htmlFor="golf"
+                htmlFor={1}
               >
                 golf
               </label>
             </div>
             <div>
               <input
-                name="gardening"
+                checked={false}
+                name={2}
                 onChange={[Function]}
                 type="checkbox"
-                value="{\\"id\\":2,\\"name\\":\\"gardening\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
               />
               <label
-                htmlFor="gardening"
+                htmlFor={2}
               >
                 gardening
               </label>
             </div>
             <div>
               <input
-                name="camping"
+                checked={false}
+                name={3}
                 onChange={[Function]}
                 type="checkbox"
-                value="{\\"id\\":3,\\"name\\":\\"camping\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
               />
               <label
-                htmlFor="camping"
+                htmlFor={3}
               >
                 camping
               </label>
             </div>
             <div>
               <input
-                name="rock climbing"
+                checked={false}
+                name={4}
                 onChange={[Function]}
                 type="checkbox"
-                value="{\\"id\\":4,\\"name\\":\\"rock climbing\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
               />
               <label
-                htmlFor="rock climbing"
+                htmlFor={4}
               >
                 rock climbing
               </label>
             </div>
             <div>
               <input
-                name="fly fishing"
+                checked={false}
+                name={5}
                 onChange={[Function]}
                 type="checkbox"
-                value="{\\"id\\":5,\\"name\\":\\"fly fishing\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
               />
               <label
-                htmlFor="fly fishing"
+                htmlFor={5}
               >
                 fly fishing
               </label>
             </div>
             <div>
               <input
-                name="coding"
+                checked={false}
+                name={6}
                 onChange={[Function]}
                 type="checkbox"
-                value="{\\"id\\":6,\\"name\\":\\"coding\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
               />
               <label
-                htmlFor="coding"
+                htmlFor={6}
               >
                 coding
               </label>
             </div>
             <div>
               <input
-                name="working on cars"
+                checked={false}
+                name={7}
                 onChange={[Function]}
                 type="checkbox"
-                value="{\\"id\\":7,\\"name\\":\\"working on cars\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
               />
               <label
-                htmlFor="working on cars"
+                htmlFor={7}
               >
                 working on cars
               </label>
             </div>
             <div>
               <input
-                name="bowling"
+                checked={false}
+                name={8}
                 onChange={[Function]}
                 type="checkbox"
-                value="{\\"id\\":8,\\"name\\":\\"bowling\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
               />
               <label
-                htmlFor="bowling"
+                htmlFor={8}
               >
                 bowling
               </label>
             </div>
             <div>
               <input
-                name="cooking"
+                checked={false}
+                name={9}
                 onChange={[Function]}
                 type="checkbox"
-                value="{\\"id\\":9,\\"name\\":\\"cooking\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
               />
               <label
-                htmlFor="cooking"
+                htmlFor={9}
               >
                 cooking
               </label>
             </div>
             <div>
               <input
-                name="hiking"
+                checked={false}
+                name={10}
                 onChange={[Function]}
                 type="checkbox"
-                value="{\\"id\\":10,\\"name\\":\\"hiking\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
               />
               <label
-                htmlFor="hiking"
+                htmlFor={10}
               >
                 hiking
               </label>
             </div>
             <div>
               <input
-                name="skiing"
+                checked={true}
+                name={11}
                 onChange={[Function]}
                 type="checkbox"
-                value="{\\"id\\":11,\\"name\\":\\"skiing\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
               />
               <label
-                htmlFor="skiing"
+                htmlFor={11}
               >
                 skiing
               </label>
             </div>
             <div>
               <input
-                name="snowboarding"
+                checked={true}
+                name={12}
                 onChange={[Function]}
                 type="checkbox"
-                value="{\\"id\\":12,\\"name\\":\\"snowboarding\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
               />
               <label
-                htmlFor="snowboarding"
+                htmlFor={12}
               >
                 snowboarding
               </label>
             </div>
             <div>
               <input
-                name="mountain biking"
+                checked={true}
+                name={13}
                 onChange={[Function]}
                 type="checkbox"
-                value="{\\"id\\":13,\\"name\\":\\"mountain biking\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
               />
               <label
-                htmlFor="mountain biking"
+                htmlFor={13}
               >
                 mountain biking
               </label>
             </div>
             <div>
               <input
-                name="knitting"
+                checked={false}
+                name={14}
                 onChange={[Function]}
                 type="checkbox"
-                value="{\\"id\\":14,\\"name\\":\\"knitting\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
               />
               <label
-                htmlFor="knitting"
+                htmlFor={14}
               >
                 knitting
               </label>
             </div>
-          </div>
+          </form>
         </div>,
       ],
       "className": "my-profile",
@@ -322,7 +344,9 @@ ShallowWrapper {
         "instance": null,
         "key": undefined,
         "nodeType": "function",
-        "props": Object {},
+        "props": Object {
+          "handleLogOut": undefined,
+        },
         "ref": null,
         "rendered": null,
         "type": [Function],
@@ -343,190 +367,190 @@ ShallowWrapper {
             <article>
               Humblebrag shabby chic gochujang coloring book, squid XOXO brunch tumeric selvage hammock vape. Lomo lumbersexual glossier, wayfarers skateboard irony humblebrag raclette taxidermy ennui freegan af craft beer PBR&B meh. Asymmetrical thundercats intelligentsia, lo-fi swag fingerstache palo santo skateboard flexitarian lyft selvage vice poke gluten-free. Kombucha ramps chambray street art messenger bag.
             </article>,
-            <div>
+            <form>
               <div>
                 <input
-                  name="golf"
+                  checked={false}
+                  name={1}
                   onChange={[Function]}
                   type="checkbox"
-                  value="{\\"id\\":1,\\"name\\":\\"golf\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                 />
                 <label
-                  htmlFor="golf"
+                  htmlFor={1}
                 >
                   golf
                 </label>
               </div>
               <div>
                 <input
-                  name="gardening"
+                  checked={false}
+                  name={2}
                   onChange={[Function]}
                   type="checkbox"
-                  value="{\\"id\\":2,\\"name\\":\\"gardening\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                 />
                 <label
-                  htmlFor="gardening"
+                  htmlFor={2}
                 >
                   gardening
                 </label>
               </div>
               <div>
                 <input
-                  name="camping"
+                  checked={false}
+                  name={3}
                   onChange={[Function]}
                   type="checkbox"
-                  value="{\\"id\\":3,\\"name\\":\\"camping\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                 />
                 <label
-                  htmlFor="camping"
+                  htmlFor={3}
                 >
                   camping
                 </label>
               </div>
               <div>
                 <input
-                  name="rock climbing"
+                  checked={false}
+                  name={4}
                   onChange={[Function]}
                   type="checkbox"
-                  value="{\\"id\\":4,\\"name\\":\\"rock climbing\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                 />
                 <label
-                  htmlFor="rock climbing"
+                  htmlFor={4}
                 >
                   rock climbing
                 </label>
               </div>
               <div>
                 <input
-                  name="fly fishing"
+                  checked={false}
+                  name={5}
                   onChange={[Function]}
                   type="checkbox"
-                  value="{\\"id\\":5,\\"name\\":\\"fly fishing\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                 />
                 <label
-                  htmlFor="fly fishing"
+                  htmlFor={5}
                 >
                   fly fishing
                 </label>
               </div>
               <div>
                 <input
-                  name="coding"
+                  checked={false}
+                  name={6}
                   onChange={[Function]}
                   type="checkbox"
-                  value="{\\"id\\":6,\\"name\\":\\"coding\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                 />
                 <label
-                  htmlFor="coding"
+                  htmlFor={6}
                 >
                   coding
                 </label>
               </div>
               <div>
                 <input
-                  name="working on cars"
+                  checked={false}
+                  name={7}
                   onChange={[Function]}
                   type="checkbox"
-                  value="{\\"id\\":7,\\"name\\":\\"working on cars\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                 />
                 <label
-                  htmlFor="working on cars"
+                  htmlFor={7}
                 >
                   working on cars
                 </label>
               </div>
               <div>
                 <input
-                  name="bowling"
+                  checked={false}
+                  name={8}
                   onChange={[Function]}
                   type="checkbox"
-                  value="{\\"id\\":8,\\"name\\":\\"bowling\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                 />
                 <label
-                  htmlFor="bowling"
+                  htmlFor={8}
                 >
                   bowling
                 </label>
               </div>
               <div>
                 <input
-                  name="cooking"
+                  checked={false}
+                  name={9}
                   onChange={[Function]}
                   type="checkbox"
-                  value="{\\"id\\":9,\\"name\\":\\"cooking\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                 />
                 <label
-                  htmlFor="cooking"
+                  htmlFor={9}
                 >
                   cooking
                 </label>
               </div>
               <div>
                 <input
-                  name="hiking"
+                  checked={false}
+                  name={10}
                   onChange={[Function]}
                   type="checkbox"
-                  value="{\\"id\\":10,\\"name\\":\\"hiking\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                 />
                 <label
-                  htmlFor="hiking"
+                  htmlFor={10}
                 >
                   hiking
                 </label>
               </div>
               <div>
                 <input
-                  name="skiing"
+                  checked={true}
+                  name={11}
                   onChange={[Function]}
                   type="checkbox"
-                  value="{\\"id\\":11,\\"name\\":\\"skiing\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                 />
                 <label
-                  htmlFor="skiing"
+                  htmlFor={11}
                 >
                   skiing
                 </label>
               </div>
               <div>
                 <input
-                  name="snowboarding"
+                  checked={true}
+                  name={12}
                   onChange={[Function]}
                   type="checkbox"
-                  value="{\\"id\\":12,\\"name\\":\\"snowboarding\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                 />
                 <label
-                  htmlFor="snowboarding"
+                  htmlFor={12}
                 >
                   snowboarding
                 </label>
               </div>
               <div>
                 <input
-                  name="mountain biking"
+                  checked={true}
+                  name={13}
                   onChange={[Function]}
                   type="checkbox"
-                  value="{\\"id\\":13,\\"name\\":\\"mountain biking\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                 />
                 <label
-                  htmlFor="mountain biking"
+                  htmlFor={13}
                 >
                   mountain biking
                 </label>
               </div>
               <div>
                 <input
-                  name="knitting"
+                  checked={false}
+                  name={14}
                   onChange={[Function]}
                   type="checkbox"
-                  value="{\\"id\\":14,\\"name\\":\\"knitting\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                 />
                 <label
-                  htmlFor="knitting"
+                  htmlFor={14}
                 >
                   knitting
                 </label>
               </div>
-            </div>,
+            </form>,
           ],
           "className": "main-content",
         },
@@ -574,182 +598,182 @@ ShallowWrapper {
               "children": Array [
                 <div>
                   <input
-                    name="golf"
+                    checked={false}
+                    name={1}
                     onChange={[Function]}
                     type="checkbox"
-                    value="{\\"id\\":1,\\"name\\":\\"golf\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                   />
                   <label
-                    htmlFor="golf"
+                    htmlFor={1}
                   >
                     golf
                   </label>
                 </div>,
                 <div>
                   <input
-                    name="gardening"
+                    checked={false}
+                    name={2}
                     onChange={[Function]}
                     type="checkbox"
-                    value="{\\"id\\":2,\\"name\\":\\"gardening\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                   />
                   <label
-                    htmlFor="gardening"
+                    htmlFor={2}
                   >
                     gardening
                   </label>
                 </div>,
                 <div>
                   <input
-                    name="camping"
+                    checked={false}
+                    name={3}
                     onChange={[Function]}
                     type="checkbox"
-                    value="{\\"id\\":3,\\"name\\":\\"camping\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                   />
                   <label
-                    htmlFor="camping"
+                    htmlFor={3}
                   >
                     camping
                   </label>
                 </div>,
                 <div>
                   <input
-                    name="rock climbing"
+                    checked={false}
+                    name={4}
                     onChange={[Function]}
                     type="checkbox"
-                    value="{\\"id\\":4,\\"name\\":\\"rock climbing\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                   />
                   <label
-                    htmlFor="rock climbing"
+                    htmlFor={4}
                   >
                     rock climbing
                   </label>
                 </div>,
                 <div>
                   <input
-                    name="fly fishing"
+                    checked={false}
+                    name={5}
                     onChange={[Function]}
                     type="checkbox"
-                    value="{\\"id\\":5,\\"name\\":\\"fly fishing\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                   />
                   <label
-                    htmlFor="fly fishing"
+                    htmlFor={5}
                   >
                     fly fishing
                   </label>
                 </div>,
                 <div>
                   <input
-                    name="coding"
+                    checked={false}
+                    name={6}
                     onChange={[Function]}
                     type="checkbox"
-                    value="{\\"id\\":6,\\"name\\":\\"coding\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                   />
                   <label
-                    htmlFor="coding"
+                    htmlFor={6}
                   >
                     coding
                   </label>
                 </div>,
                 <div>
                   <input
-                    name="working on cars"
+                    checked={false}
+                    name={7}
                     onChange={[Function]}
                     type="checkbox"
-                    value="{\\"id\\":7,\\"name\\":\\"working on cars\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                   />
                   <label
-                    htmlFor="working on cars"
+                    htmlFor={7}
                   >
                     working on cars
                   </label>
                 </div>,
                 <div>
                   <input
-                    name="bowling"
+                    checked={false}
+                    name={8}
                     onChange={[Function]}
                     type="checkbox"
-                    value="{\\"id\\":8,\\"name\\":\\"bowling\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                   />
                   <label
-                    htmlFor="bowling"
+                    htmlFor={8}
                   >
                     bowling
                   </label>
                 </div>,
                 <div>
                   <input
-                    name="cooking"
+                    checked={false}
+                    name={9}
                     onChange={[Function]}
                     type="checkbox"
-                    value="{\\"id\\":9,\\"name\\":\\"cooking\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                   />
                   <label
-                    htmlFor="cooking"
+                    htmlFor={9}
                   >
                     cooking
                   </label>
                 </div>,
                 <div>
                   <input
-                    name="hiking"
+                    checked={false}
+                    name={10}
                     onChange={[Function]}
                     type="checkbox"
-                    value="{\\"id\\":10,\\"name\\":\\"hiking\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                   />
                   <label
-                    htmlFor="hiking"
+                    htmlFor={10}
                   >
                     hiking
                   </label>
                 </div>,
                 <div>
                   <input
-                    name="skiing"
+                    checked={true}
+                    name={11}
                     onChange={[Function]}
                     type="checkbox"
-                    value="{\\"id\\":11,\\"name\\":\\"skiing\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                   />
                   <label
-                    htmlFor="skiing"
+                    htmlFor={11}
                   >
                     skiing
                   </label>
                 </div>,
                 <div>
                   <input
-                    name="snowboarding"
+                    checked={true}
+                    name={12}
                     onChange={[Function]}
                     type="checkbox"
-                    value="{\\"id\\":12,\\"name\\":\\"snowboarding\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                   />
                   <label
-                    htmlFor="snowboarding"
+                    htmlFor={12}
                   >
                     snowboarding
                   </label>
                 </div>,
                 <div>
                   <input
-                    name="mountain biking"
+                    checked={true}
+                    name={13}
                     onChange={[Function]}
                     type="checkbox"
-                    value="{\\"id\\":13,\\"name\\":\\"mountain biking\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                   />
                   <label
-                    htmlFor="mountain biking"
+                    htmlFor={13}
                   >
                     mountain biking
                   </label>
                 </div>,
                 <div>
                   <input
-                    name="knitting"
+                    checked={false}
+                    name={14}
                     onChange={[Function]}
                     type="checkbox"
-                    value="{\\"id\\":14,\\"name\\":\\"knitting\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                   />
                   <label
-                    htmlFor="knitting"
+                    htmlFor={14}
                   >
                     knitting
                   </label>
@@ -765,13 +789,13 @@ ShallowWrapper {
                 "props": Object {
                   "children": Array [
                     <input
-                      name="golf"
+                      checked={false}
+                      name={1}
                       onChange={[Function]}
                       type="checkbox"
-                      value="{\\"id\\":1,\\"name\\":\\"golf\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                     />,
                     <label
-                      htmlFor="golf"
+                      htmlFor={1}
                     >
                       golf
                     </label>,
@@ -784,11 +808,10 @@ ShallowWrapper {
                     "key": undefined,
                     "nodeType": "host",
                     "props": Object {
-                      "checked": undefined,
-                      "name": "golf",
+                      "checked": false,
+                      "name": 1,
                       "onChange": [Function],
                       "type": "checkbox",
-                      "value": "{\\"id\\":1,\\"name\\":\\"golf\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}",
                     },
                     "ref": null,
                     "rendered": null,
@@ -800,7 +823,7 @@ ShallowWrapper {
                     "nodeType": "host",
                     "props": Object {
                       "children": "golf",
-                      "htmlFor": "golf",
+                      "htmlFor": 1,
                     },
                     "ref": null,
                     "rendered": "golf",
@@ -816,13 +839,13 @@ ShallowWrapper {
                 "props": Object {
                   "children": Array [
                     <input
-                      name="gardening"
+                      checked={false}
+                      name={2}
                       onChange={[Function]}
                       type="checkbox"
-                      value="{\\"id\\":2,\\"name\\":\\"gardening\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                     />,
                     <label
-                      htmlFor="gardening"
+                      htmlFor={2}
                     >
                       gardening
                     </label>,
@@ -835,11 +858,10 @@ ShallowWrapper {
                     "key": undefined,
                     "nodeType": "host",
                     "props": Object {
-                      "checked": undefined,
-                      "name": "gardening",
+                      "checked": false,
+                      "name": 2,
                       "onChange": [Function],
                       "type": "checkbox",
-                      "value": "{\\"id\\":2,\\"name\\":\\"gardening\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}",
                     },
                     "ref": null,
                     "rendered": null,
@@ -851,7 +873,7 @@ ShallowWrapper {
                     "nodeType": "host",
                     "props": Object {
                       "children": "gardening",
-                      "htmlFor": "gardening",
+                      "htmlFor": 2,
                     },
                     "ref": null,
                     "rendered": "gardening",
@@ -867,13 +889,13 @@ ShallowWrapper {
                 "props": Object {
                   "children": Array [
                     <input
-                      name="camping"
+                      checked={false}
+                      name={3}
                       onChange={[Function]}
                       type="checkbox"
-                      value="{\\"id\\":3,\\"name\\":\\"camping\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                     />,
                     <label
-                      htmlFor="camping"
+                      htmlFor={3}
                     >
                       camping
                     </label>,
@@ -886,11 +908,10 @@ ShallowWrapper {
                     "key": undefined,
                     "nodeType": "host",
                     "props": Object {
-                      "checked": undefined,
-                      "name": "camping",
+                      "checked": false,
+                      "name": 3,
                       "onChange": [Function],
                       "type": "checkbox",
-                      "value": "{\\"id\\":3,\\"name\\":\\"camping\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}",
                     },
                     "ref": null,
                     "rendered": null,
@@ -902,7 +923,7 @@ ShallowWrapper {
                     "nodeType": "host",
                     "props": Object {
                       "children": "camping",
-                      "htmlFor": "camping",
+                      "htmlFor": 3,
                     },
                     "ref": null,
                     "rendered": "camping",
@@ -918,13 +939,13 @@ ShallowWrapper {
                 "props": Object {
                   "children": Array [
                     <input
-                      name="rock climbing"
+                      checked={false}
+                      name={4}
                       onChange={[Function]}
                       type="checkbox"
-                      value="{\\"id\\":4,\\"name\\":\\"rock climbing\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                     />,
                     <label
-                      htmlFor="rock climbing"
+                      htmlFor={4}
                     >
                       rock climbing
                     </label>,
@@ -937,11 +958,10 @@ ShallowWrapper {
                     "key": undefined,
                     "nodeType": "host",
                     "props": Object {
-                      "checked": undefined,
-                      "name": "rock climbing",
+                      "checked": false,
+                      "name": 4,
                       "onChange": [Function],
                       "type": "checkbox",
-                      "value": "{\\"id\\":4,\\"name\\":\\"rock climbing\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}",
                     },
                     "ref": null,
                     "rendered": null,
@@ -953,7 +973,7 @@ ShallowWrapper {
                     "nodeType": "host",
                     "props": Object {
                       "children": "rock climbing",
-                      "htmlFor": "rock climbing",
+                      "htmlFor": 4,
                     },
                     "ref": null,
                     "rendered": "rock climbing",
@@ -969,13 +989,13 @@ ShallowWrapper {
                 "props": Object {
                   "children": Array [
                     <input
-                      name="fly fishing"
+                      checked={false}
+                      name={5}
                       onChange={[Function]}
                       type="checkbox"
-                      value="{\\"id\\":5,\\"name\\":\\"fly fishing\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                     />,
                     <label
-                      htmlFor="fly fishing"
+                      htmlFor={5}
                     >
                       fly fishing
                     </label>,
@@ -988,11 +1008,10 @@ ShallowWrapper {
                     "key": undefined,
                     "nodeType": "host",
                     "props": Object {
-                      "checked": undefined,
-                      "name": "fly fishing",
+                      "checked": false,
+                      "name": 5,
                       "onChange": [Function],
                       "type": "checkbox",
-                      "value": "{\\"id\\":5,\\"name\\":\\"fly fishing\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}",
                     },
                     "ref": null,
                     "rendered": null,
@@ -1004,7 +1023,7 @@ ShallowWrapper {
                     "nodeType": "host",
                     "props": Object {
                       "children": "fly fishing",
-                      "htmlFor": "fly fishing",
+                      "htmlFor": 5,
                     },
                     "ref": null,
                     "rendered": "fly fishing",
@@ -1020,13 +1039,13 @@ ShallowWrapper {
                 "props": Object {
                   "children": Array [
                     <input
-                      name="coding"
+                      checked={false}
+                      name={6}
                       onChange={[Function]}
                       type="checkbox"
-                      value="{\\"id\\":6,\\"name\\":\\"coding\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                     />,
                     <label
-                      htmlFor="coding"
+                      htmlFor={6}
                     >
                       coding
                     </label>,
@@ -1039,11 +1058,10 @@ ShallowWrapper {
                     "key": undefined,
                     "nodeType": "host",
                     "props": Object {
-                      "checked": undefined,
-                      "name": "coding",
+                      "checked": false,
+                      "name": 6,
                       "onChange": [Function],
                       "type": "checkbox",
-                      "value": "{\\"id\\":6,\\"name\\":\\"coding\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}",
                     },
                     "ref": null,
                     "rendered": null,
@@ -1055,7 +1073,7 @@ ShallowWrapper {
                     "nodeType": "host",
                     "props": Object {
                       "children": "coding",
-                      "htmlFor": "coding",
+                      "htmlFor": 6,
                     },
                     "ref": null,
                     "rendered": "coding",
@@ -1071,13 +1089,13 @@ ShallowWrapper {
                 "props": Object {
                   "children": Array [
                     <input
-                      name="working on cars"
+                      checked={false}
+                      name={7}
                       onChange={[Function]}
                       type="checkbox"
-                      value="{\\"id\\":7,\\"name\\":\\"working on cars\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                     />,
                     <label
-                      htmlFor="working on cars"
+                      htmlFor={7}
                     >
                       working on cars
                     </label>,
@@ -1090,11 +1108,10 @@ ShallowWrapper {
                     "key": undefined,
                     "nodeType": "host",
                     "props": Object {
-                      "checked": undefined,
-                      "name": "working on cars",
+                      "checked": false,
+                      "name": 7,
                       "onChange": [Function],
                       "type": "checkbox",
-                      "value": "{\\"id\\":7,\\"name\\":\\"working on cars\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}",
                     },
                     "ref": null,
                     "rendered": null,
@@ -1106,7 +1123,7 @@ ShallowWrapper {
                     "nodeType": "host",
                     "props": Object {
                       "children": "working on cars",
-                      "htmlFor": "working on cars",
+                      "htmlFor": 7,
                     },
                     "ref": null,
                     "rendered": "working on cars",
@@ -1122,13 +1139,13 @@ ShallowWrapper {
                 "props": Object {
                   "children": Array [
                     <input
-                      name="bowling"
+                      checked={false}
+                      name={8}
                       onChange={[Function]}
                       type="checkbox"
-                      value="{\\"id\\":8,\\"name\\":\\"bowling\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                     />,
                     <label
-                      htmlFor="bowling"
+                      htmlFor={8}
                     >
                       bowling
                     </label>,
@@ -1141,11 +1158,10 @@ ShallowWrapper {
                     "key": undefined,
                     "nodeType": "host",
                     "props": Object {
-                      "checked": undefined,
-                      "name": "bowling",
+                      "checked": false,
+                      "name": 8,
                       "onChange": [Function],
                       "type": "checkbox",
-                      "value": "{\\"id\\":8,\\"name\\":\\"bowling\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}",
                     },
                     "ref": null,
                     "rendered": null,
@@ -1157,7 +1173,7 @@ ShallowWrapper {
                     "nodeType": "host",
                     "props": Object {
                       "children": "bowling",
-                      "htmlFor": "bowling",
+                      "htmlFor": 8,
                     },
                     "ref": null,
                     "rendered": "bowling",
@@ -1173,13 +1189,13 @@ ShallowWrapper {
                 "props": Object {
                   "children": Array [
                     <input
-                      name="cooking"
+                      checked={false}
+                      name={9}
                       onChange={[Function]}
                       type="checkbox"
-                      value="{\\"id\\":9,\\"name\\":\\"cooking\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                     />,
                     <label
-                      htmlFor="cooking"
+                      htmlFor={9}
                     >
                       cooking
                     </label>,
@@ -1192,11 +1208,10 @@ ShallowWrapper {
                     "key": undefined,
                     "nodeType": "host",
                     "props": Object {
-                      "checked": undefined,
-                      "name": "cooking",
+                      "checked": false,
+                      "name": 9,
                       "onChange": [Function],
                       "type": "checkbox",
-                      "value": "{\\"id\\":9,\\"name\\":\\"cooking\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}",
                     },
                     "ref": null,
                     "rendered": null,
@@ -1208,7 +1223,7 @@ ShallowWrapper {
                     "nodeType": "host",
                     "props": Object {
                       "children": "cooking",
-                      "htmlFor": "cooking",
+                      "htmlFor": 9,
                     },
                     "ref": null,
                     "rendered": "cooking",
@@ -1224,13 +1239,13 @@ ShallowWrapper {
                 "props": Object {
                   "children": Array [
                     <input
-                      name="hiking"
+                      checked={false}
+                      name={10}
                       onChange={[Function]}
                       type="checkbox"
-                      value="{\\"id\\":10,\\"name\\":\\"hiking\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                     />,
                     <label
-                      htmlFor="hiking"
+                      htmlFor={10}
                     >
                       hiking
                     </label>,
@@ -1243,11 +1258,10 @@ ShallowWrapper {
                     "key": undefined,
                     "nodeType": "host",
                     "props": Object {
-                      "checked": undefined,
-                      "name": "hiking",
+                      "checked": false,
+                      "name": 10,
                       "onChange": [Function],
                       "type": "checkbox",
-                      "value": "{\\"id\\":10,\\"name\\":\\"hiking\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}",
                     },
                     "ref": null,
                     "rendered": null,
@@ -1259,7 +1273,7 @@ ShallowWrapper {
                     "nodeType": "host",
                     "props": Object {
                       "children": "hiking",
-                      "htmlFor": "hiking",
+                      "htmlFor": 10,
                     },
                     "ref": null,
                     "rendered": "hiking",
@@ -1275,13 +1289,13 @@ ShallowWrapper {
                 "props": Object {
                   "children": Array [
                     <input
-                      name="skiing"
+                      checked={true}
+                      name={11}
                       onChange={[Function]}
                       type="checkbox"
-                      value="{\\"id\\":11,\\"name\\":\\"skiing\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                     />,
                     <label
-                      htmlFor="skiing"
+                      htmlFor={11}
                     >
                       skiing
                     </label>,
@@ -1294,11 +1308,10 @@ ShallowWrapper {
                     "key": undefined,
                     "nodeType": "host",
                     "props": Object {
-                      "checked": undefined,
-                      "name": "skiing",
+                      "checked": true,
+                      "name": 11,
                       "onChange": [Function],
                       "type": "checkbox",
-                      "value": "{\\"id\\":11,\\"name\\":\\"skiing\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}",
                     },
                     "ref": null,
                     "rendered": null,
@@ -1310,7 +1323,7 @@ ShallowWrapper {
                     "nodeType": "host",
                     "props": Object {
                       "children": "skiing",
-                      "htmlFor": "skiing",
+                      "htmlFor": 11,
                     },
                     "ref": null,
                     "rendered": "skiing",
@@ -1326,13 +1339,13 @@ ShallowWrapper {
                 "props": Object {
                   "children": Array [
                     <input
-                      name="snowboarding"
+                      checked={true}
+                      name={12}
                       onChange={[Function]}
                       type="checkbox"
-                      value="{\\"id\\":12,\\"name\\":\\"snowboarding\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                     />,
                     <label
-                      htmlFor="snowboarding"
+                      htmlFor={12}
                     >
                       snowboarding
                     </label>,
@@ -1345,11 +1358,10 @@ ShallowWrapper {
                     "key": undefined,
                     "nodeType": "host",
                     "props": Object {
-                      "checked": undefined,
-                      "name": "snowboarding",
+                      "checked": true,
+                      "name": 12,
                       "onChange": [Function],
                       "type": "checkbox",
-                      "value": "{\\"id\\":12,\\"name\\":\\"snowboarding\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}",
                     },
                     "ref": null,
                     "rendered": null,
@@ -1361,7 +1373,7 @@ ShallowWrapper {
                     "nodeType": "host",
                     "props": Object {
                       "children": "snowboarding",
-                      "htmlFor": "snowboarding",
+                      "htmlFor": 12,
                     },
                     "ref": null,
                     "rendered": "snowboarding",
@@ -1377,13 +1389,13 @@ ShallowWrapper {
                 "props": Object {
                   "children": Array [
                     <input
-                      name="mountain biking"
+                      checked={true}
+                      name={13}
                       onChange={[Function]}
                       type="checkbox"
-                      value="{\\"id\\":13,\\"name\\":\\"mountain biking\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                     />,
                     <label
-                      htmlFor="mountain biking"
+                      htmlFor={13}
                     >
                       mountain biking
                     </label>,
@@ -1396,11 +1408,10 @@ ShallowWrapper {
                     "key": undefined,
                     "nodeType": "host",
                     "props": Object {
-                      "checked": undefined,
-                      "name": "mountain biking",
+                      "checked": true,
+                      "name": 13,
                       "onChange": [Function],
                       "type": "checkbox",
-                      "value": "{\\"id\\":13,\\"name\\":\\"mountain biking\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}",
                     },
                     "ref": null,
                     "rendered": null,
@@ -1412,7 +1423,7 @@ ShallowWrapper {
                     "nodeType": "host",
                     "props": Object {
                       "children": "mountain biking",
-                      "htmlFor": "mountain biking",
+                      "htmlFor": 13,
                     },
                     "ref": null,
                     "rendered": "mountain biking",
@@ -1428,13 +1439,13 @@ ShallowWrapper {
                 "props": Object {
                   "children": Array [
                     <input
-                      name="knitting"
+                      checked={false}
+                      name={14}
                       onChange={[Function]}
                       type="checkbox"
-                      value="{\\"id\\":14,\\"name\\":\\"knitting\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                     />,
                     <label
-                      htmlFor="knitting"
+                      htmlFor={14}
                     >
                       knitting
                     </label>,
@@ -1447,11 +1458,10 @@ ShallowWrapper {
                     "key": undefined,
                     "nodeType": "host",
                     "props": Object {
-                      "checked": undefined,
-                      "name": "knitting",
+                      "checked": false,
+                      "name": 14,
                       "onChange": [Function],
                       "type": "checkbox",
-                      "value": "{\\"id\\":14,\\"name\\":\\"knitting\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}",
                     },
                     "ref": null,
                     "rendered": null,
@@ -1463,7 +1473,7 @@ ShallowWrapper {
                     "nodeType": "host",
                     "props": Object {
                       "children": "knitting",
-                      "htmlFor": "knitting",
+                      "htmlFor": 14,
                     },
                     "ref": null,
                     "rendered": "knitting",
@@ -1473,7 +1483,7 @@ ShallowWrapper {
                 "type": "div",
               },
             ],
-            "type": "div",
+            "type": "form",
           },
         ],
         "type": "div",
@@ -1502,190 +1512,190 @@ ShallowWrapper {
             <article>
               Humblebrag shabby chic gochujang coloring book, squid XOXO brunch tumeric selvage hammock vape. Lomo lumbersexual glossier, wayfarers skateboard irony humblebrag raclette taxidermy ennui freegan af craft beer PBR&B meh. Asymmetrical thundercats intelligentsia, lo-fi swag fingerstache palo santo skateboard flexitarian lyft selvage vice poke gluten-free. Kombucha ramps chambray street art messenger bag.
             </article>
-            <div>
+            <form>
               <div>
                 <input
-                  name="golf"
+                  checked={false}
+                  name={1}
                   onChange={[Function]}
                   type="checkbox"
-                  value="{\\"id\\":1,\\"name\\":\\"golf\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                 />
                 <label
-                  htmlFor="golf"
+                  htmlFor={1}
                 >
                   golf
                 </label>
               </div>
               <div>
                 <input
-                  name="gardening"
+                  checked={false}
+                  name={2}
                   onChange={[Function]}
                   type="checkbox"
-                  value="{\\"id\\":2,\\"name\\":\\"gardening\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                 />
                 <label
-                  htmlFor="gardening"
+                  htmlFor={2}
                 >
                   gardening
                 </label>
               </div>
               <div>
                 <input
-                  name="camping"
+                  checked={false}
+                  name={3}
                   onChange={[Function]}
                   type="checkbox"
-                  value="{\\"id\\":3,\\"name\\":\\"camping\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                 />
                 <label
-                  htmlFor="camping"
+                  htmlFor={3}
                 >
                   camping
                 </label>
               </div>
               <div>
                 <input
-                  name="rock climbing"
+                  checked={false}
+                  name={4}
                   onChange={[Function]}
                   type="checkbox"
-                  value="{\\"id\\":4,\\"name\\":\\"rock climbing\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                 />
                 <label
-                  htmlFor="rock climbing"
+                  htmlFor={4}
                 >
                   rock climbing
                 </label>
               </div>
               <div>
                 <input
-                  name="fly fishing"
+                  checked={false}
+                  name={5}
                   onChange={[Function]}
                   type="checkbox"
-                  value="{\\"id\\":5,\\"name\\":\\"fly fishing\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                 />
                 <label
-                  htmlFor="fly fishing"
+                  htmlFor={5}
                 >
                   fly fishing
                 </label>
               </div>
               <div>
                 <input
-                  name="coding"
+                  checked={false}
+                  name={6}
                   onChange={[Function]}
                   type="checkbox"
-                  value="{\\"id\\":6,\\"name\\":\\"coding\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                 />
                 <label
-                  htmlFor="coding"
+                  htmlFor={6}
                 >
                   coding
                 </label>
               </div>
               <div>
                 <input
-                  name="working on cars"
+                  checked={false}
+                  name={7}
                   onChange={[Function]}
                   type="checkbox"
-                  value="{\\"id\\":7,\\"name\\":\\"working on cars\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                 />
                 <label
-                  htmlFor="working on cars"
+                  htmlFor={7}
                 >
                   working on cars
                 </label>
               </div>
               <div>
                 <input
-                  name="bowling"
+                  checked={false}
+                  name={8}
                   onChange={[Function]}
                   type="checkbox"
-                  value="{\\"id\\":8,\\"name\\":\\"bowling\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                 />
                 <label
-                  htmlFor="bowling"
+                  htmlFor={8}
                 >
                   bowling
                 </label>
               </div>
               <div>
                 <input
-                  name="cooking"
+                  checked={false}
+                  name={9}
                   onChange={[Function]}
                   type="checkbox"
-                  value="{\\"id\\":9,\\"name\\":\\"cooking\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                 />
                 <label
-                  htmlFor="cooking"
+                  htmlFor={9}
                 >
                   cooking
                 </label>
               </div>
               <div>
                 <input
-                  name="hiking"
+                  checked={false}
+                  name={10}
                   onChange={[Function]}
                   type="checkbox"
-                  value="{\\"id\\":10,\\"name\\":\\"hiking\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                 />
                 <label
-                  htmlFor="hiking"
+                  htmlFor={10}
                 >
                   hiking
                 </label>
               </div>
               <div>
                 <input
-                  name="skiing"
+                  checked={true}
+                  name={11}
                   onChange={[Function]}
                   type="checkbox"
-                  value="{\\"id\\":11,\\"name\\":\\"skiing\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                 />
                 <label
-                  htmlFor="skiing"
+                  htmlFor={11}
                 >
                   skiing
                 </label>
               </div>
               <div>
                 <input
-                  name="snowboarding"
+                  checked={true}
+                  name={12}
                   onChange={[Function]}
                   type="checkbox"
-                  value="{\\"id\\":12,\\"name\\":\\"snowboarding\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                 />
                 <label
-                  htmlFor="snowboarding"
+                  htmlFor={12}
                 >
                   snowboarding
                 </label>
               </div>
               <div>
                 <input
-                  name="mountain biking"
+                  checked={true}
+                  name={13}
                   onChange={[Function]}
                   type="checkbox"
-                  value="{\\"id\\":13,\\"name\\":\\"mountain biking\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                 />
                 <label
-                  htmlFor="mountain biking"
+                  htmlFor={13}
                 >
                   mountain biking
                 </label>
               </div>
               <div>
                 <input
-                  name="knitting"
+                  checked={false}
+                  name={14}
                   onChange={[Function]}
                   type="checkbox"
-                  value="{\\"id\\":14,\\"name\\":\\"knitting\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                 />
                 <label
-                  htmlFor="knitting"
+                  htmlFor={14}
                 >
                   knitting
                 </label>
               </div>
-            </div>
+            </form>
           </div>,
         ],
         "className": "my-profile",
@@ -1696,7 +1706,9 @@ ShallowWrapper {
           "instance": null,
           "key": undefined,
           "nodeType": "function",
-          "props": Object {},
+          "props": Object {
+            "handleLogOut": undefined,
+          },
           "ref": null,
           "rendered": null,
           "type": [Function],
@@ -1717,190 +1729,190 @@ ShallowWrapper {
               <article>
                 Humblebrag shabby chic gochujang coloring book, squid XOXO brunch tumeric selvage hammock vape. Lomo lumbersexual glossier, wayfarers skateboard irony humblebrag raclette taxidermy ennui freegan af craft beer PBR&B meh. Asymmetrical thundercats intelligentsia, lo-fi swag fingerstache palo santo skateboard flexitarian lyft selvage vice poke gluten-free. Kombucha ramps chambray street art messenger bag.
               </article>,
-              <div>
+              <form>
                 <div>
                   <input
-                    name="golf"
+                    checked={false}
+                    name={1}
                     onChange={[Function]}
                     type="checkbox"
-                    value="{\\"id\\":1,\\"name\\":\\"golf\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                   />
                   <label
-                    htmlFor="golf"
+                    htmlFor={1}
                   >
                     golf
                   </label>
                 </div>
                 <div>
                   <input
-                    name="gardening"
+                    checked={false}
+                    name={2}
                     onChange={[Function]}
                     type="checkbox"
-                    value="{\\"id\\":2,\\"name\\":\\"gardening\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                   />
                   <label
-                    htmlFor="gardening"
+                    htmlFor={2}
                   >
                     gardening
                   </label>
                 </div>
                 <div>
                   <input
-                    name="camping"
+                    checked={false}
+                    name={3}
                     onChange={[Function]}
                     type="checkbox"
-                    value="{\\"id\\":3,\\"name\\":\\"camping\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                   />
                   <label
-                    htmlFor="camping"
+                    htmlFor={3}
                   >
                     camping
                   </label>
                 </div>
                 <div>
                   <input
-                    name="rock climbing"
+                    checked={false}
+                    name={4}
                     onChange={[Function]}
                     type="checkbox"
-                    value="{\\"id\\":4,\\"name\\":\\"rock climbing\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                   />
                   <label
-                    htmlFor="rock climbing"
+                    htmlFor={4}
                   >
                     rock climbing
                   </label>
                 </div>
                 <div>
                   <input
-                    name="fly fishing"
+                    checked={false}
+                    name={5}
                     onChange={[Function]}
                     type="checkbox"
-                    value="{\\"id\\":5,\\"name\\":\\"fly fishing\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                   />
                   <label
-                    htmlFor="fly fishing"
+                    htmlFor={5}
                   >
                     fly fishing
                   </label>
                 </div>
                 <div>
                   <input
-                    name="coding"
+                    checked={false}
+                    name={6}
                     onChange={[Function]}
                     type="checkbox"
-                    value="{\\"id\\":6,\\"name\\":\\"coding\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                   />
                   <label
-                    htmlFor="coding"
+                    htmlFor={6}
                   >
                     coding
                   </label>
                 </div>
                 <div>
                   <input
-                    name="working on cars"
+                    checked={false}
+                    name={7}
                     onChange={[Function]}
                     type="checkbox"
-                    value="{\\"id\\":7,\\"name\\":\\"working on cars\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                   />
                   <label
-                    htmlFor="working on cars"
+                    htmlFor={7}
                   >
                     working on cars
                   </label>
                 </div>
                 <div>
                   <input
-                    name="bowling"
+                    checked={false}
+                    name={8}
                     onChange={[Function]}
                     type="checkbox"
-                    value="{\\"id\\":8,\\"name\\":\\"bowling\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                   />
                   <label
-                    htmlFor="bowling"
+                    htmlFor={8}
                   >
                     bowling
                   </label>
                 </div>
                 <div>
                   <input
-                    name="cooking"
+                    checked={false}
+                    name={9}
                     onChange={[Function]}
                     type="checkbox"
-                    value="{\\"id\\":9,\\"name\\":\\"cooking\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                   />
                   <label
-                    htmlFor="cooking"
+                    htmlFor={9}
                   >
                     cooking
                   </label>
                 </div>
                 <div>
                   <input
-                    name="hiking"
+                    checked={false}
+                    name={10}
                     onChange={[Function]}
                     type="checkbox"
-                    value="{\\"id\\":10,\\"name\\":\\"hiking\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                   />
                   <label
-                    htmlFor="hiking"
+                    htmlFor={10}
                   >
                     hiking
                   </label>
                 </div>
                 <div>
                   <input
-                    name="skiing"
+                    checked={true}
+                    name={11}
                     onChange={[Function]}
                     type="checkbox"
-                    value="{\\"id\\":11,\\"name\\":\\"skiing\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                   />
                   <label
-                    htmlFor="skiing"
+                    htmlFor={11}
                   >
                     skiing
                   </label>
                 </div>
                 <div>
                   <input
-                    name="snowboarding"
+                    checked={true}
+                    name={12}
                     onChange={[Function]}
                     type="checkbox"
-                    value="{\\"id\\":12,\\"name\\":\\"snowboarding\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                   />
                   <label
-                    htmlFor="snowboarding"
+                    htmlFor={12}
                   >
                     snowboarding
                   </label>
                 </div>
                 <div>
                   <input
-                    name="mountain biking"
+                    checked={true}
+                    name={13}
                     onChange={[Function]}
                     type="checkbox"
-                    value="{\\"id\\":13,\\"name\\":\\"mountain biking\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                   />
                   <label
-                    htmlFor="mountain biking"
+                    htmlFor={13}
                   >
                     mountain biking
                   </label>
                 </div>
                 <div>
                   <input
-                    name="knitting"
+                    checked={false}
+                    name={14}
                     onChange={[Function]}
                     type="checkbox"
-                    value="{\\"id\\":14,\\"name\\":\\"knitting\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                   />
                   <label
-                    htmlFor="knitting"
+                    htmlFor={14}
                   >
                     knitting
                   </label>
                 </div>
-              </div>,
+              </form>,
             ],
             "className": "main-content",
           },
@@ -1948,182 +1960,182 @@ ShallowWrapper {
                 "children": Array [
                   <div>
                     <input
-                      name="golf"
+                      checked={false}
+                      name={1}
                       onChange={[Function]}
                       type="checkbox"
-                      value="{\\"id\\":1,\\"name\\":\\"golf\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                     />
                     <label
-                      htmlFor="golf"
+                      htmlFor={1}
                     >
                       golf
                     </label>
                   </div>,
                   <div>
                     <input
-                      name="gardening"
+                      checked={false}
+                      name={2}
                       onChange={[Function]}
                       type="checkbox"
-                      value="{\\"id\\":2,\\"name\\":\\"gardening\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                     />
                     <label
-                      htmlFor="gardening"
+                      htmlFor={2}
                     >
                       gardening
                     </label>
                   </div>,
                   <div>
                     <input
-                      name="camping"
+                      checked={false}
+                      name={3}
                       onChange={[Function]}
                       type="checkbox"
-                      value="{\\"id\\":3,\\"name\\":\\"camping\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                     />
                     <label
-                      htmlFor="camping"
+                      htmlFor={3}
                     >
                       camping
                     </label>
                   </div>,
                   <div>
                     <input
-                      name="rock climbing"
+                      checked={false}
+                      name={4}
                       onChange={[Function]}
                       type="checkbox"
-                      value="{\\"id\\":4,\\"name\\":\\"rock climbing\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                     />
                     <label
-                      htmlFor="rock climbing"
+                      htmlFor={4}
                     >
                       rock climbing
                     </label>
                   </div>,
                   <div>
                     <input
-                      name="fly fishing"
+                      checked={false}
+                      name={5}
                       onChange={[Function]}
                       type="checkbox"
-                      value="{\\"id\\":5,\\"name\\":\\"fly fishing\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                     />
                     <label
-                      htmlFor="fly fishing"
+                      htmlFor={5}
                     >
                       fly fishing
                     </label>
                   </div>,
                   <div>
                     <input
-                      name="coding"
+                      checked={false}
+                      name={6}
                       onChange={[Function]}
                       type="checkbox"
-                      value="{\\"id\\":6,\\"name\\":\\"coding\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                     />
                     <label
-                      htmlFor="coding"
+                      htmlFor={6}
                     >
                       coding
                     </label>
                   </div>,
                   <div>
                     <input
-                      name="working on cars"
+                      checked={false}
+                      name={7}
                       onChange={[Function]}
                       type="checkbox"
-                      value="{\\"id\\":7,\\"name\\":\\"working on cars\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                     />
                     <label
-                      htmlFor="working on cars"
+                      htmlFor={7}
                     >
                       working on cars
                     </label>
                   </div>,
                   <div>
                     <input
-                      name="bowling"
+                      checked={false}
+                      name={8}
                       onChange={[Function]}
                       type="checkbox"
-                      value="{\\"id\\":8,\\"name\\":\\"bowling\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                     />
                     <label
-                      htmlFor="bowling"
+                      htmlFor={8}
                     >
                       bowling
                     </label>
                   </div>,
                   <div>
                     <input
-                      name="cooking"
+                      checked={false}
+                      name={9}
                       onChange={[Function]}
                       type="checkbox"
-                      value="{\\"id\\":9,\\"name\\":\\"cooking\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                     />
                     <label
-                      htmlFor="cooking"
+                      htmlFor={9}
                     >
                       cooking
                     </label>
                   </div>,
                   <div>
                     <input
-                      name="hiking"
+                      checked={false}
+                      name={10}
                       onChange={[Function]}
                       type="checkbox"
-                      value="{\\"id\\":10,\\"name\\":\\"hiking\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                     />
                     <label
-                      htmlFor="hiking"
+                      htmlFor={10}
                     >
                       hiking
                     </label>
                   </div>,
                   <div>
                     <input
-                      name="skiing"
+                      checked={true}
+                      name={11}
                       onChange={[Function]}
                       type="checkbox"
-                      value="{\\"id\\":11,\\"name\\":\\"skiing\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                     />
                     <label
-                      htmlFor="skiing"
+                      htmlFor={11}
                     >
                       skiing
                     </label>
                   </div>,
                   <div>
                     <input
-                      name="snowboarding"
+                      checked={true}
+                      name={12}
                       onChange={[Function]}
                       type="checkbox"
-                      value="{\\"id\\":12,\\"name\\":\\"snowboarding\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                     />
                     <label
-                      htmlFor="snowboarding"
+                      htmlFor={12}
                     >
                       snowboarding
                     </label>
                   </div>,
                   <div>
                     <input
-                      name="mountain biking"
+                      checked={true}
+                      name={13}
                       onChange={[Function]}
                       type="checkbox"
-                      value="{\\"id\\":13,\\"name\\":\\"mountain biking\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                     />
                     <label
-                      htmlFor="mountain biking"
+                      htmlFor={13}
                     >
                       mountain biking
                     </label>
                   </div>,
                   <div>
                     <input
-                      name="knitting"
+                      checked={false}
+                      name={14}
                       onChange={[Function]}
                       type="checkbox"
-                      value="{\\"id\\":14,\\"name\\":\\"knitting\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                     />
                     <label
-                      htmlFor="knitting"
+                      htmlFor={14}
                     >
                       knitting
                     </label>
@@ -2139,13 +2151,13 @@ ShallowWrapper {
                   "props": Object {
                     "children": Array [
                       <input
-                        name="golf"
+                        checked={false}
+                        name={1}
                         onChange={[Function]}
                         type="checkbox"
-                        value="{\\"id\\":1,\\"name\\":\\"golf\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                       />,
                       <label
-                        htmlFor="golf"
+                        htmlFor={1}
                       >
                         golf
                       </label>,
@@ -2158,11 +2170,10 @@ ShallowWrapper {
                       "key": undefined,
                       "nodeType": "host",
                       "props": Object {
-                        "checked": undefined,
-                        "name": "golf",
+                        "checked": false,
+                        "name": 1,
                         "onChange": [Function],
                         "type": "checkbox",
-                        "value": "{\\"id\\":1,\\"name\\":\\"golf\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}",
                       },
                       "ref": null,
                       "rendered": null,
@@ -2174,7 +2185,7 @@ ShallowWrapper {
                       "nodeType": "host",
                       "props": Object {
                         "children": "golf",
-                        "htmlFor": "golf",
+                        "htmlFor": 1,
                       },
                       "ref": null,
                       "rendered": "golf",
@@ -2190,13 +2201,13 @@ ShallowWrapper {
                   "props": Object {
                     "children": Array [
                       <input
-                        name="gardening"
+                        checked={false}
+                        name={2}
                         onChange={[Function]}
                         type="checkbox"
-                        value="{\\"id\\":2,\\"name\\":\\"gardening\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                       />,
                       <label
-                        htmlFor="gardening"
+                        htmlFor={2}
                       >
                         gardening
                       </label>,
@@ -2209,11 +2220,10 @@ ShallowWrapper {
                       "key": undefined,
                       "nodeType": "host",
                       "props": Object {
-                        "checked": undefined,
-                        "name": "gardening",
+                        "checked": false,
+                        "name": 2,
                         "onChange": [Function],
                         "type": "checkbox",
-                        "value": "{\\"id\\":2,\\"name\\":\\"gardening\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}",
                       },
                       "ref": null,
                       "rendered": null,
@@ -2225,7 +2235,7 @@ ShallowWrapper {
                       "nodeType": "host",
                       "props": Object {
                         "children": "gardening",
-                        "htmlFor": "gardening",
+                        "htmlFor": 2,
                       },
                       "ref": null,
                       "rendered": "gardening",
@@ -2241,13 +2251,13 @@ ShallowWrapper {
                   "props": Object {
                     "children": Array [
                       <input
-                        name="camping"
+                        checked={false}
+                        name={3}
                         onChange={[Function]}
                         type="checkbox"
-                        value="{\\"id\\":3,\\"name\\":\\"camping\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                       />,
                       <label
-                        htmlFor="camping"
+                        htmlFor={3}
                       >
                         camping
                       </label>,
@@ -2260,11 +2270,10 @@ ShallowWrapper {
                       "key": undefined,
                       "nodeType": "host",
                       "props": Object {
-                        "checked": undefined,
-                        "name": "camping",
+                        "checked": false,
+                        "name": 3,
                         "onChange": [Function],
                         "type": "checkbox",
-                        "value": "{\\"id\\":3,\\"name\\":\\"camping\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}",
                       },
                       "ref": null,
                       "rendered": null,
@@ -2276,7 +2285,7 @@ ShallowWrapper {
                       "nodeType": "host",
                       "props": Object {
                         "children": "camping",
-                        "htmlFor": "camping",
+                        "htmlFor": 3,
                       },
                       "ref": null,
                       "rendered": "camping",
@@ -2292,13 +2301,13 @@ ShallowWrapper {
                   "props": Object {
                     "children": Array [
                       <input
-                        name="rock climbing"
+                        checked={false}
+                        name={4}
                         onChange={[Function]}
                         type="checkbox"
-                        value="{\\"id\\":4,\\"name\\":\\"rock climbing\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                       />,
                       <label
-                        htmlFor="rock climbing"
+                        htmlFor={4}
                       >
                         rock climbing
                       </label>,
@@ -2311,11 +2320,10 @@ ShallowWrapper {
                       "key": undefined,
                       "nodeType": "host",
                       "props": Object {
-                        "checked": undefined,
-                        "name": "rock climbing",
+                        "checked": false,
+                        "name": 4,
                         "onChange": [Function],
                         "type": "checkbox",
-                        "value": "{\\"id\\":4,\\"name\\":\\"rock climbing\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}",
                       },
                       "ref": null,
                       "rendered": null,
@@ -2327,7 +2335,7 @@ ShallowWrapper {
                       "nodeType": "host",
                       "props": Object {
                         "children": "rock climbing",
-                        "htmlFor": "rock climbing",
+                        "htmlFor": 4,
                       },
                       "ref": null,
                       "rendered": "rock climbing",
@@ -2343,13 +2351,13 @@ ShallowWrapper {
                   "props": Object {
                     "children": Array [
                       <input
-                        name="fly fishing"
+                        checked={false}
+                        name={5}
                         onChange={[Function]}
                         type="checkbox"
-                        value="{\\"id\\":5,\\"name\\":\\"fly fishing\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                       />,
                       <label
-                        htmlFor="fly fishing"
+                        htmlFor={5}
                       >
                         fly fishing
                       </label>,
@@ -2362,11 +2370,10 @@ ShallowWrapper {
                       "key": undefined,
                       "nodeType": "host",
                       "props": Object {
-                        "checked": undefined,
-                        "name": "fly fishing",
+                        "checked": false,
+                        "name": 5,
                         "onChange": [Function],
                         "type": "checkbox",
-                        "value": "{\\"id\\":5,\\"name\\":\\"fly fishing\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}",
                       },
                       "ref": null,
                       "rendered": null,
@@ -2378,7 +2385,7 @@ ShallowWrapper {
                       "nodeType": "host",
                       "props": Object {
                         "children": "fly fishing",
-                        "htmlFor": "fly fishing",
+                        "htmlFor": 5,
                       },
                       "ref": null,
                       "rendered": "fly fishing",
@@ -2394,13 +2401,13 @@ ShallowWrapper {
                   "props": Object {
                     "children": Array [
                       <input
-                        name="coding"
+                        checked={false}
+                        name={6}
                         onChange={[Function]}
                         type="checkbox"
-                        value="{\\"id\\":6,\\"name\\":\\"coding\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                       />,
                       <label
-                        htmlFor="coding"
+                        htmlFor={6}
                       >
                         coding
                       </label>,
@@ -2413,11 +2420,10 @@ ShallowWrapper {
                       "key": undefined,
                       "nodeType": "host",
                       "props": Object {
-                        "checked": undefined,
-                        "name": "coding",
+                        "checked": false,
+                        "name": 6,
                         "onChange": [Function],
                         "type": "checkbox",
-                        "value": "{\\"id\\":6,\\"name\\":\\"coding\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}",
                       },
                       "ref": null,
                       "rendered": null,
@@ -2429,7 +2435,7 @@ ShallowWrapper {
                       "nodeType": "host",
                       "props": Object {
                         "children": "coding",
-                        "htmlFor": "coding",
+                        "htmlFor": 6,
                       },
                       "ref": null,
                       "rendered": "coding",
@@ -2445,13 +2451,13 @@ ShallowWrapper {
                   "props": Object {
                     "children": Array [
                       <input
-                        name="working on cars"
+                        checked={false}
+                        name={7}
                         onChange={[Function]}
                         type="checkbox"
-                        value="{\\"id\\":7,\\"name\\":\\"working on cars\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                       />,
                       <label
-                        htmlFor="working on cars"
+                        htmlFor={7}
                       >
                         working on cars
                       </label>,
@@ -2464,11 +2470,10 @@ ShallowWrapper {
                       "key": undefined,
                       "nodeType": "host",
                       "props": Object {
-                        "checked": undefined,
-                        "name": "working on cars",
+                        "checked": false,
+                        "name": 7,
                         "onChange": [Function],
                         "type": "checkbox",
-                        "value": "{\\"id\\":7,\\"name\\":\\"working on cars\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}",
                       },
                       "ref": null,
                       "rendered": null,
@@ -2480,7 +2485,7 @@ ShallowWrapper {
                       "nodeType": "host",
                       "props": Object {
                         "children": "working on cars",
-                        "htmlFor": "working on cars",
+                        "htmlFor": 7,
                       },
                       "ref": null,
                       "rendered": "working on cars",
@@ -2496,13 +2501,13 @@ ShallowWrapper {
                   "props": Object {
                     "children": Array [
                       <input
-                        name="bowling"
+                        checked={false}
+                        name={8}
                         onChange={[Function]}
                         type="checkbox"
-                        value="{\\"id\\":8,\\"name\\":\\"bowling\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                       />,
                       <label
-                        htmlFor="bowling"
+                        htmlFor={8}
                       >
                         bowling
                       </label>,
@@ -2515,11 +2520,10 @@ ShallowWrapper {
                       "key": undefined,
                       "nodeType": "host",
                       "props": Object {
-                        "checked": undefined,
-                        "name": "bowling",
+                        "checked": false,
+                        "name": 8,
                         "onChange": [Function],
                         "type": "checkbox",
-                        "value": "{\\"id\\":8,\\"name\\":\\"bowling\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}",
                       },
                       "ref": null,
                       "rendered": null,
@@ -2531,7 +2535,7 @@ ShallowWrapper {
                       "nodeType": "host",
                       "props": Object {
                         "children": "bowling",
-                        "htmlFor": "bowling",
+                        "htmlFor": 8,
                       },
                       "ref": null,
                       "rendered": "bowling",
@@ -2547,13 +2551,13 @@ ShallowWrapper {
                   "props": Object {
                     "children": Array [
                       <input
-                        name="cooking"
+                        checked={false}
+                        name={9}
                         onChange={[Function]}
                         type="checkbox"
-                        value="{\\"id\\":9,\\"name\\":\\"cooking\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                       />,
                       <label
-                        htmlFor="cooking"
+                        htmlFor={9}
                       >
                         cooking
                       </label>,
@@ -2566,11 +2570,10 @@ ShallowWrapper {
                       "key": undefined,
                       "nodeType": "host",
                       "props": Object {
-                        "checked": undefined,
-                        "name": "cooking",
+                        "checked": false,
+                        "name": 9,
                         "onChange": [Function],
                         "type": "checkbox",
-                        "value": "{\\"id\\":9,\\"name\\":\\"cooking\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}",
                       },
                       "ref": null,
                       "rendered": null,
@@ -2582,7 +2585,7 @@ ShallowWrapper {
                       "nodeType": "host",
                       "props": Object {
                         "children": "cooking",
-                        "htmlFor": "cooking",
+                        "htmlFor": 9,
                       },
                       "ref": null,
                       "rendered": "cooking",
@@ -2598,13 +2601,13 @@ ShallowWrapper {
                   "props": Object {
                     "children": Array [
                       <input
-                        name="hiking"
+                        checked={false}
+                        name={10}
                         onChange={[Function]}
                         type="checkbox"
-                        value="{\\"id\\":10,\\"name\\":\\"hiking\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                       />,
                       <label
-                        htmlFor="hiking"
+                        htmlFor={10}
                       >
                         hiking
                       </label>,
@@ -2617,11 +2620,10 @@ ShallowWrapper {
                       "key": undefined,
                       "nodeType": "host",
                       "props": Object {
-                        "checked": undefined,
-                        "name": "hiking",
+                        "checked": false,
+                        "name": 10,
                         "onChange": [Function],
                         "type": "checkbox",
-                        "value": "{\\"id\\":10,\\"name\\":\\"hiking\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}",
                       },
                       "ref": null,
                       "rendered": null,
@@ -2633,7 +2635,7 @@ ShallowWrapper {
                       "nodeType": "host",
                       "props": Object {
                         "children": "hiking",
-                        "htmlFor": "hiking",
+                        "htmlFor": 10,
                       },
                       "ref": null,
                       "rendered": "hiking",
@@ -2649,13 +2651,13 @@ ShallowWrapper {
                   "props": Object {
                     "children": Array [
                       <input
-                        name="skiing"
+                        checked={true}
+                        name={11}
                         onChange={[Function]}
                         type="checkbox"
-                        value="{\\"id\\":11,\\"name\\":\\"skiing\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                       />,
                       <label
-                        htmlFor="skiing"
+                        htmlFor={11}
                       >
                         skiing
                       </label>,
@@ -2668,11 +2670,10 @@ ShallowWrapper {
                       "key": undefined,
                       "nodeType": "host",
                       "props": Object {
-                        "checked": undefined,
-                        "name": "skiing",
+                        "checked": true,
+                        "name": 11,
                         "onChange": [Function],
                         "type": "checkbox",
-                        "value": "{\\"id\\":11,\\"name\\":\\"skiing\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}",
                       },
                       "ref": null,
                       "rendered": null,
@@ -2684,7 +2685,7 @@ ShallowWrapper {
                       "nodeType": "host",
                       "props": Object {
                         "children": "skiing",
-                        "htmlFor": "skiing",
+                        "htmlFor": 11,
                       },
                       "ref": null,
                       "rendered": "skiing",
@@ -2700,13 +2701,13 @@ ShallowWrapper {
                   "props": Object {
                     "children": Array [
                       <input
-                        name="snowboarding"
+                        checked={true}
+                        name={12}
                         onChange={[Function]}
                         type="checkbox"
-                        value="{\\"id\\":12,\\"name\\":\\"snowboarding\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                       />,
                       <label
-                        htmlFor="snowboarding"
+                        htmlFor={12}
                       >
                         snowboarding
                       </label>,
@@ -2719,11 +2720,10 @@ ShallowWrapper {
                       "key": undefined,
                       "nodeType": "host",
                       "props": Object {
-                        "checked": undefined,
-                        "name": "snowboarding",
+                        "checked": true,
+                        "name": 12,
                         "onChange": [Function],
                         "type": "checkbox",
-                        "value": "{\\"id\\":12,\\"name\\":\\"snowboarding\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}",
                       },
                       "ref": null,
                       "rendered": null,
@@ -2735,7 +2735,7 @@ ShallowWrapper {
                       "nodeType": "host",
                       "props": Object {
                         "children": "snowboarding",
-                        "htmlFor": "snowboarding",
+                        "htmlFor": 12,
                       },
                       "ref": null,
                       "rendered": "snowboarding",
@@ -2751,13 +2751,13 @@ ShallowWrapper {
                   "props": Object {
                     "children": Array [
                       <input
-                        name="mountain biking"
+                        checked={true}
+                        name={13}
                         onChange={[Function]}
                         type="checkbox"
-                        value="{\\"id\\":13,\\"name\\":\\"mountain biking\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                       />,
                       <label
-                        htmlFor="mountain biking"
+                        htmlFor={13}
                       >
                         mountain biking
                       </label>,
@@ -2770,11 +2770,10 @@ ShallowWrapper {
                       "key": undefined,
                       "nodeType": "host",
                       "props": Object {
-                        "checked": undefined,
-                        "name": "mountain biking",
+                        "checked": true,
+                        "name": 13,
                         "onChange": [Function],
                         "type": "checkbox",
-                        "value": "{\\"id\\":13,\\"name\\":\\"mountain biking\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}",
                       },
                       "ref": null,
                       "rendered": null,
@@ -2786,7 +2785,7 @@ ShallowWrapper {
                       "nodeType": "host",
                       "props": Object {
                         "children": "mountain biking",
-                        "htmlFor": "mountain biking",
+                        "htmlFor": 13,
                       },
                       "ref": null,
                       "rendered": "mountain biking",
@@ -2802,13 +2801,13 @@ ShallowWrapper {
                   "props": Object {
                     "children": Array [
                       <input
-                        name="knitting"
+                        checked={false}
+                        name={14}
                         onChange={[Function]}
                         type="checkbox"
-                        value="{\\"id\\":14,\\"name\\":\\"knitting\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}"
                       />,
                       <label
-                        htmlFor="knitting"
+                        htmlFor={14}
                       >
                         knitting
                       </label>,
@@ -2821,11 +2820,10 @@ ShallowWrapper {
                       "key": undefined,
                       "nodeType": "host",
                       "props": Object {
-                        "checked": undefined,
-                        "name": "knitting",
+                        "checked": false,
+                        "name": 14,
                         "onChange": [Function],
                         "type": "checkbox",
-                        "value": "{\\"id\\":14,\\"name\\":\\"knitting\\",\\"created_at\\":\\"2018-10-10T19:53:00.107Z\\",\\"updated_at\\":\\"2018-10-10T19:53:00.107Z\\"}",
                       },
                       "ref": null,
                       "rendered": null,
@@ -2837,7 +2835,7 @@ ShallowWrapper {
                       "nodeType": "host",
                       "props": Object {
                         "children": "knitting",
-                        "htmlFor": "knitting",
+                        "htmlFor": 14,
                       },
                       "ref": null,
                       "rendered": "knitting",
@@ -2847,7 +2845,7 @@ ShallowWrapper {
                   "type": "div",
                 },
               ],
-              "type": "div",
+              "type": "form",
             },
           ],
           "type": "div",

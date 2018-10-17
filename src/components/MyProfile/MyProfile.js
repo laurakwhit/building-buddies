@@ -1,12 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
-import {
-  getUserInterests,
-  addUserInterest,
-  deleteUserInterest
-} from '../../utilities/userApiCalls';
-
 import Nav from '../Nav/Nav';
 
 import './MyProfile.scss';
@@ -71,7 +65,9 @@ class MyProfile extends Component {
 MyProfile.propTypes = {
   currentUser: PropTypes.object,
   interests: PropTypes.array,
-  handleLogOut: PropTypes.func
+  handleLogOut: PropTypes.func,
+  updateUserInterests: PropTypes.func.isRequired,
+  userInterests: PropTypes.array.isRequired
 };
 
 export default MyProfile;
