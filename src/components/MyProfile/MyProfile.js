@@ -51,7 +51,6 @@ class MyProfile extends Component {
 
 MyProfile.propTypes = {
   currentUser: PropTypes.object,
-  'currentUser.id': PropTypes.num,
   interests: PropTypes.array
 };
 
