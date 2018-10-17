@@ -22,4 +22,12 @@ describe('MyProfile component', () => {
   it.skip('should update state', () => {
     expect(wrapper.state('userInterests')).toEqual(mockUserInterests);
   });
+
+  it.skip('should add a user interest', () => {
+    expect(wrapper.state('userInterests')).toEqual();
+  });
+
+  it.skip('should delete a user interests', () => {
+    expect(wrapper.state('userInterests')).toEqual();
+  });
 });
