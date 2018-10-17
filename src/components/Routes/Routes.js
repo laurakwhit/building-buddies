@@ -132,7 +132,7 @@ class Routes extends Component {
             const neighbor = neighbors.find(
               n => n.id === +match.params.neighbor_id
             );
-            console.log(match.params);
+            console.log(neighbors);
             return <NeighborProfile neighbor={neighbor} />;
           }}
         />
