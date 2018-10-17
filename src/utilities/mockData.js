@@ -129,3 +129,9 @@ export const mockNeighbor = {
   email: 'boolean.brandon@gmail.com',
   password: 'asdfasdf'
 };
+
+export const mockUserInterests = [
+  "golf",
+  "gardening",
+  "hiking"
+];

@@ -4,28 +4,54 @@ import { getUserInterests } from '../../utilities/userApiCalls';
 import Nav from '../Nav/Nav';
 
 import './MyProfile.scss';
+import { addUserInterest, deleteUserInterest } from '../../utilities/userApiCalls';
 
 class MyProfile extends Component {
   state = {
     userInterests: []
-  }
+  };
 
   async componentDidMount() {
     const userInterests = await getUserInterests(this.props.currentUser.id);
-    this.setState(userInterests);
+    this.setState({ userInterests });
+  }
+
+  updateUserInterests = (e) => {
+    const { userInterests } = this.state;
+    const { currentUser } = this.props;
+    const interest = JSON.parse(e.target.value);
+    
+    userInterests.forEach(async i => {
+      let updatedInterests = [];
+      if (i.name === interest.name) {
+        updatedInterests = userInterests.filter(i => i.name !== interest.name);
+        // await deleteUserInterest(currentUser.id, i.id)
+      } else {
+        updatedInterests = [...userInterests, interest];
+        // await addUserInterest(currentUser.id, i.id);
+      }
+      this.setState({ userInterests: updatedInterests })
+    })
+
   }
 
   render() {
     const { currentUser, interests } = this.props;
     const { userInterests } = this.state;
-    console.log(interests)
     const displayedInterests = interests.map((interest, index) => {
-      const checked = userInterests.includes(interest.name);
+      const checked = userInterests.find(i => i.name === interest.name);
+
       return <div key={index}>
-        <input type="checkbox" name={interest.name} value={interest.name} checked={checked} onClick={this.updateUserInterests}/> 
+        <input 
+          type="checkbox" 
+          name={interest.name} 
+          value={JSON.stringify(interest)} 
+          checked={checked} 
+          onChange={this.updateUserInterests}/> 
         <label htmlFor={interest.name}>{interest.name}</label>
-      </div>
-    })
+      </div>;
+    });
+
     return (
       <div className="my-profile">
         <Nav />

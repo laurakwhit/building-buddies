@@ -7,7 +7,7 @@ import {
   getAllBuildingUsers
 } from '../../utilities/buildingApiCalls';
 import { getAllInterests } from '../../utilities/interestApiCalls';
-import { addUser } from '../../utilities/userApiCalls';
+import { addUser, addUserInterest } from '../../utilities/userApiCalls';
 
 import LandingPage from '../LandingPage/LandingPage';
 import MyProfile from '../MyProfile/MyProfile';
@@ -32,6 +32,7 @@ class Routes extends Component {
   }
 
   userSignUp = async ({ name, email, password, searchValue, interests }) => {
+<<<<<<< ba8755808dac764b6dcecb232ee80987d7ef95ca
     const { currentUser, userBuilding } = await this.setUser({
       name,
       email,
@@ -40,6 +41,11 @@ class Routes extends Component {
     });
     await this.userInterestPost(interests);
     this.setState({ currentUser, userBuilding, userInterests: interests });
+=======
+    const { currentUser, userBuilding } = await this.setUser({ name, email, password, searchValue })
+    await this.userInterestPost(currentUser.id, interests)
+    this.setState({ currentUser, userBuilding, userInterests: interests })
+>>>>>>> Toggle user interests on profile
     this.props.history.push('/profile');
   };
 
@@ -63,6 +69,7 @@ class Routes extends Component {
     return { currentUser, userBuilding };
   };
 
+<<<<<<< ba8755808dac764b6dcecb232ee80987d7ef95ca
   userInterestPost = interests => {
     interests.forEach(interest => {
       // POST each interest
@@ -88,6 +95,21 @@ class Routes extends Component {
       userBuilding,
       neighbors
     } = this.state;
+=======
+  userInterestPost = (userId, interests) => {
+    interests.forEach(async (interest) => {
+      await addUserInterest(userId, interest.id)
+    })
+  }
+
+  render() {
+    const { 
+      buildings, 
+      currentUser, 
+      interests, 
+      userInterests,
+      userBuilding } = this.state;
+>>>>>>> Toggle user interests on profile
 
     return (
       <>
