@@ -32,20 +32,14 @@ class Routes extends Component {
   }
 
   userSignUp = async ({ name, email, password, searchValue, interests }) => {
-<<<<<<< ba8755808dac764b6dcecb232ee80987d7ef95ca
     const { currentUser, userBuilding } = await this.setUser({
       name,
       email,
       password,
       searchValue
     });
-    await this.userInterestPost(interests);
+    await this.userInterestPost(currentUser.id, interests);
     this.setState({ currentUser, userBuilding, userInterests: interests });
-=======
-    const { currentUser, userBuilding } = await this.setUser({ name, email, password, searchValue })
-    await this.userInterestPost(currentUser.id, interests)
-    this.setState({ currentUser, userBuilding, userInterests: interests })
->>>>>>> Toggle user interests on profile
     this.props.history.push('/profile');
   };
 
@@ -69,11 +63,9 @@ class Routes extends Component {
     return { currentUser, userBuilding };
   };
 
-<<<<<<< ba8755808dac764b6dcecb232ee80987d7ef95ca
-  userInterestPost = interests => {
-    interests.forEach(interest => {
-      // POST each interest
-      console.log(interest);
+  userInterestPost = (userId, interests) => {
+    interests.forEach(async interest => {
+      await addUserInterest(userId, interest.id);
     });
   };
 
@@ -95,21 +87,51 @@ class Routes extends Component {
       userBuilding,
       neighbors
     } = this.state;
-=======
-  userInterestPost = (userId, interests) => {
-    interests.forEach(async (interest) => {
-      await addUserInterest(userId, interest.id)
-    })
-  }
 
-  render() {
-    const { 
-      buildings, 
-      currentUser, 
-      interests, 
-      userInterests,
-      userBuilding } = this.state;
->>>>>>> Toggle user interests on profile
+    if (currentUser.name) {
+      return (
+        <>
+          <Route
+            exact
+            path="/profile"
+            render={() => (
+              <MyProfile currentUser={currentUser} interests={interests} />
+            )}
+          />
+          <Route
+            exact
+            path="/neighbors"
+            render={() => (
+              <MyNeighbors
+                userBuilding={userBuilding}
+                neighbors={neighbors}
+                getNeighbors={this.getNeighbors}
+              />
+            )}
+          />
+          <Route
+            exact
+            path="/building"
+            render={() => (
+              <BuildingInfo
+                name={userBuilding.name}
+                address={userBuilding.address}
+              />
+            )}
+          />
+          <Route
+            exact
+            path="/neighbors/:neighbor_id"
+            render={({ match }) => {
+              const neighbor = neighbors.find(
+                n => n.id === +match.params.neighbor_id
+              );
+              return <NeighborProfile neighbor={neighbor} />;
+            }}
+          />
+        </>
+      );
+    }
 
     return (
       <>
@@ -123,40 +145,6 @@ class Routes extends Component {
               userSignUp={this.userSignUp}
             />
           )}
-        />
-        <Route
-          exact
-          path="/profile"
-          render={() => (
-            <MyProfile currentUser={currentUser} interests={interests} />
-          )}
-        />
-        <Route
-          exact
-          path="/neighbors"
-          render={() => (
-            <MyNeighbors
-              userBuilding={userBuilding}
-              neighbors={neighbors}
-              getNeighbors={this.getNeighbors}
-            />
-          )}
-        />
-        <Route
-          exact
-          path="/building"
-          render={() => <BuildingInfo userBuilding={userBuilding} />}
-        />
-        <Route
-          exact
-          path="/neighbors/:neighbor_id"
-          render={({ match }) => {
-            const neighbor = neighbors.find(
-              n => n.id === +match.params.neighbor_id
-            );
-            console.log(neighbors);
-            return <NeighborProfile neighbor={neighbor} />;
-          }}
         />
       </>
     );
