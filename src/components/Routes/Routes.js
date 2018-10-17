@@ -79,6 +79,14 @@ class Routes extends Component {
     }
   };
 
+  handleLogOut = () => {
+    this.setState({
+      currentUser: {},
+      userBuilding: {},
+      userInterests: []
+    });
+  };
+
   render() {
     const {
       buildings,
@@ -95,7 +103,11 @@ class Routes extends Component {
             exact
             path="/profile"
             render={() => (
-              <MyProfile currentUser={currentUser} interests={interests} />
+              <MyProfile
+                currentUser={currentUser}
+                interests={interests}
+                handleLogOut={this.handleLogOut}
+              />
             )}
           />
           <Route
@@ -106,6 +118,7 @@ class Routes extends Component {
                 userBuilding={userBuilding}
                 neighbors={neighbors}
                 getNeighbors={this.getNeighbors}
+                handleLogOut={this.handleLogOut}
               />
             )}
           />
@@ -116,6 +129,7 @@ class Routes extends Component {
               <BuildingInfo
                 name={userBuilding.name}
                 address={userBuilding.address}
+                handleLogOut={this.handleLogOut}
               />
             )}
           />
@@ -126,7 +140,12 @@ class Routes extends Component {
               const neighbor = neighbors.find(
                 n => n.id === +match.params.neighbor_id
               );
-              return <NeighborProfile neighbor={neighbor} />;
+              return (
+                <NeighborProfile
+                  neighbor={neighbor}
+                  handleLogOut={this.handleLogOut}
+                />
+              );
             }}
           />
         </>
