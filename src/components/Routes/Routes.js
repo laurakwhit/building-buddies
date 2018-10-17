@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 import { getAllBuildings } from '../../utilities/buildingApiCalls';
 import { getAllInterests } from '../../utilities/interestApiCalls';
-import { addUser } from '../../utilities/userApiCalls';
+import { addUser, addUserInterest } from '../../utilities/userApiCalls';
 
 import LandingPage from '../LandingPage/LandingPage';
 import MyProfile from '../MyProfile/MyProfile';
@@ -28,7 +28,7 @@ class Routes extends Component {
 
   userSignUp = async ({ name, email, password, searchValue, interests }) => {
     const { currentUser, userBuilding } = await this.setUser({ name, email, password, searchValue })
-    await this.userInterestPost(interests)
+    await this.userInterestPost(currentUser.id, interests)
     this.setState({ currentUser, userBuilding, userInterests: interests })
     this.props.history.push('/profile');
   }
@@ -41,10 +41,9 @@ class Routes extends Component {
     return { currentUser, userBuilding }
   };
 
-  userInterestPost = (interests) => {
-    interests.forEach(interest => {
-      // POST each interest
-      console.log(interest)
+  userInterestPost = (userId, interests) => {
+    interests.forEach(async (interest) => {
+      await addUserInterest(userId, interest.id)
     })
   }
 
@@ -53,6 +52,7 @@ class Routes extends Component {
       buildings, 
       currentUser, 
       interests, 
+      userInterests,
       userBuilding } = this.state;
 
     return (

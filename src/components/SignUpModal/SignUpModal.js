@@ -48,12 +48,19 @@ class SignUpModal extends Component {
 
   handleUserInterestChange = (e) => {
     const { interests } = this.state;
+    const interest = JSON.parse(e.target.value);
 
-    if (interests.includes(e.target.value)) {
-      const updatedInterests = interests.filter(interest => interest !== e.target.value);
-      this.setState({ interests: updatedInterests });
-    } else  {
-      this.setState({ interests: [...interests, e.target.value]});
+    if(!interests.length) {
+      this.setState({ interests: [interest] });
+    } else {
+      interests.forEach(i => {
+        if (i.name === interest) {
+          const updatedInterests = interests.filter(i => i !== interest);
+          this.setState({ interests: updatedInterests });
+        } else  {
+          this.setState({ interests: [...interests, interest]});
+        }
+      })
     }
   }
 
@@ -70,12 +77,13 @@ class SignUpModal extends Component {
         {suggestion}
       </option>
     ));
-    const displayedInterests = interests.map((interest, index) => (
-      <div key={index}>
-        <input type="checkbox" name={interest.name} value={interest.name} onChange={this.handleUserInterestChange}/> 
+    const displayedInterests = interests.map((interest, index) => {
+      // console.log(interest)
+      return <div key={index}>
+        <input type="checkbox" name={interest.name} value={JSON.stringify(interest)} onChange={this.handleUserInterestChange}/> 
         <label htmlFor={interest.name}>{interest.name}</label>
       </div>
-    ));
+    });
 
     return (
       <div className="sign-up-modal">
