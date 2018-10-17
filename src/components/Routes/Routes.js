@@ -55,6 +55,22 @@ class Routes extends Component {
       userInterests,
       userBuilding } = this.state;
 
+    if (currentUser.name) {
+      return (
+        <>
+          <Route exact path="/profile" render={() => (
+            <MyProfile currentUser={currentUser} interests={interests} />
+          )} />
+          <Route exact path="/neighbors" render={() => (
+            <MyNeighbors userBuilding={userBuilding}/>
+          )} />
+          <Route exact path="/building" render={() => (
+            <BuildingInfo name={userBuilding.name} address={userBuilding.address} />
+          )} />
+        </>
+      )
+    }
+
     return (
       <>
         <Route
@@ -64,15 +80,6 @@ class Routes extends Component {
             <LandingPage buildings={buildings} interests={interests} userSignUp={this.userSignUp}/>
           )}
         />
-        <Route exact path="/profile" render={() => (
-          <MyProfile currentUser={currentUser} interests={interests} />
-        )} />
-        <Route exact path="/neighbors" render={() => (
-          <MyNeighbors userBuilding={userBuilding}/>
-          )} />
-        <Route exact path="/building" render={() => (
-          <BuildingInfo userBuilding={userBuilding} />
-          )} />
       </>
     );
   }
