@@ -10,6 +10,7 @@ class SignUpModal extends Component {
     name: '',
     email: '',
     password: '',
+    interests: [],
     buildingsTrie: {}
   };
 
@@ -34,17 +35,30 @@ class SignUpModal extends Component {
   };
 
   handleSubmit = e => {
+    const { name, email, password, interests, searchValue } = this.state;
+    const { userSignUp } = this.props;
     e.preventDefault();
-    this.props.setUser(this.state);
-    this.setState({ name: '', email: '', password: '', searchValue: '' });
+    userSignUp({ name, email, password, searchValue, interests });
+    this.setState({ name: '', email: '', password: '', interests: [], searchValue: '' });
   };
 
   handleSuggestionClick = e => {
     this.setState({ searchValue: e.target.value });
   };
 
+  handleUserInterestChange = (e) => {
+    const { interests } = this.state;
+
+    if (interests.includes(e.target.value)) {
+      const updatedInterests = interests.filter(interest => interest !== e.target.value);
+      this.setState({ interests: updatedInterests });
+    } else  {
+      this.setState({ interests: [...interests, e.target.value]});
+    }
+  }
+
   render() {
-    const { handleModalClose } = this.props;
+    const { handleModalClose, interests } = this.props;
     const { name, email, password, autoCompleteResults, searchValue } = this.state;
 
     const suggestionOptions = autoCompleteResults.map((suggestion, i) => (
@@ -55,6 +69,12 @@ class SignUpModal extends Component {
       >
         {suggestion}
       </option>
+    ));
+    const displayedInterests = interests.map((interest, index) => (
+      <div key={index}>
+        <input type="checkbox" name={interest.name} value={interest.name} onChange={this.handleUserInterestChange}/> 
+        <label htmlFor={interest.name}>{interest.name}</label>
+      </div>
     ));
 
     return (
@@ -94,6 +114,7 @@ class SignUpModal extends Component {
             <button>Sign Up</button>
           </form>
         </div>
+          {displayedInterests}
       </div>
     );
   }

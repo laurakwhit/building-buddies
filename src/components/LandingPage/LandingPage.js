@@ -20,15 +20,16 @@ class LandingPage extends Component {
 
   render() {
     const { modalOpen } = this.state;
-    const { setUser, buildings } = this.props;
+    const { buildings, interests, userSignUp } = this.props;
 
     return (
       <div className="landing-page">
         {modalOpen && (
           <SignUpModal
             handleModalClose={this.handleModalClose}
-            setUser={setUser}
             buildings={buildings}
+            interests={interests}
+            userSignUp={userSignUp}
           />
         )}
         <h1>Hello!</h1>

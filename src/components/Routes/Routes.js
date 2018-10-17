@@ -16,7 +16,8 @@ class Routes extends Component {
     buildings: [],
     interests: [],
     currentUser: {},
-    userBuilding: {}
+    userBuilding: {},
+    userInterests: []
   };
 
   async componentDidMount() {
@@ -25,14 +26,26 @@ class Routes extends Component {
     this.setState({ buildings, interests });
   }
 
+  userSignUp = async ({ name, email, password, searchValue, interests }) => {
+    const { currentUser, userBuilding } = await this.setUser({ name, email, password, searchValue })
+    await this.userInterestPost(interests)
+    this.setState({ currentUser, userBuilding, userInterests: interests })
+    this.props.history.push('/profile');
+  }
+
   setUser = async ({ name, email, password, searchValue }) => {
     const { buildings } = this.state;
     const userBuilding = buildings.find(building => building.name.toLowerCase() === searchValue.toLowerCase());
     const addedUser = await addUser({ name, email, password, building_id: userBuilding.id });
     const currentUser = { name, email, building_id: userBuilding.id, id: addedUser.id};
-    this.setState({ currentUser, userBuilding });
-    this.props.history.push('/profile');
+    return { currentUser, userBuilding }
   };
+
+  userInterestPost = (interests) => {
+    interests.map(interest => {
+      // POST each interest
+    })
+  }
 
   render() {
     const { 
@@ -47,7 +60,7 @@ class Routes extends Component {
           exact
           path="/"
           render={() => (
-            <LandingPage setUser={this.setUser} buildings={buildings} />
+            <LandingPage buildings={buildings} interests={interests} userSignUp={this.userSignUp}/>
           )}
         />
         <Route exact path="/profile" render={() => (
