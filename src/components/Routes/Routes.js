@@ -2,7 +2,10 @@ import React, { Component } from 'react';
 import { Route, withRouter } from 'react-router-dom';
 import PropTypes from 'prop-types';
 
-import { getAllBuildings } from '../../utilities/buildingApiCalls';
+import {
+  getAllBuildings,
+  getAllBuildingUsers
+} from '../../utilities/buildingApiCalls';
 import { getAllInterests } from '../../utilities/interestApiCalls';
 import { addUser } from '../../utilities/userApiCalls';
 
@@ -10,6 +13,7 @@ import LandingPage from '../LandingPage/LandingPage';
 import MyProfile from '../MyProfile/MyProfile';
 import MyNeighbors from '../MyNeighbors/MyNeighbors';
 import BuildingInfo from '../BuildingInfo/BuildingInfo';
+import NeighborProfile from '../NeighborProfile/NeighborProfile';
 
 class Routes extends Component {
   state = {
@@ -17,7 +21,8 @@ class Routes extends Component {
     interests: [],
     currentUser: {},
     userBuilding: {},
-    userInterests: []
+    userInterests: [],
+    neighbors: []
   };
 
   async componentDidMount() {
@@ -27,33 +32,62 @@ class Routes extends Component {
   }
 
   userSignUp = async ({ name, email, password, searchValue, interests }) => {
-    const { currentUser, userBuilding } = await this.setUser({ name, email, password, searchValue })
-    await this.userInterestPost(interests)
-    this.setState({ currentUser, userBuilding, userInterests: interests })
+    const { currentUser, userBuilding } = await this.setUser({
+      name,
+      email,
+      password,
+      searchValue
+    });
+    await this.userInterestPost(interests);
+    this.setState({ currentUser, userBuilding, userInterests: interests });
     this.props.history.push('/profile');
-  }
+  };
 
   setUser = async ({ name, email, password, searchValue }) => {
     const { buildings } = this.state;
-    const userBuilding = buildings.find(building => building.name.toLowerCase() === searchValue.toLowerCase());
-    const addedUser = await addUser({ name, email, password, building_id: userBuilding.id });
-    const currentUser = { name, email, building_id: userBuilding.id, id: addedUser.id};
-    return { currentUser, userBuilding }
+    const userBuilding = buildings.find(
+      building => building.name.toLowerCase() === searchValue.toLowerCase()
+    );
+    const addedUser = await addUser({
+      name,
+      email,
+      password,
+      building_id: userBuilding.id
+    });
+    const currentUser = {
+      name,
+      email,
+      building_id: userBuilding.id,
+      id: addedUser.id
+    };
+    return { currentUser, userBuilding };
   };
 
-  userInterestPost = (interests) => {
+  userInterestPost = interests => {
     interests.forEach(interest => {
       // POST each interest
-      console.log(interest)
-    })
-  }
+      console.log(interest);
+    });
+  };
+
+  getNeighbors = async () => {
+    try {
+      const { userBuilding } = this.state;
+      const neighbors = await getAllBuildingUsers(userBuilding.id);
+      this.setState({ neighbors });
+    } catch (error) {
+      this.setState({ error });
+    }
+  };
 
   render() {
-    const { 
-      buildings, 
-      currentUser, 
-      interests, 
-      userBuilding } = this.state;
+    const {
+      buildings,
+      currentUser,
+      interests,
+      userBuilding,
+      neighbors
+    } = this.state;
 
     return (
       <>
@@ -61,18 +95,47 @@ class Routes extends Component {
           exact
           path="/"
           render={() => (
-            <LandingPage buildings={buildings} interests={interests} userSignUp={this.userSignUp}/>
+            <LandingPage
+              buildings={buildings}
+              interests={interests}
+              userSignUp={this.userSignUp}
+            />
           )}
         />
-        <Route exact path="/profile" render={() => (
-          <MyProfile currentUser={currentUser} interests={interests} />
-        )} />
-        <Route exact path="/neighbors" render={() => (
-          <MyNeighbors userBuilding={userBuilding}/>
-          )} />
-        <Route exact path="/building" render={() => (
-          <BuildingInfo userBuilding={userBuilding} />
-          )} />
+        <Route
+          exact
+          path="/profile"
+          render={() => (
+            <MyProfile currentUser={currentUser} interests={interests} />
+          )}
+        />
+        <Route
+          exact
+          path="/neighbors"
+          render={() => (
+            <MyNeighbors
+              userBuilding={userBuilding}
+              neighbors={neighbors}
+              getNeighbors={this.getNeighbors}
+            />
+          )}
+        />
+        <Route
+          exact
+          path="/building"
+          render={() => <BuildingInfo userBuilding={userBuilding} />}
+        />
+        <Route
+          exact
+          path="/neighbors/:neighbor_id"
+          render={({ match }) => {
+            const neighbor = neighbors.find(
+              n => n.id === +match.params.neighbor_id
+            );
+            console.log(match.params);
+            return <NeighborProfile neighbor={neighbor} />;
+          }}
+        />
       </>
     );
   }
@@ -80,7 +143,7 @@ class Routes extends Component {
 
 Routes.propTypes = {
   history: PropTypes.object,
-  "history.push": PropTypes.func
-}
+  'history.push': PropTypes.func
+};
 
 export default withRouter(Routes);
