@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 
 import { getAllBuildings } from '../../utilities/buildingApiCalls';
 import { getAllInterests } from '../../utilities/interestApiCalls';
+import { addUser } from '../../utilities/userApiCalls';
 
 import LandingPage from '../LandingPage/LandingPage';
 import MyProfile from '../MyProfile/MyProfile';
@@ -11,16 +12,13 @@ import MyNeighbors from '../MyNeighbors/MyNeighbors';
 import BuildingInfo from '../BuildingInfo/BuildingInfo';
 
 class Routes extends Component {
-  constructor() {
-    super();
-    this.state = {
-      buildings: [],
-      interests: [],
-      currentUser: {},
-      userBuilding: {},
-      userInterests: []
-    };
-  }
+  state = {
+    buildings: [],
+    interests: [],
+    currentUser: {},
+    userBuilding: {},
+    userInterests: []
+  };
 
   async componentDidMount() {
     const buildings = await getAllBuildings();
@@ -28,16 +26,34 @@ class Routes extends Component {
     this.setState({ buildings, interests });
   }
 
-  setUser = ({ name, email, searchValue }) => {
-    const { buildings } = this.state;
-    const currentUser = { name, email };
-    const userBuilding = buildings.find(building => building.name.toLowerCase() === searchValue.toLowerCase());
-    this.setState({ currentUser, userBuilding });
+  userSignUp = async ({ name, email, password, searchValue, interests }) => {
+    const { currentUser, userBuilding } = await this.setUser({ name, email, password, searchValue })
+    await this.userInterestPost(interests)
+    this.setState({ currentUser, userBuilding, userInterests: interests })
     this.props.history.push('/profile');
+  }
+
+  setUser = async ({ name, email, password, searchValue }) => {
+    const { buildings } = this.state;
+    const userBuilding = buildings.find(building => building.name.toLowerCase() === searchValue.toLowerCase());
+    const addedUser = await addUser({ name, email, password, building_id: userBuilding.id });
+    const currentUser = { name, email, building_id: userBuilding.id, id: addedUser.id};
+    return { currentUser, userBuilding }
   };
 
+  userInterestPost = (interests) => {
+    interests.forEach(interest => {
+      // POST each interest
+      console.log(interest)
+    })
+  }
+
   render() {
-    const { buildings } = this.state;
+    const { 
+      buildings, 
+      currentUser, 
+      interests, 
+      userBuilding } = this.state;
 
     return (
       <>
@@ -45,12 +61,18 @@ class Routes extends Component {
           exact
           path="/"
           render={() => (
-            <LandingPage setUser={this.setUser} buildings={buildings} />
+            <LandingPage buildings={buildings} interests={interests} userSignUp={this.userSignUp}/>
           )}
         />
-        <Route exact path="/profile" component={MyProfile} />
-        <Route exact path="/neighbors" component={MyNeighbors} />
-        <Route exact path="/building" component={BuildingInfo} />
+        <Route exact path="/profile" render={() => (
+          <MyProfile currentUser={currentUser} interests={interests} />
+        )} />
+        <Route exact path="/neighbors" render={() => (
+          <MyNeighbors userBuilding={userBuilding}/>
+          )} />
+        <Route exact path="/building" render={() => (
+          <BuildingInfo userBuilding={userBuilding} />
+          )} />
       </>
     );
   }

@@ -3,7 +3,103 @@
 exports[`MyProfile component should match the snapshot 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <MyProfile />,
+  Symbol(enzyme.__unrendered__): <MyProfile
+    currentUser={
+      Object {
+        "building_id": 291,
+        "email": "asdf@asdf.com",
+        "name": "asdf",
+      }
+    }
+    interests={
+      Array [
+        Object {
+          "created_at": "2018-10-10T19:53:00.107Z",
+          "id": 1,
+          "name": "golf",
+          "updated_at": "2018-10-10T19:53:00.107Z",
+        },
+        Object {
+          "created_at": "2018-10-10T19:53:00.107Z",
+          "id": 2,
+          "name": "gardening",
+          "updated_at": "2018-10-10T19:53:00.107Z",
+        },
+        Object {
+          "created_at": "2018-10-10T19:53:00.107Z",
+          "id": 3,
+          "name": "camping",
+          "updated_at": "2018-10-10T19:53:00.107Z",
+        },
+        Object {
+          "created_at": "2018-10-10T19:53:00.107Z",
+          "id": 4,
+          "name": "rock climbing",
+          "updated_at": "2018-10-10T19:53:00.107Z",
+        },
+        Object {
+          "created_at": "2018-10-10T19:53:00.107Z",
+          "id": 5,
+          "name": "fly fishing",
+          "updated_at": "2018-10-10T19:53:00.107Z",
+        },
+        Object {
+          "created_at": "2018-10-10T19:53:00.107Z",
+          "id": 6,
+          "name": "coding",
+          "updated_at": "2018-10-10T19:53:00.107Z",
+        },
+        Object {
+          "created_at": "2018-10-10T19:53:00.107Z",
+          "id": 7,
+          "name": "working on cars",
+          "updated_at": "2018-10-10T19:53:00.107Z",
+        },
+        Object {
+          "created_at": "2018-10-10T19:53:00.107Z",
+          "id": 8,
+          "name": "bowling",
+          "updated_at": "2018-10-10T19:53:00.107Z",
+        },
+        Object {
+          "created_at": "2018-10-10T19:53:00.107Z",
+          "id": 9,
+          "name": "cooking",
+          "updated_at": "2018-10-10T19:53:00.107Z",
+        },
+        Object {
+          "created_at": "2018-10-10T19:53:00.107Z",
+          "id": 10,
+          "name": "hiking",
+          "updated_at": "2018-10-10T19:53:00.107Z",
+        },
+        Object {
+          "created_at": "2018-10-10T19:53:00.107Z",
+          "id": 11,
+          "name": "skiing",
+          "updated_at": "2018-10-10T19:53:00.107Z",
+        },
+        Object {
+          "created_at": "2018-10-10T19:53:00.107Z",
+          "id": 12,
+          "name": "snowboarding",
+          "updated_at": "2018-10-10T19:53:00.107Z",
+        },
+        Object {
+          "created_at": "2018-10-10T19:53:00.107Z",
+          "id": 13,
+          "name": "mountain biking",
+          "updated_at": "2018-10-10T19:53:00.107Z",
+        },
+        Object {
+          "created_at": "2018-10-10T19:53:00.107Z",
+          "id": 14,
+          "name": "knitting",
+          "updated_at": "2018-10-10T19:53:00.107Z",
+        },
+      ]
+    }
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -27,15 +123,194 @@ ShallowWrapper {
             src="profile.jpg"
           />
           <h2>
-            Name
+            asdf
           </h2>
           <article>
             Humblebrag shabby chic gochujang coloring book, squid XOXO brunch tumeric selvage hammock vape. Lomo lumbersexual glossier, wayfarers skateboard irony humblebrag raclette taxidermy ennui freegan af craft beer PBR&B meh. Asymmetrical thundercats intelligentsia, lo-fi swag fingerstache palo santo skateboard flexitarian lyft selvage vice poke gluten-free. Kombucha ramps chambray street art messenger bag.
           </article>
           <div>
-            <h4>
-              interest
-            </h4>
+            <div>
+              <input
+                checked={false}
+                name="golf"
+                type="checkbox"
+                value="golf"
+              />
+              <label
+                htmlFor="golf"
+              >
+                golf
+              </label>
+            </div>
+            <div>
+              <input
+                checked={false}
+                name="gardening"
+                type="checkbox"
+                value="gardening"
+              />
+              <label
+                htmlFor="gardening"
+              >
+                gardening
+              </label>
+            </div>
+            <div>
+              <input
+                checked={false}
+                name="camping"
+                type="checkbox"
+                value="camping"
+              />
+              <label
+                htmlFor="camping"
+              >
+                camping
+              </label>
+            </div>
+            <div>
+              <input
+                checked={false}
+                name="rock climbing"
+                type="checkbox"
+                value="rock climbing"
+              />
+              <label
+                htmlFor="rock climbing"
+              >
+                rock climbing
+              </label>
+            </div>
+            <div>
+              <input
+                checked={false}
+                name="fly fishing"
+                type="checkbox"
+                value="fly fishing"
+              />
+              <label
+                htmlFor="fly fishing"
+              >
+                fly fishing
+              </label>
+            </div>
+            <div>
+              <input
+                checked={false}
+                name="coding"
+                type="checkbox"
+                value="coding"
+              />
+              <label
+                htmlFor="coding"
+              >
+                coding
+              </label>
+            </div>
+            <div>
+              <input
+                checked={false}
+                name="working on cars"
+                type="checkbox"
+                value="working on cars"
+              />
+              <label
+                htmlFor="working on cars"
+              >
+                working on cars
+              </label>
+            </div>
+            <div>
+              <input
+                checked={false}
+                name="bowling"
+                type="checkbox"
+                value="bowling"
+              />
+              <label
+                htmlFor="bowling"
+              >
+                bowling
+              </label>
+            </div>
+            <div>
+              <input
+                checked={false}
+                name="cooking"
+                type="checkbox"
+                value="cooking"
+              />
+              <label
+                htmlFor="cooking"
+              >
+                cooking
+              </label>
+            </div>
+            <div>
+              <input
+                checked={false}
+                name="hiking"
+                type="checkbox"
+                value="hiking"
+              />
+              <label
+                htmlFor="hiking"
+              >
+                hiking
+              </label>
+            </div>
+            <div>
+              <input
+                checked={false}
+                name="skiing"
+                type="checkbox"
+                value="skiing"
+              />
+              <label
+                htmlFor="skiing"
+              >
+                skiing
+              </label>
+            </div>
+            <div>
+              <input
+                checked={false}
+                name="snowboarding"
+                type="checkbox"
+                value="snowboarding"
+              />
+              <label
+                htmlFor="snowboarding"
+              >
+                snowboarding
+              </label>
+            </div>
+            <div>
+              <input
+                checked={false}
+                name="mountain biking"
+                type="checkbox"
+                value="mountain biking"
+              />
+              <label
+                htmlFor="mountain biking"
+              >
+                mountain biking
+              </label>
+            </div>
+            <div>
+              <input
+                checked={false}
+                name="knitting"
+                type="checkbox"
+                value="knitting"
+              />
+              <label
+                htmlFor="knitting"
+              >
+                knitting
+              </label>
+            </div>
           </div>
         </div>,
       ],
@@ -63,15 +338,194 @@ ShallowWrapper {
               src="profile.jpg"
             />,
             <h2>
-              Name
+              asdf
             </h2>,
             <article>
               Humblebrag shabby chic gochujang coloring book, squid XOXO brunch tumeric selvage hammock vape. Lomo lumbersexual glossier, wayfarers skateboard irony humblebrag raclette taxidermy ennui freegan af craft beer PBR&B meh. Asymmetrical thundercats intelligentsia, lo-fi swag fingerstache palo santo skateboard flexitarian lyft selvage vice poke gluten-free. Kombucha ramps chambray street art messenger bag.
             </article>,
             <div>
-              <h4>
-                interest
-              </h4>
+              <div>
+                <input
+                  checked={false}
+                  name="golf"
+                  type="checkbox"
+                  value="golf"
+                />
+                <label
+                  htmlFor="golf"
+                >
+                  golf
+                </label>
+              </div>
+              <div>
+                <input
+                  checked={false}
+                  name="gardening"
+                  type="checkbox"
+                  value="gardening"
+                />
+                <label
+                  htmlFor="gardening"
+                >
+                  gardening
+                </label>
+              </div>
+              <div>
+                <input
+                  checked={false}
+                  name="camping"
+                  type="checkbox"
+                  value="camping"
+                />
+                <label
+                  htmlFor="camping"
+                >
+                  camping
+                </label>
+              </div>
+              <div>
+                <input
+                  checked={false}
+                  name="rock climbing"
+                  type="checkbox"
+                  value="rock climbing"
+                />
+                <label
+                  htmlFor="rock climbing"
+                >
+                  rock climbing
+                </label>
+              </div>
+              <div>
+                <input
+                  checked={false}
+                  name="fly fishing"
+                  type="checkbox"
+                  value="fly fishing"
+                />
+                <label
+                  htmlFor="fly fishing"
+                >
+                  fly fishing
+                </label>
+              </div>
+              <div>
+                <input
+                  checked={false}
+                  name="coding"
+                  type="checkbox"
+                  value="coding"
+                />
+                <label
+                  htmlFor="coding"
+                >
+                  coding
+                </label>
+              </div>
+              <div>
+                <input
+                  checked={false}
+                  name="working on cars"
+                  type="checkbox"
+                  value="working on cars"
+                />
+                <label
+                  htmlFor="working on cars"
+                >
+                  working on cars
+                </label>
+              </div>
+              <div>
+                <input
+                  checked={false}
+                  name="bowling"
+                  type="checkbox"
+                  value="bowling"
+                />
+                <label
+                  htmlFor="bowling"
+                >
+                  bowling
+                </label>
+              </div>
+              <div>
+                <input
+                  checked={false}
+                  name="cooking"
+                  type="checkbox"
+                  value="cooking"
+                />
+                <label
+                  htmlFor="cooking"
+                >
+                  cooking
+                </label>
+              </div>
+              <div>
+                <input
+                  checked={false}
+                  name="hiking"
+                  type="checkbox"
+                  value="hiking"
+                />
+                <label
+                  htmlFor="hiking"
+                >
+                  hiking
+                </label>
+              </div>
+              <div>
+                <input
+                  checked={false}
+                  name="skiing"
+                  type="checkbox"
+                  value="skiing"
+                />
+                <label
+                  htmlFor="skiing"
+                >
+                  skiing
+                </label>
+              </div>
+              <div>
+                <input
+                  checked={false}
+                  name="snowboarding"
+                  type="checkbox"
+                  value="snowboarding"
+                />
+                <label
+                  htmlFor="snowboarding"
+                >
+                  snowboarding
+                </label>
+              </div>
+              <div>
+                <input
+                  checked={false}
+                  name="mountain biking"
+                  type="checkbox"
+                  value="mountain biking"
+                />
+                <label
+                  htmlFor="mountain biking"
+                >
+                  mountain biking
+                </label>
+              </div>
+              <div>
+                <input
+                  checked={false}
+                  name="knitting"
+                  type="checkbox"
+                  value="knitting"
+                />
+                <label
+                  htmlFor="knitting"
+                >
+                  knitting
+                </label>
+              </div>
             </div>,
           ],
           "className": "main-content",
@@ -95,10 +549,10 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": "Name",
+              "children": "asdf",
             },
             "ref": null,
-            "rendered": "Name",
+            "rendered": "asdf",
             "type": "h2",
           },
           Object {
@@ -117,22 +571,908 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": <h4>
-                interest
-              </h4>,
+              "children": Array [
+                <div>
+                  <input
+                    checked={false}
+                    name="golf"
+                    type="checkbox"
+                    value="golf"
+                  />
+                  <label
+                    htmlFor="golf"
+                  >
+                    golf
+                  </label>
+                </div>,
+                <div>
+                  <input
+                    checked={false}
+                    name="gardening"
+                    type="checkbox"
+                    value="gardening"
+                  />
+                  <label
+                    htmlFor="gardening"
+                  >
+                    gardening
+                  </label>
+                </div>,
+                <div>
+                  <input
+                    checked={false}
+                    name="camping"
+                    type="checkbox"
+                    value="camping"
+                  />
+                  <label
+                    htmlFor="camping"
+                  >
+                    camping
+                  </label>
+                </div>,
+                <div>
+                  <input
+                    checked={false}
+                    name="rock climbing"
+                    type="checkbox"
+                    value="rock climbing"
+                  />
+                  <label
+                    htmlFor="rock climbing"
+                  >
+                    rock climbing
+                  </label>
+                </div>,
+                <div>
+                  <input
+                    checked={false}
+                    name="fly fishing"
+                    type="checkbox"
+                    value="fly fishing"
+                  />
+                  <label
+                    htmlFor="fly fishing"
+                  >
+                    fly fishing
+                  </label>
+                </div>,
+                <div>
+                  <input
+                    checked={false}
+                    name="coding"
+                    type="checkbox"
+                    value="coding"
+                  />
+                  <label
+                    htmlFor="coding"
+                  >
+                    coding
+                  </label>
+                </div>,
+                <div>
+                  <input
+                    checked={false}
+                    name="working on cars"
+                    type="checkbox"
+                    value="working on cars"
+                  />
+                  <label
+                    htmlFor="working on cars"
+                  >
+                    working on cars
+                  </label>
+                </div>,
+                <div>
+                  <input
+                    checked={false}
+                    name="bowling"
+                    type="checkbox"
+                    value="bowling"
+                  />
+                  <label
+                    htmlFor="bowling"
+                  >
+                    bowling
+                  </label>
+                </div>,
+                <div>
+                  <input
+                    checked={false}
+                    name="cooking"
+                    type="checkbox"
+                    value="cooking"
+                  />
+                  <label
+                    htmlFor="cooking"
+                  >
+                    cooking
+                  </label>
+                </div>,
+                <div>
+                  <input
+                    checked={false}
+                    name="hiking"
+                    type="checkbox"
+                    value="hiking"
+                  />
+                  <label
+                    htmlFor="hiking"
+                  >
+                    hiking
+                  </label>
+                </div>,
+                <div>
+                  <input
+                    checked={false}
+                    name="skiing"
+                    type="checkbox"
+                    value="skiing"
+                  />
+                  <label
+                    htmlFor="skiing"
+                  >
+                    skiing
+                  </label>
+                </div>,
+                <div>
+                  <input
+                    checked={false}
+                    name="snowboarding"
+                    type="checkbox"
+                    value="snowboarding"
+                  />
+                  <label
+                    htmlFor="snowboarding"
+                  >
+                    snowboarding
+                  </label>
+                </div>,
+                <div>
+                  <input
+                    checked={false}
+                    name="mountain biking"
+                    type="checkbox"
+                    value="mountain biking"
+                  />
+                  <label
+                    htmlFor="mountain biking"
+                  >
+                    mountain biking
+                  </label>
+                </div>,
+                <div>
+                  <input
+                    checked={false}
+                    name="knitting"
+                    type="checkbox"
+                    value="knitting"
+                  />
+                  <label
+                    htmlFor="knitting"
+                  >
+                    knitting
+                  </label>
+                </div>,
+              ],
             },
             "ref": null,
-            "rendered": Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "interest",
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "0",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <input
+                      checked={false}
+                      name="golf"
+                      type="checkbox"
+                      value="golf"
+                    />,
+                    <label
+                      htmlFor="golf"
+                    >
+                      golf
+                    </label>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "checked": false,
+                      "name": "golf",
+                      "onClick": undefined,
+                      "type": "checkbox",
+                      "value": "golf",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "input",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "golf",
+                      "htmlFor": "golf",
+                    },
+                    "ref": null,
+                    "rendered": "golf",
+                    "type": "label",
+                  },
+                ],
+                "type": "div",
               },
-              "ref": null,
-              "rendered": "interest",
-              "type": "h4",
-            },
+              Object {
+                "instance": null,
+                "key": "1",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <input
+                      checked={false}
+                      name="gardening"
+                      type="checkbox"
+                      value="gardening"
+                    />,
+                    <label
+                      htmlFor="gardening"
+                    >
+                      gardening
+                    </label>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "checked": false,
+                      "name": "gardening",
+                      "onClick": undefined,
+                      "type": "checkbox",
+                      "value": "gardening",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "input",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "gardening",
+                      "htmlFor": "gardening",
+                    },
+                    "ref": null,
+                    "rendered": "gardening",
+                    "type": "label",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": "2",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <input
+                      checked={false}
+                      name="camping"
+                      type="checkbox"
+                      value="camping"
+                    />,
+                    <label
+                      htmlFor="camping"
+                    >
+                      camping
+                    </label>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "checked": false,
+                      "name": "camping",
+                      "onClick": undefined,
+                      "type": "checkbox",
+                      "value": "camping",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "input",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "camping",
+                      "htmlFor": "camping",
+                    },
+                    "ref": null,
+                    "rendered": "camping",
+                    "type": "label",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": "3",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <input
+                      checked={false}
+                      name="rock climbing"
+                      type="checkbox"
+                      value="rock climbing"
+                    />,
+                    <label
+                      htmlFor="rock climbing"
+                    >
+                      rock climbing
+                    </label>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "checked": false,
+                      "name": "rock climbing",
+                      "onClick": undefined,
+                      "type": "checkbox",
+                      "value": "rock climbing",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "input",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "rock climbing",
+                      "htmlFor": "rock climbing",
+                    },
+                    "ref": null,
+                    "rendered": "rock climbing",
+                    "type": "label",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": "4",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <input
+                      checked={false}
+                      name="fly fishing"
+                      type="checkbox"
+                      value="fly fishing"
+                    />,
+                    <label
+                      htmlFor="fly fishing"
+                    >
+                      fly fishing
+                    </label>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "checked": false,
+                      "name": "fly fishing",
+                      "onClick": undefined,
+                      "type": "checkbox",
+                      "value": "fly fishing",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "input",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "fly fishing",
+                      "htmlFor": "fly fishing",
+                    },
+                    "ref": null,
+                    "rendered": "fly fishing",
+                    "type": "label",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": "5",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <input
+                      checked={false}
+                      name="coding"
+                      type="checkbox"
+                      value="coding"
+                    />,
+                    <label
+                      htmlFor="coding"
+                    >
+                      coding
+                    </label>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "checked": false,
+                      "name": "coding",
+                      "onClick": undefined,
+                      "type": "checkbox",
+                      "value": "coding",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "input",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "coding",
+                      "htmlFor": "coding",
+                    },
+                    "ref": null,
+                    "rendered": "coding",
+                    "type": "label",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": "6",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <input
+                      checked={false}
+                      name="working on cars"
+                      type="checkbox"
+                      value="working on cars"
+                    />,
+                    <label
+                      htmlFor="working on cars"
+                    >
+                      working on cars
+                    </label>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "checked": false,
+                      "name": "working on cars",
+                      "onClick": undefined,
+                      "type": "checkbox",
+                      "value": "working on cars",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "input",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "working on cars",
+                      "htmlFor": "working on cars",
+                    },
+                    "ref": null,
+                    "rendered": "working on cars",
+                    "type": "label",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": "7",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <input
+                      checked={false}
+                      name="bowling"
+                      type="checkbox"
+                      value="bowling"
+                    />,
+                    <label
+                      htmlFor="bowling"
+                    >
+                      bowling
+                    </label>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "checked": false,
+                      "name": "bowling",
+                      "onClick": undefined,
+                      "type": "checkbox",
+                      "value": "bowling",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "input",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "bowling",
+                      "htmlFor": "bowling",
+                    },
+                    "ref": null,
+                    "rendered": "bowling",
+                    "type": "label",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": "8",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <input
+                      checked={false}
+                      name="cooking"
+                      type="checkbox"
+                      value="cooking"
+                    />,
+                    <label
+                      htmlFor="cooking"
+                    >
+                      cooking
+                    </label>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "checked": false,
+                      "name": "cooking",
+                      "onClick": undefined,
+                      "type": "checkbox",
+                      "value": "cooking",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "input",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "cooking",
+                      "htmlFor": "cooking",
+                    },
+                    "ref": null,
+                    "rendered": "cooking",
+                    "type": "label",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": "9",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <input
+                      checked={false}
+                      name="hiking"
+                      type="checkbox"
+                      value="hiking"
+                    />,
+                    <label
+                      htmlFor="hiking"
+                    >
+                      hiking
+                    </label>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "checked": false,
+                      "name": "hiking",
+                      "onClick": undefined,
+                      "type": "checkbox",
+                      "value": "hiking",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "input",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "hiking",
+                      "htmlFor": "hiking",
+                    },
+                    "ref": null,
+                    "rendered": "hiking",
+                    "type": "label",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": "10",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <input
+                      checked={false}
+                      name="skiing"
+                      type="checkbox"
+                      value="skiing"
+                    />,
+                    <label
+                      htmlFor="skiing"
+                    >
+                      skiing
+                    </label>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "checked": false,
+                      "name": "skiing",
+                      "onClick": undefined,
+                      "type": "checkbox",
+                      "value": "skiing",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "input",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "skiing",
+                      "htmlFor": "skiing",
+                    },
+                    "ref": null,
+                    "rendered": "skiing",
+                    "type": "label",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": "11",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <input
+                      checked={false}
+                      name="snowboarding"
+                      type="checkbox"
+                      value="snowboarding"
+                    />,
+                    <label
+                      htmlFor="snowboarding"
+                    >
+                      snowboarding
+                    </label>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "checked": false,
+                      "name": "snowboarding",
+                      "onClick": undefined,
+                      "type": "checkbox",
+                      "value": "snowboarding",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "input",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "snowboarding",
+                      "htmlFor": "snowboarding",
+                    },
+                    "ref": null,
+                    "rendered": "snowboarding",
+                    "type": "label",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": "12",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <input
+                      checked={false}
+                      name="mountain biking"
+                      type="checkbox"
+                      value="mountain biking"
+                    />,
+                    <label
+                      htmlFor="mountain biking"
+                    >
+                      mountain biking
+                    </label>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "checked": false,
+                      "name": "mountain biking",
+                      "onClick": undefined,
+                      "type": "checkbox",
+                      "value": "mountain biking",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "input",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "mountain biking",
+                      "htmlFor": "mountain biking",
+                    },
+                    "ref": null,
+                    "rendered": "mountain biking",
+                    "type": "label",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": "13",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <input
+                      checked={false}
+                      name="knitting"
+                      type="checkbox"
+                      value="knitting"
+                    />,
+                    <label
+                      htmlFor="knitting"
+                    >
+                      knitting
+                    </label>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "checked": false,
+                      "name": "knitting",
+                      "onClick": undefined,
+                      "type": "checkbox",
+                      "value": "knitting",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "input",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "knitting",
+                      "htmlFor": "knitting",
+                    },
+                    "ref": null,
+                    "rendered": "knitting",
+                    "type": "label",
+                  },
+                ],
+                "type": "div",
+              },
+            ],
             "type": "div",
           },
         ],
@@ -157,15 +1497,194 @@ ShallowWrapper {
               src="profile.jpg"
             />
             <h2>
-              Name
+              asdf
             </h2>
             <article>
               Humblebrag shabby chic gochujang coloring book, squid XOXO brunch tumeric selvage hammock vape. Lomo lumbersexual glossier, wayfarers skateboard irony humblebrag raclette taxidermy ennui freegan af craft beer PBR&B meh. Asymmetrical thundercats intelligentsia, lo-fi swag fingerstache palo santo skateboard flexitarian lyft selvage vice poke gluten-free. Kombucha ramps chambray street art messenger bag.
             </article>
             <div>
-              <h4>
-                interest
-              </h4>
+              <div>
+                <input
+                  checked={false}
+                  name="golf"
+                  type="checkbox"
+                  value="golf"
+                />
+                <label
+                  htmlFor="golf"
+                >
+                  golf
+                </label>
+              </div>
+              <div>
+                <input
+                  checked={false}
+                  name="gardening"
+                  type="checkbox"
+                  value="gardening"
+                />
+                <label
+                  htmlFor="gardening"
+                >
+                  gardening
+                </label>
+              </div>
+              <div>
+                <input
+                  checked={false}
+                  name="camping"
+                  type="checkbox"
+                  value="camping"
+                />
+                <label
+                  htmlFor="camping"
+                >
+                  camping
+                </label>
+              </div>
+              <div>
+                <input
+                  checked={false}
+                  name="rock climbing"
+                  type="checkbox"
+                  value="rock climbing"
+                />
+                <label
+                  htmlFor="rock climbing"
+                >
+                  rock climbing
+                </label>
+              </div>
+              <div>
+                <input
+                  checked={false}
+                  name="fly fishing"
+                  type="checkbox"
+                  value="fly fishing"
+                />
+                <label
+                  htmlFor="fly fishing"
+                >
+                  fly fishing
+                </label>
+              </div>
+              <div>
+                <input
+                  checked={false}
+                  name="coding"
+                  type="checkbox"
+                  value="coding"
+                />
+                <label
+                  htmlFor="coding"
+                >
+                  coding
+                </label>
+              </div>
+              <div>
+                <input
+                  checked={false}
+                  name="working on cars"
+                  type="checkbox"
+                  value="working on cars"
+                />
+                <label
+                  htmlFor="working on cars"
+                >
+                  working on cars
+                </label>
+              </div>
+              <div>
+                <input
+                  checked={false}
+                  name="bowling"
+                  type="checkbox"
+                  value="bowling"
+                />
+                <label
+                  htmlFor="bowling"
+                >
+                  bowling
+                </label>
+              </div>
+              <div>
+                <input
+                  checked={false}
+                  name="cooking"
+                  type="checkbox"
+                  value="cooking"
+                />
+                <label
+                  htmlFor="cooking"
+                >
+                  cooking
+                </label>
+              </div>
+              <div>
+                <input
+                  checked={false}
+                  name="hiking"
+                  type="checkbox"
+                  value="hiking"
+                />
+                <label
+                  htmlFor="hiking"
+                >
+                  hiking
+                </label>
+              </div>
+              <div>
+                <input
+                  checked={false}
+                  name="skiing"
+                  type="checkbox"
+                  value="skiing"
+                />
+                <label
+                  htmlFor="skiing"
+                >
+                  skiing
+                </label>
+              </div>
+              <div>
+                <input
+                  checked={false}
+                  name="snowboarding"
+                  type="checkbox"
+                  value="snowboarding"
+                />
+                <label
+                  htmlFor="snowboarding"
+                >
+                  snowboarding
+                </label>
+              </div>
+              <div>
+                <input
+                  checked={false}
+                  name="mountain biking"
+                  type="checkbox"
+                  value="mountain biking"
+                />
+                <label
+                  htmlFor="mountain biking"
+                >
+                  mountain biking
+                </label>
+              </div>
+              <div>
+                <input
+                  checked={false}
+                  name="knitting"
+                  type="checkbox"
+                  value="knitting"
+                />
+                <label
+                  htmlFor="knitting"
+                >
+                  knitting
+                </label>
+              </div>
             </div>
           </div>,
         ],
@@ -193,15 +1712,194 @@ ShallowWrapper {
                 src="profile.jpg"
               />,
               <h2>
-                Name
+                asdf
               </h2>,
               <article>
                 Humblebrag shabby chic gochujang coloring book, squid XOXO brunch tumeric selvage hammock vape. Lomo lumbersexual glossier, wayfarers skateboard irony humblebrag raclette taxidermy ennui freegan af craft beer PBR&B meh. Asymmetrical thundercats intelligentsia, lo-fi swag fingerstache palo santo skateboard flexitarian lyft selvage vice poke gluten-free. Kombucha ramps chambray street art messenger bag.
               </article>,
               <div>
-                <h4>
-                  interest
-                </h4>
+                <div>
+                  <input
+                    checked={false}
+                    name="golf"
+                    type="checkbox"
+                    value="golf"
+                  />
+                  <label
+                    htmlFor="golf"
+                  >
+                    golf
+                  </label>
+                </div>
+                <div>
+                  <input
+                    checked={false}
+                    name="gardening"
+                    type="checkbox"
+                    value="gardening"
+                  />
+                  <label
+                    htmlFor="gardening"
+                  >
+                    gardening
+                  </label>
+                </div>
+                <div>
+                  <input
+                    checked={false}
+                    name="camping"
+                    type="checkbox"
+                    value="camping"
+                  />
+                  <label
+                    htmlFor="camping"
+                  >
+                    camping
+                  </label>
+                </div>
+                <div>
+                  <input
+                    checked={false}
+                    name="rock climbing"
+                    type="checkbox"
+                    value="rock climbing"
+                  />
+                  <label
+                    htmlFor="rock climbing"
+                  >
+                    rock climbing
+                  </label>
+                </div>
+                <div>
+                  <input
+                    checked={false}
+                    name="fly fishing"
+                    type="checkbox"
+                    value="fly fishing"
+                  />
+                  <label
+                    htmlFor="fly fishing"
+                  >
+                    fly fishing
+                  </label>
+                </div>
+                <div>
+                  <input
+                    checked={false}
+                    name="coding"
+                    type="checkbox"
+                    value="coding"
+                  />
+                  <label
+                    htmlFor="coding"
+                  >
+                    coding
+                  </label>
+                </div>
+                <div>
+                  <input
+                    checked={false}
+                    name="working on cars"
+                    type="checkbox"
+                    value="working on cars"
+                  />
+                  <label
+                    htmlFor="working on cars"
+                  >
+                    working on cars
+                  </label>
+                </div>
+                <div>
+                  <input
+                    checked={false}
+                    name="bowling"
+                    type="checkbox"
+                    value="bowling"
+                  />
+                  <label
+                    htmlFor="bowling"
+                  >
+                    bowling
+                  </label>
+                </div>
+                <div>
+                  <input
+                    checked={false}
+                    name="cooking"
+                    type="checkbox"
+                    value="cooking"
+                  />
+                  <label
+                    htmlFor="cooking"
+                  >
+                    cooking
+                  </label>
+                </div>
+                <div>
+                  <input
+                    checked={false}
+                    name="hiking"
+                    type="checkbox"
+                    value="hiking"
+                  />
+                  <label
+                    htmlFor="hiking"
+                  >
+                    hiking
+                  </label>
+                </div>
+                <div>
+                  <input
+                    checked={false}
+                    name="skiing"
+                    type="checkbox"
+                    value="skiing"
+                  />
+                  <label
+                    htmlFor="skiing"
+                  >
+                    skiing
+                  </label>
+                </div>
+                <div>
+                  <input
+                    checked={false}
+                    name="snowboarding"
+                    type="checkbox"
+                    value="snowboarding"
+                  />
+                  <label
+                    htmlFor="snowboarding"
+                  >
+                    snowboarding
+                  </label>
+                </div>
+                <div>
+                  <input
+                    checked={false}
+                    name="mountain biking"
+                    type="checkbox"
+                    value="mountain biking"
+                  />
+                  <label
+                    htmlFor="mountain biking"
+                  >
+                    mountain biking
+                  </label>
+                </div>
+                <div>
+                  <input
+                    checked={false}
+                    name="knitting"
+                    type="checkbox"
+                    value="knitting"
+                  />
+                  <label
+                    htmlFor="knitting"
+                  >
+                    knitting
+                  </label>
+                </div>
               </div>,
             ],
             "className": "main-content",
@@ -225,10 +1923,10 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": "Name",
+                "children": "asdf",
               },
               "ref": null,
-              "rendered": "Name",
+              "rendered": "asdf",
               "type": "h2",
             },
             Object {
@@ -247,22 +1945,908 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": <h4>
-                  interest
-                </h4>,
+                "children": Array [
+                  <div>
+                    <input
+                      checked={false}
+                      name="golf"
+                      type="checkbox"
+                      value="golf"
+                    />
+                    <label
+                      htmlFor="golf"
+                    >
+                      golf
+                    </label>
+                  </div>,
+                  <div>
+                    <input
+                      checked={false}
+                      name="gardening"
+                      type="checkbox"
+                      value="gardening"
+                    />
+                    <label
+                      htmlFor="gardening"
+                    >
+                      gardening
+                    </label>
+                  </div>,
+                  <div>
+                    <input
+                      checked={false}
+                      name="camping"
+                      type="checkbox"
+                      value="camping"
+                    />
+                    <label
+                      htmlFor="camping"
+                    >
+                      camping
+                    </label>
+                  </div>,
+                  <div>
+                    <input
+                      checked={false}
+                      name="rock climbing"
+                      type="checkbox"
+                      value="rock climbing"
+                    />
+                    <label
+                      htmlFor="rock climbing"
+                    >
+                      rock climbing
+                    </label>
+                  </div>,
+                  <div>
+                    <input
+                      checked={false}
+                      name="fly fishing"
+                      type="checkbox"
+                      value="fly fishing"
+                    />
+                    <label
+                      htmlFor="fly fishing"
+                    >
+                      fly fishing
+                    </label>
+                  </div>,
+                  <div>
+                    <input
+                      checked={false}
+                      name="coding"
+                      type="checkbox"
+                      value="coding"
+                    />
+                    <label
+                      htmlFor="coding"
+                    >
+                      coding
+                    </label>
+                  </div>,
+                  <div>
+                    <input
+                      checked={false}
+                      name="working on cars"
+                      type="checkbox"
+                      value="working on cars"
+                    />
+                    <label
+                      htmlFor="working on cars"
+                    >
+                      working on cars
+                    </label>
+                  </div>,
+                  <div>
+                    <input
+                      checked={false}
+                      name="bowling"
+                      type="checkbox"
+                      value="bowling"
+                    />
+                    <label
+                      htmlFor="bowling"
+                    >
+                      bowling
+                    </label>
+                  </div>,
+                  <div>
+                    <input
+                      checked={false}
+                      name="cooking"
+                      type="checkbox"
+                      value="cooking"
+                    />
+                    <label
+                      htmlFor="cooking"
+                    >
+                      cooking
+                    </label>
+                  </div>,
+                  <div>
+                    <input
+                      checked={false}
+                      name="hiking"
+                      type="checkbox"
+                      value="hiking"
+                    />
+                    <label
+                      htmlFor="hiking"
+                    >
+                      hiking
+                    </label>
+                  </div>,
+                  <div>
+                    <input
+                      checked={false}
+                      name="skiing"
+                      type="checkbox"
+                      value="skiing"
+                    />
+                    <label
+                      htmlFor="skiing"
+                    >
+                      skiing
+                    </label>
+                  </div>,
+                  <div>
+                    <input
+                      checked={false}
+                      name="snowboarding"
+                      type="checkbox"
+                      value="snowboarding"
+                    />
+                    <label
+                      htmlFor="snowboarding"
+                    >
+                      snowboarding
+                    </label>
+                  </div>,
+                  <div>
+                    <input
+                      checked={false}
+                      name="mountain biking"
+                      type="checkbox"
+                      value="mountain biking"
+                    />
+                    <label
+                      htmlFor="mountain biking"
+                    >
+                      mountain biking
+                    </label>
+                  </div>,
+                  <div>
+                    <input
+                      checked={false}
+                      name="knitting"
+                      type="checkbox"
+                      value="knitting"
+                    />
+                    <label
+                      htmlFor="knitting"
+                    >
+                      knitting
+                    </label>
+                  </div>,
+                ],
               },
               "ref": null,
-              "rendered": Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": "interest",
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": "0",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <input
+                        checked={false}
+                        name="golf"
+                        type="checkbox"
+                        value="golf"
+                      />,
+                      <label
+                        htmlFor="golf"
+                      >
+                        golf
+                      </label>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "checked": false,
+                        "name": "golf",
+                        "onClick": undefined,
+                        "type": "checkbox",
+                        "value": "golf",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "input",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "golf",
+                        "htmlFor": "golf",
+                      },
+                      "ref": null,
+                      "rendered": "golf",
+                      "type": "label",
+                    },
+                  ],
+                  "type": "div",
                 },
-                "ref": null,
-                "rendered": "interest",
-                "type": "h4",
-              },
+                Object {
+                  "instance": null,
+                  "key": "1",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <input
+                        checked={false}
+                        name="gardening"
+                        type="checkbox"
+                        value="gardening"
+                      />,
+                      <label
+                        htmlFor="gardening"
+                      >
+                        gardening
+                      </label>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "checked": false,
+                        "name": "gardening",
+                        "onClick": undefined,
+                        "type": "checkbox",
+                        "value": "gardening",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "input",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "gardening",
+                        "htmlFor": "gardening",
+                      },
+                      "ref": null,
+                      "rendered": "gardening",
+                      "type": "label",
+                    },
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": "2",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <input
+                        checked={false}
+                        name="camping"
+                        type="checkbox"
+                        value="camping"
+                      />,
+                      <label
+                        htmlFor="camping"
+                      >
+                        camping
+                      </label>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "checked": false,
+                        "name": "camping",
+                        "onClick": undefined,
+                        "type": "checkbox",
+                        "value": "camping",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "input",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "camping",
+                        "htmlFor": "camping",
+                      },
+                      "ref": null,
+                      "rendered": "camping",
+                      "type": "label",
+                    },
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": "3",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <input
+                        checked={false}
+                        name="rock climbing"
+                        type="checkbox"
+                        value="rock climbing"
+                      />,
+                      <label
+                        htmlFor="rock climbing"
+                      >
+                        rock climbing
+                      </label>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "checked": false,
+                        "name": "rock climbing",
+                        "onClick": undefined,
+                        "type": "checkbox",
+                        "value": "rock climbing",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "input",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "rock climbing",
+                        "htmlFor": "rock climbing",
+                      },
+                      "ref": null,
+                      "rendered": "rock climbing",
+                      "type": "label",
+                    },
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": "4",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <input
+                        checked={false}
+                        name="fly fishing"
+                        type="checkbox"
+                        value="fly fishing"
+                      />,
+                      <label
+                        htmlFor="fly fishing"
+                      >
+                        fly fishing
+                      </label>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "checked": false,
+                        "name": "fly fishing",
+                        "onClick": undefined,
+                        "type": "checkbox",
+                        "value": "fly fishing",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "input",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "fly fishing",
+                        "htmlFor": "fly fishing",
+                      },
+                      "ref": null,
+                      "rendered": "fly fishing",
+                      "type": "label",
+                    },
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": "5",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <input
+                        checked={false}
+                        name="coding"
+                        type="checkbox"
+                        value="coding"
+                      />,
+                      <label
+                        htmlFor="coding"
+                      >
+                        coding
+                      </label>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "checked": false,
+                        "name": "coding",
+                        "onClick": undefined,
+                        "type": "checkbox",
+                        "value": "coding",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "input",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "coding",
+                        "htmlFor": "coding",
+                      },
+                      "ref": null,
+                      "rendered": "coding",
+                      "type": "label",
+                    },
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": "6",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <input
+                        checked={false}
+                        name="working on cars"
+                        type="checkbox"
+                        value="working on cars"
+                      />,
+                      <label
+                        htmlFor="working on cars"
+                      >
+                        working on cars
+                      </label>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "checked": false,
+                        "name": "working on cars",
+                        "onClick": undefined,
+                        "type": "checkbox",
+                        "value": "working on cars",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "input",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "working on cars",
+                        "htmlFor": "working on cars",
+                      },
+                      "ref": null,
+                      "rendered": "working on cars",
+                      "type": "label",
+                    },
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": "7",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <input
+                        checked={false}
+                        name="bowling"
+                        type="checkbox"
+                        value="bowling"
+                      />,
+                      <label
+                        htmlFor="bowling"
+                      >
+                        bowling
+                      </label>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "checked": false,
+                        "name": "bowling",
+                        "onClick": undefined,
+                        "type": "checkbox",
+                        "value": "bowling",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "input",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "bowling",
+                        "htmlFor": "bowling",
+                      },
+                      "ref": null,
+                      "rendered": "bowling",
+                      "type": "label",
+                    },
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": "8",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <input
+                        checked={false}
+                        name="cooking"
+                        type="checkbox"
+                        value="cooking"
+                      />,
+                      <label
+                        htmlFor="cooking"
+                      >
+                        cooking
+                      </label>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "checked": false,
+                        "name": "cooking",
+                        "onClick": undefined,
+                        "type": "checkbox",
+                        "value": "cooking",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "input",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "cooking",
+                        "htmlFor": "cooking",
+                      },
+                      "ref": null,
+                      "rendered": "cooking",
+                      "type": "label",
+                    },
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": "9",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <input
+                        checked={false}
+                        name="hiking"
+                        type="checkbox"
+                        value="hiking"
+                      />,
+                      <label
+                        htmlFor="hiking"
+                      >
+                        hiking
+                      </label>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "checked": false,
+                        "name": "hiking",
+                        "onClick": undefined,
+                        "type": "checkbox",
+                        "value": "hiking",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "input",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "hiking",
+                        "htmlFor": "hiking",
+                      },
+                      "ref": null,
+                      "rendered": "hiking",
+                      "type": "label",
+                    },
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": "10",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <input
+                        checked={false}
+                        name="skiing"
+                        type="checkbox"
+                        value="skiing"
+                      />,
+                      <label
+                        htmlFor="skiing"
+                      >
+                        skiing
+                      </label>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "checked": false,
+                        "name": "skiing",
+                        "onClick": undefined,
+                        "type": "checkbox",
+                        "value": "skiing",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "input",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "skiing",
+                        "htmlFor": "skiing",
+                      },
+                      "ref": null,
+                      "rendered": "skiing",
+                      "type": "label",
+                    },
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": "11",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <input
+                        checked={false}
+                        name="snowboarding"
+                        type="checkbox"
+                        value="snowboarding"
+                      />,
+                      <label
+                        htmlFor="snowboarding"
+                      >
+                        snowboarding
+                      </label>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "checked": false,
+                        "name": "snowboarding",
+                        "onClick": undefined,
+                        "type": "checkbox",
+                        "value": "snowboarding",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "input",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "snowboarding",
+                        "htmlFor": "snowboarding",
+                      },
+                      "ref": null,
+                      "rendered": "snowboarding",
+                      "type": "label",
+                    },
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": "12",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <input
+                        checked={false}
+                        name="mountain biking"
+                        type="checkbox"
+                        value="mountain biking"
+                      />,
+                      <label
+                        htmlFor="mountain biking"
+                      >
+                        mountain biking
+                      </label>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "checked": false,
+                        "name": "mountain biking",
+                        "onClick": undefined,
+                        "type": "checkbox",
+                        "value": "mountain biking",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "input",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "mountain biking",
+                        "htmlFor": "mountain biking",
+                      },
+                      "ref": null,
+                      "rendered": "mountain biking",
+                      "type": "label",
+                    },
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": "13",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <input
+                        checked={false}
+                        name="knitting"
+                        type="checkbox"
+                        value="knitting"
+                      />,
+                      <label
+                        htmlFor="knitting"
+                      >
+                        knitting
+                      </label>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "checked": false,
+                        "name": "knitting",
+                        "onClick": undefined,
+                        "type": "checkbox",
+                        "value": "knitting",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "input",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "knitting",
+                        "htmlFor": "knitting",
+                      },
+                      "ref": null,
+                      "rendered": "knitting",
+                      "type": "label",
+                    },
+                  ],
+                  "type": "div",
+                },
+              ],
               "type": "div",
             },
           ],

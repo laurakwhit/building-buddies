@@ -6,12 +6,9 @@ import './LandingPage.scss';
 import SignUpModal from '../SignUpModal/SignUpModal';
 
 class LandingPage extends Component {
-  constructor() {
-    super();
-    this.state = {
-      modalOpen: false
-    };
-  }
+  state = {
+    modalOpen: false
+  };
 
   handleClick = () => {
     this.setState({ modalOpen: true });
@@ -23,15 +20,16 @@ class LandingPage extends Component {
 
   render() {
     const { modalOpen } = this.state;
-    const { setUser, buildings } = this.props;
+    const { buildings, interests, userSignUp } = this.props;
 
     return (
       <div className="landing-page">
         {modalOpen && (
           <SignUpModal
             handleModalClose={this.handleModalClose}
-            setUser={setUser}
             buildings={buildings}
+            interests={interests}
+            userSignUp={userSignUp}
           />
         )}
         <h1>Hello!</h1>
@@ -42,8 +40,9 @@ class LandingPage extends Component {
 }
 
 LandingPage.propTypes = {
-  setUser: PropTypes.func,
-  buildings: PropTypes.array
+  buildings: PropTypes.array,
+  interests: PropTypes.array,
+  userSignUp: PropTypes.func
 };
 
 export default LandingPage;

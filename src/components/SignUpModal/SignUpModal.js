@@ -4,16 +4,15 @@ import { PrefixTrie } from 'complete-me';
 import './SignUpModal.scss';
 
 class SignUpModal extends Component {
-  constructor() {
-    super();
-    this.state = {
-      searchValue: '',
-      autoCompleteResults: [],
-      name: '',
-      email: '',
-      buildingsTrie: {}
-    };
-  }
+  state = {
+    searchValue: '',
+    autoCompleteResults: [],
+    name: '',
+    email: '',
+    password: '',
+    interests: [],
+    buildingsTrie: {}
+  };
 
   componentDidMount() {
     const { buildings } = this.props;
@@ -36,18 +35,31 @@ class SignUpModal extends Component {
   };
 
   handleSubmit = e => {
+    const { name, email, password, interests, searchValue } = this.state;
+    const { userSignUp } = this.props;
     e.preventDefault();
-    this.props.setUser(this.state);
-    this.setState({ name: '', email: '', searchValue: '' });
+    userSignUp({ name, email, password, searchValue, interests });
+    this.setState({ name: '', email: '', password: '', interests: [], searchValue: '' });
   };
 
   handleSuggestionClick = e => {
     this.setState({ searchValue: e.target.value });
   };
 
+  handleUserInterestChange = (e) => {
+    const { interests } = this.state;
+
+    if (interests.includes(e.target.value)) {
+      const updatedInterests = interests.filter(interest => interest !== e.target.value);
+      this.setState({ interests: updatedInterests });
+    } else  {
+      this.setState({ interests: [...interests, e.target.value]});
+    }
+  }
+
   render() {
-    const { handleModalClose } = this.props;
-    const { name, email, autoCompleteResults, searchValue } = this.state;
+    const { handleModalClose, interests } = this.props;
+    const { name, email, password, autoCompleteResults, searchValue } = this.state;
 
     const suggestionOptions = autoCompleteResults.map((suggestion, i) => (
       <option
@@ -57,6 +69,12 @@ class SignUpModal extends Component {
       >
         {suggestion}
       </option>
+    ));
+    const displayedInterests = interests.map((interest, index) => (
+      <div key={index}>
+        <input type="checkbox" name={interest.name} value={interest.name} onChange={this.handleUserInterestChange}/> 
+        <label htmlFor={interest.name}>{interest.name}</label>
+      </div>
     ));
 
     return (
@@ -86,9 +104,17 @@ class SignUpModal extends Component {
               value={email}
               placeholder="Email"
             />
+            <input
+              onChange={this.handleChange}
+              type="password"
+              name="password"
+              value={password}
+              placeholder="password"
+            />
             <button>Sign Up</button>
           </form>
         </div>
+          {displayedInterests}
       </div>
     );
   }
@@ -96,8 +122,9 @@ class SignUpModal extends Component {
 
 SignUpModal.propTypes = {
   buildings: PropTypes.array,
-  setUser: PropTypes.func,
-  handleModalClose: PropTypes.func
+  userSignUp: PropTypes.func,
+  handleModalClose: PropTypes.func,
+  interests: PropTypes.array
 };
 
 export default SignUpModal;
