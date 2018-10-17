@@ -1,0 +1,7 @@
+.neighbor-profile {
+  display: flex;
+  .main-content {
+    overflow: scroll;
+    width: calc(100% - 25rem);
+  }
+}
