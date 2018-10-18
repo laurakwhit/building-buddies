@@ -18,8 +18,9 @@ import MyProfile from '../MyProfile/MyProfile';
 import MyNeighbors from '../MyNeighbors/MyNeighbors';
 import BuildingInfo from '../BuildingInfo/BuildingInfo';
 import NeighborProfile from '../NeighborProfile/NeighborProfile';
+import Account from '../Account/Account';
 
-class Routes extends Component {
+export class Routes extends Component {
   state = {
     buildings: [],
     interests: [],
@@ -89,8 +90,6 @@ class Routes extends Component {
     let newUserInterests;
 
     const alreadyInterested = userInterests.find(userInterest => {
-      console.log('userInterest', userInterest);
-      console.log('clickedInterest', clickedInterest);
       return userInterest.id === clickedInterest.id;
     });
 
@@ -156,6 +155,11 @@ class Routes extends Component {
                 updateUserInterests={this.updateUserInterests}
               />
             )}
+          />
+          <Route
+            exact
+            path="/account"
+            render={() => <Account handleLogOut={this.handleLogOut} />}
           />
           <Route
             exact

@@ -151,10 +151,10 @@ class SignUpModal extends Component {
 }
 
 SignUpModal.propTypes = {
-  buildings: PropTypes.array,
-  userSignUp: PropTypes.func,
-  handleModalClose: PropTypes.func,
-  interests: PropTypes.array
+  buildings: PropTypes.array.isRequired,
+  userSignUp: PropTypes.func.isRequired,
+  handleModalClose: PropTypes.func.isRequired,
+  interests: PropTypes.array.isRequired
 };
 
 export default SignUpModal;

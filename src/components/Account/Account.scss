@@ -1,0 +1,8 @@
+.account {
+  background-color: crimson;
+
+  .main-content {
+    overflow: scroll;
+    width: calc(100% - 20rem);
+  }
+}

@@ -43,8 +43,8 @@ class MyNeighbors extends Component {
 }
 
 MyNeighbors.propTypes = {
-  userBuilding: PropTypes.object,
-  neighbors: PropTypes.array
+  userBuilding: PropTypes.object.isRequired,
+  neighbors: PropTypes.array.isRequired
 };
 
 export default MyNeighbors;

@@ -71,10 +71,10 @@ class MyProfile extends Component {
 }
 
 MyProfile.propTypes = {
-  currentUser: PropTypes.object,
-  interests: PropTypes.array,
-  handleLogOut: PropTypes.func,
-  updateUserInterests: PropTypes.func,
+  currentUser: PropTypes.object.isRequired,
+  interests: PropTypes.array.isRequired,
+  handleLogOut: PropTypes.func.isRequired,
+  updateUserInterests: PropTypes.func.isRequired,
   userInterests: PropTypes.array.isRequired
 };
 
