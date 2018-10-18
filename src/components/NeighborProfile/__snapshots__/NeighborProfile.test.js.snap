@@ -34,9 +34,22 @@ ShallowWrapper {
         <div
           className="main-content"
         >
+          <img
+            alt="profile"
+            className="profile-image"
+            src="profile.jpg"
+          />
           <h1>
             Boolean Brandon
+             likes...
           </h1>
+          <div
+            className="interests-container"
+          >
+            <p>
+              This user does not have any interests yet!
+            </p>
+          </div>
         </div>,
       ],
       "className": "neighbor-profile",
@@ -57,23 +70,83 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": <h1>
-            Boolean Brandon
-          </h1>,
+          "children": Array [
+            <img
+              alt="profile"
+              className="profile-image"
+              src="profile.jpg"
+            />,
+            <h1>
+              Boolean Brandon
+               likes...
+            </h1>,
+            <div
+              className="interests-container"
+            >
+              <p>
+                This user does not have any interests yet!
+              </p>
+            </div>,
+          ],
           "className": "main-content",
         },
         "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "Boolean Brandon",
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "profile",
+              "className": "profile-image",
+              "src": "profile.jpg",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
           },
-          "ref": null,
-          "rendered": "Boolean Brandon",
-          "type": "h1",
-        },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "Boolean Brandon",
+                " likes...",
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              "Boolean Brandon",
+              " likes...",
+            ],
+            "type": "h1",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <p>
+                This user does not have any interests yet!
+              </p>,
+              "className": "interests-container",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "This user does not have any interests yet!",
+              },
+              "ref": null,
+              "rendered": "This user does not have any interests yet!",
+              "type": "p",
+            },
+            "type": "div",
+          },
+        ],
         "type": "div",
       },
     ],
@@ -90,9 +163,22 @@ ShallowWrapper {
           <div
             className="main-content"
           >
+            <img
+              alt="profile"
+              className="profile-image"
+              src="profile.jpg"
+            />
             <h1>
               Boolean Brandon
+               likes...
             </h1>
+            <div
+              className="interests-container"
+            >
+              <p>
+                This user does not have any interests yet!
+              </p>
+            </div>
           </div>,
         ],
         "className": "neighbor-profile",
@@ -113,23 +199,83 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": <h1>
-              Boolean Brandon
-            </h1>,
+            "children": Array [
+              <img
+                alt="profile"
+                className="profile-image"
+                src="profile.jpg"
+              />,
+              <h1>
+                Boolean Brandon
+                 likes...
+              </h1>,
+              <div
+                className="interests-container"
+              >
+                <p>
+                  This user does not have any interests yet!
+                </p>
+              </div>,
+            ],
             "className": "main-content",
           },
           "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Boolean Brandon",
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "profile",
+                "className": "profile-image",
+                "src": "profile.jpg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
             },
-            "ref": null,
-            "rendered": "Boolean Brandon",
-            "type": "h1",
-          },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "Boolean Brandon",
+                  " likes...",
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                "Boolean Brandon",
+                " likes...",
+              ],
+              "type": "h1",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <p>
+                  This user does not have any interests yet!
+                </p>,
+                "className": "interests-container",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "This user does not have any interests yet!",
+                },
+                "ref": null,
+                "rendered": "This user does not have any interests yet!",
+                "type": "p",
+              },
+              "type": "div",
+            },
+          ],
           "type": "div",
         },
       ],

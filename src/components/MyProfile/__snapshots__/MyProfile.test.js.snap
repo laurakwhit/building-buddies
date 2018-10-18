@@ -99,6 +99,7 @@ ShallowWrapper {
         },
       ]
     }
+    updateUserInterests={[MockFunction]}
     userInterests={
       Array [
         Object {
@@ -140,18 +141,31 @@ ShallowWrapper {
         <div
           className="main-content"
         >
-          <img
-            alt="profile"
-            src="profile.jpg"
-          />
-          <h2>
-            asdf
-          </h2>
-          <article>
-            Humblebrag shabby chic gochujang coloring book, squid XOXO brunch tumeric selvage hammock vape. Lomo lumbersexual glossier, wayfarers skateboard irony humblebrag raclette taxidermy ennui freegan af craft beer PBR&B meh. Asymmetrical thundercats intelligentsia, lo-fi swag fingerstache palo santo skateboard flexitarian lyft selvage vice poke gluten-free. Kombucha ramps chambray street art messenger bag.
-          </article>
-          <form>
-            <div>
+          <div
+            className="basic-info"
+          >
+            <img
+              alt="profile"
+              className="profile-image"
+              src="profile.jpg"
+            />
+            <div
+              className="user-info"
+            >
+              <h2>
+                asdf
+              </h2>
+              <article>
+                Humblebrag shabby chic gochujang coloring book, squid XOXO brunch tumeric selvage hammock vape. Lomo lumbersexual glossier, wayfarers skateboard irony humblebrag raclette taxidermy ennui freegan af craft beer PBR&B meh. Asymmetrical thundercats intelligentsia, lo-fi swag fingerstache palo santo skateboard flexitarian lyft selvage vice poke gluten-free. Kombucha ramps chambray street art messenger bag.
+              </article>
+            </div>
+          </div>
+          <form
+            className="profile-interests"
+          >
+            <div
+              className="checkbox-cell"
+            >
               <input
                 checked={false}
                 name={1}
@@ -164,7 +178,9 @@ ShallowWrapper {
                 golf
               </label>
             </div>
-            <div>
+            <div
+              className="checkbox-cell"
+            >
               <input
                 checked={false}
                 name={2}
@@ -177,7 +193,9 @@ ShallowWrapper {
                 gardening
               </label>
             </div>
-            <div>
+            <div
+              className="checkbox-cell"
+            >
               <input
                 checked={false}
                 name={3}
@@ -190,7 +208,9 @@ ShallowWrapper {
                 camping
               </label>
             </div>
-            <div>
+            <div
+              className="checkbox-cell"
+            >
               <input
                 checked={false}
                 name={4}
@@ -203,7 +223,9 @@ ShallowWrapper {
                 rock climbing
               </label>
             </div>
-            <div>
+            <div
+              className="checkbox-cell"
+            >
               <input
                 checked={false}
                 name={5}
@@ -216,7 +238,9 @@ ShallowWrapper {
                 fly fishing
               </label>
             </div>
-            <div>
+            <div
+              className="checkbox-cell"
+            >
               <input
                 checked={false}
                 name={6}
@@ -229,7 +253,9 @@ ShallowWrapper {
                 coding
               </label>
             </div>
-            <div>
+            <div
+              className="checkbox-cell"
+            >
               <input
                 checked={false}
                 name={7}
@@ -242,7 +268,9 @@ ShallowWrapper {
                 working on cars
               </label>
             </div>
-            <div>
+            <div
+              className="checkbox-cell"
+            >
               <input
                 checked={false}
                 name={8}
@@ -255,7 +283,9 @@ ShallowWrapper {
                 bowling
               </label>
             </div>
-            <div>
+            <div
+              className="checkbox-cell"
+            >
               <input
                 checked={false}
                 name={9}
@@ -268,7 +298,9 @@ ShallowWrapper {
                 cooking
               </label>
             </div>
-            <div>
+            <div
+              className="checkbox-cell"
+            >
               <input
                 checked={false}
                 name={10}
@@ -281,7 +313,9 @@ ShallowWrapper {
                 hiking
               </label>
             </div>
-            <div>
+            <div
+              className="checkbox-cell"
+            >
               <input
                 checked={true}
                 name={11}
@@ -294,7 +328,9 @@ ShallowWrapper {
                 skiing
               </label>
             </div>
-            <div>
+            <div
+              className="checkbox-cell"
+            >
               <input
                 checked={true}
                 name={12}
@@ -307,7 +343,9 @@ ShallowWrapper {
                 snowboarding
               </label>
             </div>
-            <div>
+            <div
+              className="checkbox-cell"
+            >
               <input
                 checked={true}
                 name={13}
@@ -320,7 +358,9 @@ ShallowWrapper {
                 mountain biking
               </label>
             </div>
-            <div>
+            <div
+              className="checkbox-cell"
+            >
               <input
                 checked={false}
                 name={14}
@@ -357,18 +397,31 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            <img
-              alt="profile"
-              src="profile.jpg"
-            />,
-            <h2>
-              asdf
-            </h2>,
-            <article>
-              Humblebrag shabby chic gochujang coloring book, squid XOXO brunch tumeric selvage hammock vape. Lomo lumbersexual glossier, wayfarers skateboard irony humblebrag raclette taxidermy ennui freegan af craft beer PBR&B meh. Asymmetrical thundercats intelligentsia, lo-fi swag fingerstache palo santo skateboard flexitarian lyft selvage vice poke gluten-free. Kombucha ramps chambray street art messenger bag.
-            </article>,
-            <form>
-              <div>
+            <div
+              className="basic-info"
+            >
+              <img
+                alt="profile"
+                className="profile-image"
+                src="profile.jpg"
+              />
+              <div
+                className="user-info"
+              >
+                <h2>
+                  asdf
+                </h2>
+                <article>
+                  Humblebrag shabby chic gochujang coloring book, squid XOXO brunch tumeric selvage hammock vape. Lomo lumbersexual glossier, wayfarers skateboard irony humblebrag raclette taxidermy ennui freegan af craft beer PBR&B meh. Asymmetrical thundercats intelligentsia, lo-fi swag fingerstache palo santo skateboard flexitarian lyft selvage vice poke gluten-free. Kombucha ramps chambray street art messenger bag.
+                </article>
+              </div>
+            </div>,
+            <form
+              className="profile-interests"
+            >
+              <div
+                className="checkbox-cell"
+              >
                 <input
                   checked={false}
                   name={1}
@@ -381,7 +434,9 @@ ShallowWrapper {
                   golf
                 </label>
               </div>
-              <div>
+              <div
+                className="checkbox-cell"
+              >
                 <input
                   checked={false}
                   name={2}
@@ -394,7 +449,9 @@ ShallowWrapper {
                   gardening
                 </label>
               </div>
-              <div>
+              <div
+                className="checkbox-cell"
+              >
                 <input
                   checked={false}
                   name={3}
@@ -407,7 +464,9 @@ ShallowWrapper {
                   camping
                 </label>
               </div>
-              <div>
+              <div
+                className="checkbox-cell"
+              >
                 <input
                   checked={false}
                   name={4}
@@ -420,7 +479,9 @@ ShallowWrapper {
                   rock climbing
                 </label>
               </div>
-              <div>
+              <div
+                className="checkbox-cell"
+              >
                 <input
                   checked={false}
                   name={5}
@@ -433,7 +494,9 @@ ShallowWrapper {
                   fly fishing
                 </label>
               </div>
-              <div>
+              <div
+                className="checkbox-cell"
+              >
                 <input
                   checked={false}
                   name={6}
@@ -446,7 +509,9 @@ ShallowWrapper {
                   coding
                 </label>
               </div>
-              <div>
+              <div
+                className="checkbox-cell"
+              >
                 <input
                   checked={false}
                   name={7}
@@ -459,7 +524,9 @@ ShallowWrapper {
                   working on cars
                 </label>
               </div>
-              <div>
+              <div
+                className="checkbox-cell"
+              >
                 <input
                   checked={false}
                   name={8}
@@ -472,7 +539,9 @@ ShallowWrapper {
                   bowling
                 </label>
               </div>
-              <div>
+              <div
+                className="checkbox-cell"
+              >
                 <input
                   checked={false}
                   name={9}
@@ -485,7 +554,9 @@ ShallowWrapper {
                   cooking
                 </label>
               </div>
-              <div>
+              <div
+                className="checkbox-cell"
+              >
                 <input
                   checked={false}
                   name={10}
@@ -498,7 +569,9 @@ ShallowWrapper {
                   hiking
                 </label>
               </div>
-              <div>
+              <div
+                className="checkbox-cell"
+              >
                 <input
                   checked={true}
                   name={11}
@@ -511,7 +584,9 @@ ShallowWrapper {
                   skiing
                 </label>
               </div>
-              <div>
+              <div
+                className="checkbox-cell"
+              >
                 <input
                   checked={true}
                   name={12}
@@ -524,7 +599,9 @@ ShallowWrapper {
                   snowboarding
                 </label>
               </div>
-              <div>
+              <div
+                className="checkbox-cell"
+              >
                 <input
                   checked={true}
                   name={13}
@@ -537,7 +614,9 @@ ShallowWrapper {
                   mountain biking
                 </label>
               </div>
-              <div>
+              <div
+                className="checkbox-cell"
+              >
                 <input
                   checked={false}
                   name={14}
@@ -561,34 +640,84 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "alt": "profile",
-              "src": "profile.jpg",
+              "children": Array [
+                <img
+                  alt="profile"
+                  className="profile-image"
+                  src="profile.jpg"
+                />,
+                <div
+                  className="user-info"
+                >
+                  <h2>
+                    asdf
+                  </h2>
+                  <article>
+                    Humblebrag shabby chic gochujang coloring book, squid XOXO brunch tumeric selvage hammock vape. Lomo lumbersexual glossier, wayfarers skateboard irony humblebrag raclette taxidermy ennui freegan af craft beer PBR&B meh. Asymmetrical thundercats intelligentsia, lo-fi swag fingerstache palo santo skateboard flexitarian lyft selvage vice poke gluten-free. Kombucha ramps chambray street art messenger bag.
+                  </article>
+                </div>,
+              ],
+              "className": "basic-info",
             },
             "ref": null,
-            "rendered": null,
-            "type": "img",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "asdf",
-            },
-            "ref": null,
-            "rendered": "asdf",
-            "type": "h2",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Humblebrag shabby chic gochujang coloring book, squid XOXO brunch tumeric selvage hammock vape. Lomo lumbersexual glossier, wayfarers skateboard irony humblebrag raclette taxidermy ennui freegan af craft beer PBR&B meh. Asymmetrical thundercats intelligentsia, lo-fi swag fingerstache palo santo skateboard flexitarian lyft selvage vice poke gluten-free. Kombucha ramps chambray street art messenger bag.",
-            },
-            "ref": null,
-            "rendered": "Humblebrag shabby chic gochujang coloring book, squid XOXO brunch tumeric selvage hammock vape. Lomo lumbersexual glossier, wayfarers skateboard irony humblebrag raclette taxidermy ennui freegan af craft beer PBR&B meh. Asymmetrical thundercats intelligentsia, lo-fi swag fingerstache palo santo skateboard flexitarian lyft selvage vice poke gluten-free. Kombucha ramps chambray street art messenger bag.",
-            "type": "article",
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "profile",
+                  "className": "profile-image",
+                  "src": "profile.jpg",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <h2>
+                      asdf
+                    </h2>,
+                    <article>
+                      Humblebrag shabby chic gochujang coloring book, squid XOXO brunch tumeric selvage hammock vape. Lomo lumbersexual glossier, wayfarers skateboard irony humblebrag raclette taxidermy ennui freegan af craft beer PBR&B meh. Asymmetrical thundercats intelligentsia, lo-fi swag fingerstache palo santo skateboard flexitarian lyft selvage vice poke gluten-free. Kombucha ramps chambray street art messenger bag.
+                    </article>,
+                  ],
+                  "className": "user-info",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "asdf",
+                    },
+                    "ref": null,
+                    "rendered": "asdf",
+                    "type": "h2",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Humblebrag shabby chic gochujang coloring book, squid XOXO brunch tumeric selvage hammock vape. Lomo lumbersexual glossier, wayfarers skateboard irony humblebrag raclette taxidermy ennui freegan af craft beer PBR&B meh. Asymmetrical thundercats intelligentsia, lo-fi swag fingerstache palo santo skateboard flexitarian lyft selvage vice poke gluten-free. Kombucha ramps chambray street art messenger bag.",
+                    },
+                    "ref": null,
+                    "rendered": "Humblebrag shabby chic gochujang coloring book, squid XOXO brunch tumeric selvage hammock vape. Lomo lumbersexual glossier, wayfarers skateboard irony humblebrag raclette taxidermy ennui freegan af craft beer PBR&B meh. Asymmetrical thundercats intelligentsia, lo-fi swag fingerstache palo santo skateboard flexitarian lyft selvage vice poke gluten-free. Kombucha ramps chambray street art messenger bag.",
+                    "type": "article",
+                  },
+                ],
+                "type": "div",
+              },
+            ],
+            "type": "div",
           },
           Object {
             "instance": null,
@@ -596,7 +725,9 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": Array [
-                <div>
+                <div
+                  className="checkbox-cell"
+                >
                   <input
                     checked={false}
                     name={1}
@@ -609,7 +740,9 @@ ShallowWrapper {
                     golf
                   </label>
                 </div>,
-                <div>
+                <div
+                  className="checkbox-cell"
+                >
                   <input
                     checked={false}
                     name={2}
@@ -622,7 +755,9 @@ ShallowWrapper {
                     gardening
                   </label>
                 </div>,
-                <div>
+                <div
+                  className="checkbox-cell"
+                >
                   <input
                     checked={false}
                     name={3}
@@ -635,7 +770,9 @@ ShallowWrapper {
                     camping
                   </label>
                 </div>,
-                <div>
+                <div
+                  className="checkbox-cell"
+                >
                   <input
                     checked={false}
                     name={4}
@@ -648,7 +785,9 @@ ShallowWrapper {
                     rock climbing
                   </label>
                 </div>,
-                <div>
+                <div
+                  className="checkbox-cell"
+                >
                   <input
                     checked={false}
                     name={5}
@@ -661,7 +800,9 @@ ShallowWrapper {
                     fly fishing
                   </label>
                 </div>,
-                <div>
+                <div
+                  className="checkbox-cell"
+                >
                   <input
                     checked={false}
                     name={6}
@@ -674,7 +815,9 @@ ShallowWrapper {
                     coding
                   </label>
                 </div>,
-                <div>
+                <div
+                  className="checkbox-cell"
+                >
                   <input
                     checked={false}
                     name={7}
@@ -687,7 +830,9 @@ ShallowWrapper {
                     working on cars
                   </label>
                 </div>,
-                <div>
+                <div
+                  className="checkbox-cell"
+                >
                   <input
                     checked={false}
                     name={8}
@@ -700,7 +845,9 @@ ShallowWrapper {
                     bowling
                   </label>
                 </div>,
-                <div>
+                <div
+                  className="checkbox-cell"
+                >
                   <input
                     checked={false}
                     name={9}
@@ -713,7 +860,9 @@ ShallowWrapper {
                     cooking
                   </label>
                 </div>,
-                <div>
+                <div
+                  className="checkbox-cell"
+                >
                   <input
                     checked={false}
                     name={10}
@@ -726,7 +875,9 @@ ShallowWrapper {
                     hiking
                   </label>
                 </div>,
-                <div>
+                <div
+                  className="checkbox-cell"
+                >
                   <input
                     checked={true}
                     name={11}
@@ -739,7 +890,9 @@ ShallowWrapper {
                     skiing
                   </label>
                 </div>,
-                <div>
+                <div
+                  className="checkbox-cell"
+                >
                   <input
                     checked={true}
                     name={12}
@@ -752,7 +905,9 @@ ShallowWrapper {
                     snowboarding
                   </label>
                 </div>,
-                <div>
+                <div
+                  className="checkbox-cell"
+                >
                   <input
                     checked={true}
                     name={13}
@@ -765,7 +920,9 @@ ShallowWrapper {
                     mountain biking
                   </label>
                 </div>,
-                <div>
+                <div
+                  className="checkbox-cell"
+                >
                   <input
                     checked={false}
                     name={14}
@@ -779,6 +936,7 @@ ShallowWrapper {
                   </label>
                 </div>,
               ],
+              "className": "profile-interests",
             },
             "ref": null,
             "rendered": Array [
@@ -800,6 +958,7 @@ ShallowWrapper {
                       golf
                     </label>,
                   ],
+                  "className": "checkbox-cell",
                 },
                 "ref": null,
                 "rendered": Array [
@@ -850,6 +1009,7 @@ ShallowWrapper {
                       gardening
                     </label>,
                   ],
+                  "className": "checkbox-cell",
                 },
                 "ref": null,
                 "rendered": Array [
@@ -900,6 +1060,7 @@ ShallowWrapper {
                       camping
                     </label>,
                   ],
+                  "className": "checkbox-cell",
                 },
                 "ref": null,
                 "rendered": Array [
@@ -950,6 +1111,7 @@ ShallowWrapper {
                       rock climbing
                     </label>,
                   ],
+                  "className": "checkbox-cell",
                 },
                 "ref": null,
                 "rendered": Array [
@@ -1000,6 +1162,7 @@ ShallowWrapper {
                       fly fishing
                     </label>,
                   ],
+                  "className": "checkbox-cell",
                 },
                 "ref": null,
                 "rendered": Array [
@@ -1050,6 +1213,7 @@ ShallowWrapper {
                       coding
                     </label>,
                   ],
+                  "className": "checkbox-cell",
                 },
                 "ref": null,
                 "rendered": Array [
@@ -1100,6 +1264,7 @@ ShallowWrapper {
                       working on cars
                     </label>,
                   ],
+                  "className": "checkbox-cell",
                 },
                 "ref": null,
                 "rendered": Array [
@@ -1150,6 +1315,7 @@ ShallowWrapper {
                       bowling
                     </label>,
                   ],
+                  "className": "checkbox-cell",
                 },
                 "ref": null,
                 "rendered": Array [
@@ -1200,6 +1366,7 @@ ShallowWrapper {
                       cooking
                     </label>,
                   ],
+                  "className": "checkbox-cell",
                 },
                 "ref": null,
                 "rendered": Array [
@@ -1250,6 +1417,7 @@ ShallowWrapper {
                       hiking
                     </label>,
                   ],
+                  "className": "checkbox-cell",
                 },
                 "ref": null,
                 "rendered": Array [
@@ -1300,6 +1468,7 @@ ShallowWrapper {
                       skiing
                     </label>,
                   ],
+                  "className": "checkbox-cell",
                 },
                 "ref": null,
                 "rendered": Array [
@@ -1350,6 +1519,7 @@ ShallowWrapper {
                       snowboarding
                     </label>,
                   ],
+                  "className": "checkbox-cell",
                 },
                 "ref": null,
                 "rendered": Array [
@@ -1400,6 +1570,7 @@ ShallowWrapper {
                       mountain biking
                     </label>,
                   ],
+                  "className": "checkbox-cell",
                 },
                 "ref": null,
                 "rendered": Array [
@@ -1450,6 +1621,7 @@ ShallowWrapper {
                       knitting
                     </label>,
                   ],
+                  "className": "checkbox-cell",
                 },
                 "ref": null,
                 "rendered": Array [
@@ -1502,18 +1674,31 @@ ShallowWrapper {
           <div
             className="main-content"
           >
-            <img
-              alt="profile"
-              src="profile.jpg"
-            />
-            <h2>
-              asdf
-            </h2>
-            <article>
-              Humblebrag shabby chic gochujang coloring book, squid XOXO brunch tumeric selvage hammock vape. Lomo lumbersexual glossier, wayfarers skateboard irony humblebrag raclette taxidermy ennui freegan af craft beer PBR&B meh. Asymmetrical thundercats intelligentsia, lo-fi swag fingerstache palo santo skateboard flexitarian lyft selvage vice poke gluten-free. Kombucha ramps chambray street art messenger bag.
-            </article>
-            <form>
-              <div>
+            <div
+              className="basic-info"
+            >
+              <img
+                alt="profile"
+                className="profile-image"
+                src="profile.jpg"
+              />
+              <div
+                className="user-info"
+              >
+                <h2>
+                  asdf
+                </h2>
+                <article>
+                  Humblebrag shabby chic gochujang coloring book, squid XOXO brunch tumeric selvage hammock vape. Lomo lumbersexual glossier, wayfarers skateboard irony humblebrag raclette taxidermy ennui freegan af craft beer PBR&B meh. Asymmetrical thundercats intelligentsia, lo-fi swag fingerstache palo santo skateboard flexitarian lyft selvage vice poke gluten-free. Kombucha ramps chambray street art messenger bag.
+                </article>
+              </div>
+            </div>
+            <form
+              className="profile-interests"
+            >
+              <div
+                className="checkbox-cell"
+              >
                 <input
                   checked={false}
                   name={1}
@@ -1526,7 +1711,9 @@ ShallowWrapper {
                   golf
                 </label>
               </div>
-              <div>
+              <div
+                className="checkbox-cell"
+              >
                 <input
                   checked={false}
                   name={2}
@@ -1539,7 +1726,9 @@ ShallowWrapper {
                   gardening
                 </label>
               </div>
-              <div>
+              <div
+                className="checkbox-cell"
+              >
                 <input
                   checked={false}
                   name={3}
@@ -1552,7 +1741,9 @@ ShallowWrapper {
                   camping
                 </label>
               </div>
-              <div>
+              <div
+                className="checkbox-cell"
+              >
                 <input
                   checked={false}
                   name={4}
@@ -1565,7 +1756,9 @@ ShallowWrapper {
                   rock climbing
                 </label>
               </div>
-              <div>
+              <div
+                className="checkbox-cell"
+              >
                 <input
                   checked={false}
                   name={5}
@@ -1578,7 +1771,9 @@ ShallowWrapper {
                   fly fishing
                 </label>
               </div>
-              <div>
+              <div
+                className="checkbox-cell"
+              >
                 <input
                   checked={false}
                   name={6}
@@ -1591,7 +1786,9 @@ ShallowWrapper {
                   coding
                 </label>
               </div>
-              <div>
+              <div
+                className="checkbox-cell"
+              >
                 <input
                   checked={false}
                   name={7}
@@ -1604,7 +1801,9 @@ ShallowWrapper {
                   working on cars
                 </label>
               </div>
-              <div>
+              <div
+                className="checkbox-cell"
+              >
                 <input
                   checked={false}
                   name={8}
@@ -1617,7 +1816,9 @@ ShallowWrapper {
                   bowling
                 </label>
               </div>
-              <div>
+              <div
+                className="checkbox-cell"
+              >
                 <input
                   checked={false}
                   name={9}
@@ -1630,7 +1831,9 @@ ShallowWrapper {
                   cooking
                 </label>
               </div>
-              <div>
+              <div
+                className="checkbox-cell"
+              >
                 <input
                   checked={false}
                   name={10}
@@ -1643,7 +1846,9 @@ ShallowWrapper {
                   hiking
                 </label>
               </div>
-              <div>
+              <div
+                className="checkbox-cell"
+              >
                 <input
                   checked={true}
                   name={11}
@@ -1656,7 +1861,9 @@ ShallowWrapper {
                   skiing
                 </label>
               </div>
-              <div>
+              <div
+                className="checkbox-cell"
+              >
                 <input
                   checked={true}
                   name={12}
@@ -1669,7 +1876,9 @@ ShallowWrapper {
                   snowboarding
                 </label>
               </div>
-              <div>
+              <div
+                className="checkbox-cell"
+              >
                 <input
                   checked={true}
                   name={13}
@@ -1682,7 +1891,9 @@ ShallowWrapper {
                   mountain biking
                 </label>
               </div>
-              <div>
+              <div
+                className="checkbox-cell"
+              >
                 <input
                   checked={false}
                   name={14}
@@ -1719,18 +1930,31 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              <img
-                alt="profile"
-                src="profile.jpg"
-              />,
-              <h2>
-                asdf
-              </h2>,
-              <article>
-                Humblebrag shabby chic gochujang coloring book, squid XOXO brunch tumeric selvage hammock vape. Lomo lumbersexual glossier, wayfarers skateboard irony humblebrag raclette taxidermy ennui freegan af craft beer PBR&B meh. Asymmetrical thundercats intelligentsia, lo-fi swag fingerstache palo santo skateboard flexitarian lyft selvage vice poke gluten-free. Kombucha ramps chambray street art messenger bag.
-              </article>,
-              <form>
-                <div>
+              <div
+                className="basic-info"
+              >
+                <img
+                  alt="profile"
+                  className="profile-image"
+                  src="profile.jpg"
+                />
+                <div
+                  className="user-info"
+                >
+                  <h2>
+                    asdf
+                  </h2>
+                  <article>
+                    Humblebrag shabby chic gochujang coloring book, squid XOXO brunch tumeric selvage hammock vape. Lomo lumbersexual glossier, wayfarers skateboard irony humblebrag raclette taxidermy ennui freegan af craft beer PBR&B meh. Asymmetrical thundercats intelligentsia, lo-fi swag fingerstache palo santo skateboard flexitarian lyft selvage vice poke gluten-free. Kombucha ramps chambray street art messenger bag.
+                  </article>
+                </div>
+              </div>,
+              <form
+                className="profile-interests"
+              >
+                <div
+                  className="checkbox-cell"
+                >
                   <input
                     checked={false}
                     name={1}
@@ -1743,7 +1967,9 @@ ShallowWrapper {
                     golf
                   </label>
                 </div>
-                <div>
+                <div
+                  className="checkbox-cell"
+                >
                   <input
                     checked={false}
                     name={2}
@@ -1756,7 +1982,9 @@ ShallowWrapper {
                     gardening
                   </label>
                 </div>
-                <div>
+                <div
+                  className="checkbox-cell"
+                >
                   <input
                     checked={false}
                     name={3}
@@ -1769,7 +1997,9 @@ ShallowWrapper {
                     camping
                   </label>
                 </div>
-                <div>
+                <div
+                  className="checkbox-cell"
+                >
                   <input
                     checked={false}
                     name={4}
@@ -1782,7 +2012,9 @@ ShallowWrapper {
                     rock climbing
                   </label>
                 </div>
-                <div>
+                <div
+                  className="checkbox-cell"
+                >
                   <input
                     checked={false}
                     name={5}
@@ -1795,7 +2027,9 @@ ShallowWrapper {
                     fly fishing
                   </label>
                 </div>
-                <div>
+                <div
+                  className="checkbox-cell"
+                >
                   <input
                     checked={false}
                     name={6}
@@ -1808,7 +2042,9 @@ ShallowWrapper {
                     coding
                   </label>
                 </div>
-                <div>
+                <div
+                  className="checkbox-cell"
+                >
                   <input
                     checked={false}
                     name={7}
@@ -1821,7 +2057,9 @@ ShallowWrapper {
                     working on cars
                   </label>
                 </div>
-                <div>
+                <div
+                  className="checkbox-cell"
+                >
                   <input
                     checked={false}
                     name={8}
@@ -1834,7 +2072,9 @@ ShallowWrapper {
                     bowling
                   </label>
                 </div>
-                <div>
+                <div
+                  className="checkbox-cell"
+                >
                   <input
                     checked={false}
                     name={9}
@@ -1847,7 +2087,9 @@ ShallowWrapper {
                     cooking
                   </label>
                 </div>
-                <div>
+                <div
+                  className="checkbox-cell"
+                >
                   <input
                     checked={false}
                     name={10}
@@ -1860,7 +2102,9 @@ ShallowWrapper {
                     hiking
                   </label>
                 </div>
-                <div>
+                <div
+                  className="checkbox-cell"
+                >
                   <input
                     checked={true}
                     name={11}
@@ -1873,7 +2117,9 @@ ShallowWrapper {
                     skiing
                   </label>
                 </div>
-                <div>
+                <div
+                  className="checkbox-cell"
+                >
                   <input
                     checked={true}
                     name={12}
@@ -1886,7 +2132,9 @@ ShallowWrapper {
                     snowboarding
                   </label>
                 </div>
-                <div>
+                <div
+                  className="checkbox-cell"
+                >
                   <input
                     checked={true}
                     name={13}
@@ -1899,7 +2147,9 @@ ShallowWrapper {
                     mountain biking
                   </label>
                 </div>
-                <div>
+                <div
+                  className="checkbox-cell"
+                >
                   <input
                     checked={false}
                     name={14}
@@ -1923,34 +2173,84 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "alt": "profile",
-                "src": "profile.jpg",
+                "children": Array [
+                  <img
+                    alt="profile"
+                    className="profile-image"
+                    src="profile.jpg"
+                  />,
+                  <div
+                    className="user-info"
+                  >
+                    <h2>
+                      asdf
+                    </h2>
+                    <article>
+                      Humblebrag shabby chic gochujang coloring book, squid XOXO brunch tumeric selvage hammock vape. Lomo lumbersexual glossier, wayfarers skateboard irony humblebrag raclette taxidermy ennui freegan af craft beer PBR&B meh. Asymmetrical thundercats intelligentsia, lo-fi swag fingerstache palo santo skateboard flexitarian lyft selvage vice poke gluten-free. Kombucha ramps chambray street art messenger bag.
+                    </article>
+                  </div>,
+                ],
+                "className": "basic-info",
               },
               "ref": null,
-              "rendered": null,
-              "type": "img",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "asdf",
-              },
-              "ref": null,
-              "rendered": "asdf",
-              "type": "h2",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Humblebrag shabby chic gochujang coloring book, squid XOXO brunch tumeric selvage hammock vape. Lomo lumbersexual glossier, wayfarers skateboard irony humblebrag raclette taxidermy ennui freegan af craft beer PBR&B meh. Asymmetrical thundercats intelligentsia, lo-fi swag fingerstache palo santo skateboard flexitarian lyft selvage vice poke gluten-free. Kombucha ramps chambray street art messenger bag.",
-              },
-              "ref": null,
-              "rendered": "Humblebrag shabby chic gochujang coloring book, squid XOXO brunch tumeric selvage hammock vape. Lomo lumbersexual glossier, wayfarers skateboard irony humblebrag raclette taxidermy ennui freegan af craft beer PBR&B meh. Asymmetrical thundercats intelligentsia, lo-fi swag fingerstache palo santo skateboard flexitarian lyft selvage vice poke gluten-free. Kombucha ramps chambray street art messenger bag.",
-              "type": "article",
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "alt": "profile",
+                    "className": "profile-image",
+                    "src": "profile.jpg",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <h2>
+                        asdf
+                      </h2>,
+                      <article>
+                        Humblebrag shabby chic gochujang coloring book, squid XOXO brunch tumeric selvage hammock vape. Lomo lumbersexual glossier, wayfarers skateboard irony humblebrag raclette taxidermy ennui freegan af craft beer PBR&B meh. Asymmetrical thundercats intelligentsia, lo-fi swag fingerstache palo santo skateboard flexitarian lyft selvage vice poke gluten-free. Kombucha ramps chambray street art messenger bag.
+                      </article>,
+                    ],
+                    "className": "user-info",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "asdf",
+                      },
+                      "ref": null,
+                      "rendered": "asdf",
+                      "type": "h2",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Humblebrag shabby chic gochujang coloring book, squid XOXO brunch tumeric selvage hammock vape. Lomo lumbersexual glossier, wayfarers skateboard irony humblebrag raclette taxidermy ennui freegan af craft beer PBR&B meh. Asymmetrical thundercats intelligentsia, lo-fi swag fingerstache palo santo skateboard flexitarian lyft selvage vice poke gluten-free. Kombucha ramps chambray street art messenger bag.",
+                      },
+                      "ref": null,
+                      "rendered": "Humblebrag shabby chic gochujang coloring book, squid XOXO brunch tumeric selvage hammock vape. Lomo lumbersexual glossier, wayfarers skateboard irony humblebrag raclette taxidermy ennui freegan af craft beer PBR&B meh. Asymmetrical thundercats intelligentsia, lo-fi swag fingerstache palo santo skateboard flexitarian lyft selvage vice poke gluten-free. Kombucha ramps chambray street art messenger bag.",
+                      "type": "article",
+                    },
+                  ],
+                  "type": "div",
+                },
+              ],
+              "type": "div",
             },
             Object {
               "instance": null,
@@ -1958,7 +2258,9 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": Array [
-                  <div>
+                  <div
+                    className="checkbox-cell"
+                  >
                     <input
                       checked={false}
                       name={1}
@@ -1971,7 +2273,9 @@ ShallowWrapper {
                       golf
                     </label>
                   </div>,
-                  <div>
+                  <div
+                    className="checkbox-cell"
+                  >
                     <input
                       checked={false}
                       name={2}
@@ -1984,7 +2288,9 @@ ShallowWrapper {
                       gardening
                     </label>
                   </div>,
-                  <div>
+                  <div
+                    className="checkbox-cell"
+                  >
                     <input
                       checked={false}
                       name={3}
@@ -1997,7 +2303,9 @@ ShallowWrapper {
                       camping
                     </label>
                   </div>,
-                  <div>
+                  <div
+                    className="checkbox-cell"
+                  >
                     <input
                       checked={false}
                       name={4}
@@ -2010,7 +2318,9 @@ ShallowWrapper {
                       rock climbing
                     </label>
                   </div>,
-                  <div>
+                  <div
+                    className="checkbox-cell"
+                  >
                     <input
                       checked={false}
                       name={5}
@@ -2023,7 +2333,9 @@ ShallowWrapper {
                       fly fishing
                     </label>
                   </div>,
-                  <div>
+                  <div
+                    className="checkbox-cell"
+                  >
                     <input
                       checked={false}
                       name={6}
@@ -2036,7 +2348,9 @@ ShallowWrapper {
                       coding
                     </label>
                   </div>,
-                  <div>
+                  <div
+                    className="checkbox-cell"
+                  >
                     <input
                       checked={false}
                       name={7}
@@ -2049,7 +2363,9 @@ ShallowWrapper {
                       working on cars
                     </label>
                   </div>,
-                  <div>
+                  <div
+                    className="checkbox-cell"
+                  >
                     <input
                       checked={false}
                       name={8}
@@ -2062,7 +2378,9 @@ ShallowWrapper {
                       bowling
                     </label>
                   </div>,
-                  <div>
+                  <div
+                    className="checkbox-cell"
+                  >
                     <input
                       checked={false}
                       name={9}
@@ -2075,7 +2393,9 @@ ShallowWrapper {
                       cooking
                     </label>
                   </div>,
-                  <div>
+                  <div
+                    className="checkbox-cell"
+                  >
                     <input
                       checked={false}
                       name={10}
@@ -2088,7 +2408,9 @@ ShallowWrapper {
                       hiking
                     </label>
                   </div>,
-                  <div>
+                  <div
+                    className="checkbox-cell"
+                  >
                     <input
                       checked={true}
                       name={11}
@@ -2101,7 +2423,9 @@ ShallowWrapper {
                       skiing
                     </label>
                   </div>,
-                  <div>
+                  <div
+                    className="checkbox-cell"
+                  >
                     <input
                       checked={true}
                       name={12}
@@ -2114,7 +2438,9 @@ ShallowWrapper {
                       snowboarding
                     </label>
                   </div>,
-                  <div>
+                  <div
+                    className="checkbox-cell"
+                  >
                     <input
                       checked={true}
                       name={13}
@@ -2127,7 +2453,9 @@ ShallowWrapper {
                       mountain biking
                     </label>
                   </div>,
-                  <div>
+                  <div
+                    className="checkbox-cell"
+                  >
                     <input
                       checked={false}
                       name={14}
@@ -2141,6 +2469,7 @@ ShallowWrapper {
                     </label>
                   </div>,
                 ],
+                "className": "profile-interests",
               },
               "ref": null,
               "rendered": Array [
@@ -2162,6 +2491,7 @@ ShallowWrapper {
                         golf
                       </label>,
                     ],
+                    "className": "checkbox-cell",
                   },
                   "ref": null,
                   "rendered": Array [
@@ -2212,6 +2542,7 @@ ShallowWrapper {
                         gardening
                       </label>,
                     ],
+                    "className": "checkbox-cell",
                   },
                   "ref": null,
                   "rendered": Array [
@@ -2262,6 +2593,7 @@ ShallowWrapper {
                         camping
                       </label>,
                     ],
+                    "className": "checkbox-cell",
                   },
                   "ref": null,
                   "rendered": Array [
@@ -2312,6 +2644,7 @@ ShallowWrapper {
                         rock climbing
                       </label>,
                     ],
+                    "className": "checkbox-cell",
                   },
                   "ref": null,
                   "rendered": Array [
@@ -2362,6 +2695,7 @@ ShallowWrapper {
                         fly fishing
                       </label>,
                     ],
+                    "className": "checkbox-cell",
                   },
                   "ref": null,
                   "rendered": Array [
@@ -2412,6 +2746,7 @@ ShallowWrapper {
                         coding
                       </label>,
                     ],
+                    "className": "checkbox-cell",
                   },
                   "ref": null,
                   "rendered": Array [
@@ -2462,6 +2797,7 @@ ShallowWrapper {
                         working on cars
                       </label>,
                     ],
+                    "className": "checkbox-cell",
                   },
                   "ref": null,
                   "rendered": Array [
@@ -2512,6 +2848,7 @@ ShallowWrapper {
                         bowling
                       </label>,
                     ],
+                    "className": "checkbox-cell",
                   },
                   "ref": null,
                   "rendered": Array [
@@ -2562,6 +2899,7 @@ ShallowWrapper {
                         cooking
                       </label>,
                     ],
+                    "className": "checkbox-cell",
                   },
                   "ref": null,
                   "rendered": Array [
@@ -2612,6 +2950,7 @@ ShallowWrapper {
                         hiking
                       </label>,
                     ],
+                    "className": "checkbox-cell",
                   },
                   "ref": null,
                   "rendered": Array [
@@ -2662,6 +3001,7 @@ ShallowWrapper {
                         skiing
                       </label>,
                     ],
+                    "className": "checkbox-cell",
                   },
                   "ref": null,
                   "rendered": Array [
@@ -2712,6 +3052,7 @@ ShallowWrapper {
                         snowboarding
                       </label>,
                     ],
+                    "className": "checkbox-cell",
                   },
                   "ref": null,
                   "rendered": Array [
@@ -2762,6 +3103,7 @@ ShallowWrapper {
                         mountain biking
                       </label>,
                     ],
+                    "className": "checkbox-cell",
                   },
                   "ref": null,
                   "rendered": Array [
@@ -2812,6 +3154,7 @@ ShallowWrapper {
                         knitting
                       </label>,
                     ],
+                    "className": "checkbox-cell",
                   },
                   "ref": null,
                   "rendered": Array [

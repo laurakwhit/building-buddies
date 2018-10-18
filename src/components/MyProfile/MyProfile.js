@@ -8,8 +8,6 @@ import './MyProfile.scss';
 class MyProfile extends Component {
   handleUserInterestChange = e => {
     const { updateUserInterests, interests } = this.props;
-    console.log('interests', interests);
-    console.log('target', e.target.name);
     const clickedInterest = interests.find(
       interest => interest.id === parseInt(e.target.name)
     );
@@ -76,7 +74,7 @@ MyProfile.propTypes = {
   currentUser: PropTypes.object,
   interests: PropTypes.array,
   handleLogOut: PropTypes.func,
-  updateUserInterests: PropTypes.func.isRequired,
+  updateUserInterests: PropTypes.func,
   userInterests: PropTypes.array.isRequired
 };
 
