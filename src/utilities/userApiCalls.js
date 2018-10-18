@@ -14,7 +14,8 @@ export const addUser = async ({ name, email, password, building_id }) => {
       'Content-Type': 'application/json'
     }
   });
-  return await response.json();
+  const data = await response.json();
+  return data;
 };
 
 export const addUserInterest = async ({ user_id, interest_id }) => {
@@ -24,12 +25,10 @@ export const addUserInterest = async ({ user_id, interest_id }) => {
     }/api/v1/users/${user_id}/interests/${interest_id}`,
     {
       method: 'POST'
-      // headers: {
-      //   'Content-Type': 'application/json'
-      // }
     }
   );
-  return await response.json();
+  const data = await response.json();
+  return data;
 };
 
 export const deleteUserInterest = async ({ user_id, interest_id }) => {
@@ -45,5 +44,6 @@ export const deleteUserInterest = async ({ user_id, interest_id }) => {
       }
     }
   );
-  return await response.json();
+  const data = await response.json();
+  return data;
 };
