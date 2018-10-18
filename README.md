@@ -20,12 +20,12 @@ You can run tests with npm test in both front-end and back-end directories
 
 ## Wireframe
 
-![wireframe](assets/wireframe.png)
+![wireframe](src/assets/wireframe.png)
 
 ## Result
 
-![layout1](assets/layout1.gif)
-![layout2](assets/layout2.gif)
+![layout1](src/assets/layout1.gif)
+![layout2](src/assets/layout2.gif)
 
 ## Contributors
 
