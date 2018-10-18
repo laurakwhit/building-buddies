@@ -11,7 +11,7 @@ ShallowWrapper {
         "name": "asdf",
       }
     }
-    handleLogout={[MockFunction]}
+    handleLogOut={[MockFunction]}
     interests={
       Array [
         Object {
@@ -138,7 +138,9 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <Nav />,
+        <Nav
+          handleLogOut={[MockFunction]}
+        />,
         <div
           className="main-content"
         >
@@ -386,7 +388,7 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "function",
         "props": Object {
-          "handleLogOut": undefined,
+          "handleLogOut": [MockFunction],
         },
         "ref": null,
         "rendered": null,
@@ -1671,7 +1673,9 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <Nav />,
+          <Nav
+            handleLogOut={[MockFunction]}
+          />,
           <div
             className="main-content"
           >
@@ -1919,7 +1923,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "function",
           "props": Object {
-            "handleLogOut": undefined,
+            "handleLogOut": [MockFunction],
           },
           "ref": null,
           "rendered": null,

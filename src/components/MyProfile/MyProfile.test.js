@@ -11,10 +11,10 @@ import {
 describe('MyProfile component', () => {
   let wrapper;
   let mockUpdateUserInterests;
-  let mockHandleLogout;
+  let mockHandleLogOut;
 
   beforeEach(() => {
-    mockHandleLogout = jest.fn();
+    mockHandleLogOut = jest.fn();
     mockUpdateUserInterests = jest.fn();
 
     wrapper = shallow(
@@ -23,7 +23,7 @@ describe('MyProfile component', () => {
         interests={mockInterests}
         userInterests={mockUserInterests}
         updateUserInterests={mockUpdateUserInterests}
-        handleLogout={mockHandleLogout}
+        handleLogOut={mockHandleLogOut}
       />
     );
   });
