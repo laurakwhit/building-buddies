@@ -51,6 +51,14 @@ ShallowWrapper {
             activeClassName="active"
             aria-current="page"
             className="nav__section-links"
+            to="/account"
+          >
+            Account Settings
+          </NavLink>
+          <NavLink
+            activeClassName="active"
+            aria-current="page"
+            className="nav__section-links"
             to="/"
           >
             Log Out
@@ -102,6 +110,14 @@ ShallowWrapper {
               to="/building"
             >
               Building Info
+            </NavLink>,
+            <NavLink
+              activeClassName="active"
+              aria-current="page"
+              className="nav__section-links"
+              to="/account"
+            >
+              Account Settings
             </NavLink>,
             <NavLink
               activeClassName="active"
@@ -167,6 +183,21 @@ ShallowWrapper {
             "props": Object {
               "activeClassName": "active",
               "aria-current": "page",
+              "children": "Account Settings",
+              "className": "nav__section-links",
+              "to": "/account",
+            },
+            "ref": null,
+            "rendered": "Account Settings",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "activeClassName": "active",
+              "aria-current": "page",
               "children": "Log Out",
               "className": "nav__section-links",
               "onClick": undefined,
@@ -217,6 +248,14 @@ ShallowWrapper {
               to="/building"
             >
               Building Info
+            </NavLink>
+            <NavLink
+              activeClassName="active"
+              aria-current="page"
+              className="nav__section-links"
+              to="/account"
+            >
+              Account Settings
             </NavLink>
             <NavLink
               activeClassName="active"
@@ -278,6 +317,14 @@ ShallowWrapper {
                 activeClassName="active"
                 aria-current="page"
                 className="nav__section-links"
+                to="/account"
+              >
+                Account Settings
+              </NavLink>,
+              <NavLink
+                activeClassName="active"
+                aria-current="page"
+                className="nav__section-links"
                 to="/"
               >
                 Log Out
@@ -329,6 +376,21 @@ ShallowWrapper {
               },
               "ref": null,
               "rendered": "Building Info",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "activeClassName": "active",
+                "aria-current": "page",
+                "children": "Account Settings",
+                "className": "nav__section-links",
+                "to": "/account",
+              },
+              "ref": null,
+              "rendered": "Account Settings",
               "type": [Function],
             },
             Object {

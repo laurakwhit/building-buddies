@@ -78,36 +78,54 @@ Denver, CO
         <div
           className="main-content"
         >
-          <div
-            className="neighbor"
+          <Link
+            className="name-link"
+            replace={false}
+            to="/neighbors/1"
           >
-            <Link
-              replace={false}
-              to="/neighbors/1"
+            <div
+              className="neighbor"
             >
-              Gray Smith
-            </Link>
-          </div>
-          <div
-            className="neighbor"
+              <h4>
+                Gray Smith
+              </h4>
+              <i
+                className="fas fa-angle-right"
+              />
+            </div>
+          </Link>
+          <Link
+            className="name-link"
+            replace={false}
+            to="/neighbors/4"
           >
-            <Link
-              replace={false}
-              to="/neighbors/4"
+            <div
+              className="neighbor"
             >
-              Boolean Brandon
-            </Link>
-          </div>
-          <div
-            className="neighbor"
+              <h4>
+                Boolean Brandon
+              </h4>
+              <i
+                className="fas fa-angle-right"
+              />
+            </div>
+          </Link>
+          <Link
+            className="name-link"
+            replace={false}
+            to="/neighbors/7"
           >
-            <Link
-              replace={false}
-              to="/neighbors/7"
+            <div
+              className="neighbor"
             >
-              Tim Fischer
-            </Link>
-          </div>
+              <h4>
+                Tim Fischer
+              </h4>
+              <i
+                className="fas fa-angle-right"
+              />
+            </div>
+          </Link>
         </div>,
       ],
       "className": "my-neighbors",
@@ -129,36 +147,54 @@ Denver, CO
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            <div
-              className="neighbor"
+            <Link
+              className="name-link"
+              replace={false}
+              to="/neighbors/1"
             >
-              <Link
-                replace={false}
-                to="/neighbors/1"
+              <div
+                className="neighbor"
               >
-                Gray Smith
-              </Link>
-            </div>,
-            <div
-              className="neighbor"
+                <h4>
+                  Gray Smith
+                </h4>
+                <i
+                  className="fas fa-angle-right"
+                />
+              </div>
+            </Link>,
+            <Link
+              className="name-link"
+              replace={false}
+              to="/neighbors/4"
             >
-              <Link
-                replace={false}
-                to="/neighbors/4"
+              <div
+                className="neighbor"
               >
-                Boolean Brandon
-              </Link>
-            </div>,
-            <div
-              className="neighbor"
+                <h4>
+                  Boolean Brandon
+                </h4>
+                <i
+                  className="fas fa-angle-right"
+                />
+              </div>
+            </Link>,
+            <Link
+              className="name-link"
+              replace={false}
+              to="/neighbors/7"
             >
-              <Link
-                replace={false}
-                to="/neighbors/7"
+              <div
+                className="neighbor"
               >
-                Tim Fischer
-              </Link>
-            </div>,
+                <h4>
+                  Tim Fischer
+                </h4>
+                <i
+                  className="fas fa-angle-right"
+                />
+              </div>
+            </Link>,
           ],
           "className": "main-content",
         },
@@ -167,89 +203,194 @@ Denver, CO
           Object {
             "instance": null,
             "key": "Gray Smith-0",
-            "nodeType": "host",
+            "nodeType": "class",
             "props": Object {
-              "children": <Link
-                replace={false}
-                to="/neighbors/1"
+              "children": <div
+                className="neighbor"
               >
-                Gray Smith
-              </Link>,
-              "className": "neighbor",
+                <h4>
+                  Gray Smith
+                </h4>
+                <i
+                  className="fas fa-angle-right"
+                />
+              </div>,
+              "className": "name-link",
+              "replace": false,
+              "to": "/neighbors/1",
             },
             "ref": null,
             "rendered": Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "host",
               "props": Object {
-                "children": "Gray Smith",
-                "replace": false,
-                "to": "/neighbors/1",
+                "children": Array [
+                  <h4>
+                    Gray Smith
+                  </h4>,
+                  <i
+                    className="fas fa-angle-right"
+                  />,
+                ],
+                "className": "neighbor",
               },
               "ref": null,
-              "rendered": "Gray Smith",
-              "type": [Function],
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Gray Smith",
+                  },
+                  "ref": null,
+                  "rendered": "Gray Smith",
+                  "type": "h4",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "fas fa-angle-right",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "i",
+                },
+              ],
+              "type": "div",
             },
-            "type": "div",
+            "type": [Function],
           },
           Object {
             "instance": null,
             "key": "Boolean Brandon-1",
-            "nodeType": "host",
+            "nodeType": "class",
             "props": Object {
-              "children": <Link
-                replace={false}
-                to="/neighbors/4"
+              "children": <div
+                className="neighbor"
               >
-                Boolean Brandon
-              </Link>,
-              "className": "neighbor",
+                <h4>
+                  Boolean Brandon
+                </h4>
+                <i
+                  className="fas fa-angle-right"
+                />
+              </div>,
+              "className": "name-link",
+              "replace": false,
+              "to": "/neighbors/4",
             },
             "ref": null,
             "rendered": Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "host",
               "props": Object {
-                "children": "Boolean Brandon",
-                "replace": false,
-                "to": "/neighbors/4",
+                "children": Array [
+                  <h4>
+                    Boolean Brandon
+                  </h4>,
+                  <i
+                    className="fas fa-angle-right"
+                  />,
+                ],
+                "className": "neighbor",
               },
               "ref": null,
-              "rendered": "Boolean Brandon",
-              "type": [Function],
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Boolean Brandon",
+                  },
+                  "ref": null,
+                  "rendered": "Boolean Brandon",
+                  "type": "h4",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "fas fa-angle-right",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "i",
+                },
+              ],
+              "type": "div",
             },
-            "type": "div",
+            "type": [Function],
           },
           Object {
             "instance": null,
             "key": "Tim Fischer-2",
-            "nodeType": "host",
+            "nodeType": "class",
             "props": Object {
-              "children": <Link
-                replace={false}
-                to="/neighbors/7"
+              "children": <div
+                className="neighbor"
               >
-                Tim Fischer
-              </Link>,
-              "className": "neighbor",
+                <h4>
+                  Tim Fischer
+                </h4>
+                <i
+                  className="fas fa-angle-right"
+                />
+              </div>,
+              "className": "name-link",
+              "replace": false,
+              "to": "/neighbors/7",
             },
             "ref": null,
             "rendered": Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "host",
               "props": Object {
-                "children": "Tim Fischer",
-                "replace": false,
-                "to": "/neighbors/7",
+                "children": Array [
+                  <h4>
+                    Tim Fischer
+                  </h4>,
+                  <i
+                    className="fas fa-angle-right"
+                  />,
+                ],
+                "className": "neighbor",
               },
               "ref": null,
-              "rendered": "Tim Fischer",
-              "type": [Function],
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Tim Fischer",
+                  },
+                  "ref": null,
+                  "rendered": "Tim Fischer",
+                  "type": "h4",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "fas fa-angle-right",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "i",
+                },
+              ],
+              "type": "div",
             },
-            "type": "div",
+            "type": [Function],
           },
         ],
         "type": "div",
@@ -268,36 +409,54 @@ Denver, CO
           <div
             className="main-content"
           >
-            <div
-              className="neighbor"
+            <Link
+              className="name-link"
+              replace={false}
+              to="/neighbors/1"
             >
-              <Link
-                replace={false}
-                to="/neighbors/1"
+              <div
+                className="neighbor"
               >
-                Gray Smith
-              </Link>
-            </div>
-            <div
-              className="neighbor"
+                <h4>
+                  Gray Smith
+                </h4>
+                <i
+                  className="fas fa-angle-right"
+                />
+              </div>
+            </Link>
+            <Link
+              className="name-link"
+              replace={false}
+              to="/neighbors/4"
             >
-              <Link
-                replace={false}
-                to="/neighbors/4"
+              <div
+                className="neighbor"
               >
-                Boolean Brandon
-              </Link>
-            </div>
-            <div
-              className="neighbor"
+                <h4>
+                  Boolean Brandon
+                </h4>
+                <i
+                  className="fas fa-angle-right"
+                />
+              </div>
+            </Link>
+            <Link
+              className="name-link"
+              replace={false}
+              to="/neighbors/7"
             >
-              <Link
-                replace={false}
-                to="/neighbors/7"
+              <div
+                className="neighbor"
               >
-                Tim Fischer
-              </Link>
-            </div>
+                <h4>
+                  Tim Fischer
+                </h4>
+                <i
+                  className="fas fa-angle-right"
+                />
+              </div>
+            </Link>
           </div>,
         ],
         "className": "my-neighbors",
@@ -319,36 +478,54 @@ Denver, CO
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              <div
-                className="neighbor"
+              <Link
+                className="name-link"
+                replace={false}
+                to="/neighbors/1"
               >
-                <Link
-                  replace={false}
-                  to="/neighbors/1"
+                <div
+                  className="neighbor"
                 >
-                  Gray Smith
-                </Link>
-              </div>,
-              <div
-                className="neighbor"
+                  <h4>
+                    Gray Smith
+                  </h4>
+                  <i
+                    className="fas fa-angle-right"
+                  />
+                </div>
+              </Link>,
+              <Link
+                className="name-link"
+                replace={false}
+                to="/neighbors/4"
               >
-                <Link
-                  replace={false}
-                  to="/neighbors/4"
+                <div
+                  className="neighbor"
                 >
-                  Boolean Brandon
-                </Link>
-              </div>,
-              <div
-                className="neighbor"
+                  <h4>
+                    Boolean Brandon
+                  </h4>
+                  <i
+                    className="fas fa-angle-right"
+                  />
+                </div>
+              </Link>,
+              <Link
+                className="name-link"
+                replace={false}
+                to="/neighbors/7"
               >
-                <Link
-                  replace={false}
-                  to="/neighbors/7"
+                <div
+                  className="neighbor"
                 >
-                  Tim Fischer
-                </Link>
-              </div>,
+                  <h4>
+                    Tim Fischer
+                  </h4>
+                  <i
+                    className="fas fa-angle-right"
+                  />
+                </div>
+              </Link>,
             ],
             "className": "main-content",
           },
@@ -357,89 +534,194 @@ Denver, CO
             Object {
               "instance": null,
               "key": "Gray Smith-0",
-              "nodeType": "host",
+              "nodeType": "class",
               "props": Object {
-                "children": <Link
-                  replace={false}
-                  to="/neighbors/1"
+                "children": <div
+                  className="neighbor"
                 >
-                  Gray Smith
-                </Link>,
-                "className": "neighbor",
+                  <h4>
+                    Gray Smith
+                  </h4>
+                  <i
+                    className="fas fa-angle-right"
+                  />
+                </div>,
+                "className": "name-link",
+                "replace": false,
+                "to": "/neighbors/1",
               },
               "ref": null,
               "rendered": Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "class",
+                "nodeType": "host",
                 "props": Object {
-                  "children": "Gray Smith",
-                  "replace": false,
-                  "to": "/neighbors/1",
+                  "children": Array [
+                    <h4>
+                      Gray Smith
+                    </h4>,
+                    <i
+                      className="fas fa-angle-right"
+                    />,
+                  ],
+                  "className": "neighbor",
                 },
                 "ref": null,
-                "rendered": "Gray Smith",
-                "type": [Function],
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Gray Smith",
+                    },
+                    "ref": null,
+                    "rendered": "Gray Smith",
+                    "type": "h4",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "className": "fas fa-angle-right",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "i",
+                  },
+                ],
+                "type": "div",
               },
-              "type": "div",
+              "type": [Function],
             },
             Object {
               "instance": null,
               "key": "Boolean Brandon-1",
-              "nodeType": "host",
+              "nodeType": "class",
               "props": Object {
-                "children": <Link
-                  replace={false}
-                  to="/neighbors/4"
+                "children": <div
+                  className="neighbor"
                 >
-                  Boolean Brandon
-                </Link>,
-                "className": "neighbor",
+                  <h4>
+                    Boolean Brandon
+                  </h4>
+                  <i
+                    className="fas fa-angle-right"
+                  />
+                </div>,
+                "className": "name-link",
+                "replace": false,
+                "to": "/neighbors/4",
               },
               "ref": null,
               "rendered": Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "class",
+                "nodeType": "host",
                 "props": Object {
-                  "children": "Boolean Brandon",
-                  "replace": false,
-                  "to": "/neighbors/4",
+                  "children": Array [
+                    <h4>
+                      Boolean Brandon
+                    </h4>,
+                    <i
+                      className="fas fa-angle-right"
+                    />,
+                  ],
+                  "className": "neighbor",
                 },
                 "ref": null,
-                "rendered": "Boolean Brandon",
-                "type": [Function],
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Boolean Brandon",
+                    },
+                    "ref": null,
+                    "rendered": "Boolean Brandon",
+                    "type": "h4",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "className": "fas fa-angle-right",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "i",
+                  },
+                ],
+                "type": "div",
               },
-              "type": "div",
+              "type": [Function],
             },
             Object {
               "instance": null,
               "key": "Tim Fischer-2",
-              "nodeType": "host",
+              "nodeType": "class",
               "props": Object {
-                "children": <Link
-                  replace={false}
-                  to="/neighbors/7"
+                "children": <div
+                  className="neighbor"
                 >
-                  Tim Fischer
-                </Link>,
-                "className": "neighbor",
+                  <h4>
+                    Tim Fischer
+                  </h4>
+                  <i
+                    className="fas fa-angle-right"
+                  />
+                </div>,
+                "className": "name-link",
+                "replace": false,
+                "to": "/neighbors/7",
               },
               "ref": null,
               "rendered": Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "class",
+                "nodeType": "host",
                 "props": Object {
-                  "children": "Tim Fischer",
-                  "replace": false,
-                  "to": "/neighbors/7",
+                  "children": Array [
+                    <h4>
+                      Tim Fischer
+                    </h4>,
+                    <i
+                      className="fas fa-angle-right"
+                    />,
+                  ],
+                  "className": "neighbor",
                 },
                 "ref": null,
-                "rendered": "Tim Fischer",
-                "type": [Function],
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Tim Fischer",
+                    },
+                    "ref": null,
+                    "rendered": "Tim Fischer",
+                    "type": "h4",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "className": "fas fa-angle-right",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "i",
+                  },
+                ],
+                "type": "div",
               },
-              "type": "div",
+              "type": [Function],
             },
           ],
           "type": "div",
