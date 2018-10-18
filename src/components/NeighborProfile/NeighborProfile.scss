@@ -1,7 +1,17 @@
 .neighbor-profile {
   display: flex;
+  color: #112229;
   .main-content {
     overflow: scroll;
-    width: calc(100% - 25rem);
+    width: calc(100% - 20rem);
+    padding-top: 3rem;
+    .profile-image {
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+    }
   }
 }
+
+// color: #112229;
+// color: #76939e;
