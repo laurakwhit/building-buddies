@@ -24,16 +24,18 @@ class LandingPage extends Component {
 
     return (
       <div className="landing-page">
-        {modalOpen && (
-          <SignUpModal
-            handleModalClose={this.handleModalClose}
-            buildings={buildings}
-            interests={interests}
-            userSignUp={userSignUp}
-          />
-        )}
-        <h1>Hello!</h1>
-        <button onClick={this.handleClick}>Sign Up</button>
+        <div className="overlay">
+          {modalOpen && (
+            <SignUpModal
+              handleModalClose={this.handleModalClose}
+              buildings={buildings}
+              interests={interests}
+              userSignUp={userSignUp}
+            />
+          )}
+          <h1>Building Buddies!</h1>
+          <button onClick={this.handleClick}>Sign Up</button>
+        </div>
       </div>
     );
   }

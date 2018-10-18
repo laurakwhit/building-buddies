@@ -41,34 +41,46 @@ class SignUpModal extends Component {
     const { userSignUp } = this.props;
     e.preventDefault();
     userSignUp({ name, email, password, searchValue, interests });
-    this.setState({ name: '', email: '', password: '', interests: [], searchValue: '' });
+    this.setState({
+      name: '',
+      email: '',
+      password: '',
+      interests: [],
+      searchValue: ''
+    });
   };
 
   handleSuggestionClick = e => {
     this.setState({ searchValue: e.target.value });
   };
 
-  handleUserInterestChange = (e) => {
+  handleUserInterestChange = e => {
     const { interests } = this.state;
     const interest = JSON.parse(e.target.value);
 
-    if(!interests.length) {
+    if (!interests.length) {
       this.setState({ interests: [interest] });
     } else {
       interests.forEach(i => {
         if (i.name === interest) {
           const updatedInterests = interests.filter(i => i !== interest);
           this.setState({ interests: updatedInterests });
-        } else  {
-          this.setState({ interests: [...interests, interest]});
+        } else {
+          this.setState({ interests: [...interests, interest] });
         }
-      })
+      });
     }
-  }
+  };
 
   render() {
     const { handleModalClose, interests } = this.props;
-    const { name, email, password, autoCompleteResults, searchValue } = this.state;
+    const {
+      name,
+      email,
+      password,
+      autoCompleteResults,
+      searchValue
+    } = this.state;
 
     const suggestionOptions = autoCompleteResults.map((suggestion, i) => (
       <option
@@ -80,24 +92,29 @@ class SignUpModal extends Component {
       </option>
     ));
     const displayedInterests = interests.map((interest, index) => {
-      // console.log(interest)
-      return <div key={index}>
-        <input type="checkbox" name={interest.name} value={JSON.stringify(interest)} onChange={this.handleUserInterestChange}/> 
-        <label htmlFor={interest.name}>{interest.name}</label>
-      </div>
+      return (
+        <div key={index}>
+          <input
+            type="checkbox"
+            name={interest.name}
+            value={JSON.stringify(interest)}
+            onChange={this.handleUserInterestChange}
+          />
+          <label htmlFor={interest.name}>{interest.name}</label>
+        </div>
+      );
     });
 
     return (
       <div className="sign-up-modal">
         <div className="modal-inner">
-          <h1>Modal inner</h1>
-          <p onClick={handleModalClose}>X</p>
           <form onSubmit={this.handleSubmit} className="sign-up-form">
             <input
               onChange={this.handleSearchChange}
               type="text"
               placeholder="My Building"
               value={searchValue}
+              className="building-input"
             />
             <datalist id="suggestions">{suggestionOptions}</datalist>
             <input
@@ -121,10 +138,13 @@ class SignUpModal extends Component {
               value={password}
               placeholder="password"
             />
-            <button>Sign Up</button>
+            <div className="interest-form">{displayedInterests}</div>
+            <button className="sign-up">Sign Up</button>
+            <p onClick={handleModalClose} className="cancel">
+              Cancel
+            </p>
           </form>
         </div>
-          {displayedInterests}
       </div>
     );
   }

@@ -8,8 +8,6 @@ import './MyProfile.scss';
 class MyProfile extends Component {
   handleUserInterestChange = e => {
     const { updateUserInterests, interests } = this.props;
-    console.log('interests', interests);
-    console.log('target', e.target.name);
     const clickedInterest = interests.find(
       interest => interest.id === parseInt(e.target.name)
     );
@@ -28,7 +26,7 @@ class MyProfile extends Component {
       checked ? (checked = true) : (checked = false);
 
       return (
-        <div key={index}>
+        <div key={index} className="checkbox-cell">
           <input
             type="checkbox"
             name={interest.id}
@@ -44,18 +42,28 @@ class MyProfile extends Component {
       <div className="my-profile">
         <Nav handleLogOut={handleLogOut} />
         <div className="main-content">
-          <img src={require('../../assets/profile.jpg')} alt="profile" />
-          <h2>{currentUser.name}</h2>
-          <article>
-            Humblebrag shabby chic gochujang coloring book, squid XOXO brunch
-            tumeric selvage hammock vape. Lomo lumbersexual glossier, wayfarers
-            skateboard irony humblebrag raclette taxidermy ennui freegan af
-            craft beer PBR&B meh. Asymmetrical thundercats intelligentsia, lo-fi
-            swag fingerstache palo santo skateboard flexitarian lyft selvage
-            vice poke gluten-free. Kombucha ramps chambray street art messenger
-            bag.
-          </article>
-          <form>{displayedInterests}</form>
+          <div className="basic-info">
+            <img
+              src={require('../../assets/profile.jpg')}
+              alt="profile"
+              className="profile-image"
+            />
+
+            <div className="user-info">
+              <h2>{currentUser.name}</h2>
+              <article>
+                Humblebrag shabby chic gochujang coloring book, squid XOXO
+                brunch tumeric selvage hammock vape. Lomo lumbersexual glossier,
+                wayfarers skateboard irony humblebrag raclette taxidermy ennui
+                freegan af craft beer PBR&B meh. Asymmetrical thundercats
+                intelligentsia, lo-fi swag fingerstache palo santo skateboard
+                flexitarian lyft selvage vice poke gluten-free. Kombucha ramps
+                chambray street art messenger bag.
+              </article>
+            </div>
+          </div>
+
+          <form className="profile-interests">{displayedInterests}</form>
         </div>
       </div>
     );
@@ -66,7 +74,7 @@ MyProfile.propTypes = {
   currentUser: PropTypes.object,
   interests: PropTypes.array,
   handleLogOut: PropTypes.func,
-  updateUserInterests: PropTypes.func.isRequired,
+  updateUserInterests: PropTypes.func,
   userInterests: PropTypes.array.isRequired
 };
 

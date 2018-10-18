@@ -22,15 +22,21 @@ ShallowWrapper {
         <div
           className="main-content"
         >
-          <h1>
-            Building Info
-          </h1>
-          <h2>
-            Name: 
-          </h2>
-          <h2>
-            Address: 
-          </h2>
+          <div
+            className="building-details"
+          >
+            <h1>
+              Building Info
+            </h1>
+            <h2>
+              Name: 
+              <span />
+            </h2>
+            <h2>
+              Address: 
+              <span />
+            </h2>
+          </div>
         </div>,
       ],
       "className": "building-info",
@@ -53,67 +59,114 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": Array [
+          "children": <div
+            className="building-details"
+          >
             <h1>
               Building Info
-            </h1>,
+            </h1>
             <h2>
               Name: 
-            </h2>,
+              <span />
+            </h2>
             <h2>
               Address: 
-            </h2>,
-          ],
+              <span />
+            </h2>
+          </div>,
           "className": "main-content",
         },
         "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Building Info",
-            },
-            "ref": null,
-            "rendered": "Building Info",
-            "type": "h1",
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h1>
+                Building Info
+              </h1>,
+              <h2>
+                Name: 
+                <span />
+              </h2>,
+              <h2>
+                Address: 
+                <span />
+              </h2>,
+            ],
+            "className": "building-details",
           },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": Array [
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Building Info",
+              },
+              "ref": null,
+              "rendered": "Building Info",
+              "type": "h1",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "Name: ",
+                  <span />,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
                 "Name: ",
-                undefined,
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": undefined,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "span",
+                },
               ],
+              "type": "h2",
             },
-            "ref": null,
-            "rendered": Array [
-              "Name: ",
-              undefined,
-            ],
-            "type": "h2",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "Address: ",
+                  <span />,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
                 "Address: ",
-                undefined,
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": undefined,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "span",
+                },
               ],
+              "type": "h2",
             },
-            "ref": null,
-            "rendered": Array [
-              "Address: ",
-              undefined,
-            ],
-            "type": "h2",
-          },
-        ],
+          ],
+          "type": "div",
+        },
         "type": "div",
       },
     ],
@@ -130,15 +183,21 @@ ShallowWrapper {
           <div
             className="main-content"
           >
-            <h1>
-              Building Info
-            </h1>
-            <h2>
-              Name: 
-            </h2>
-            <h2>
-              Address: 
-            </h2>
+            <div
+              className="building-details"
+            >
+              <h1>
+                Building Info
+              </h1>
+              <h2>
+                Name: 
+                <span />
+              </h2>
+              <h2>
+                Address: 
+                <span />
+              </h2>
+            </div>
           </div>,
         ],
         "className": "building-info",
@@ -161,67 +220,114 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": Array [
+            "children": <div
+              className="building-details"
+            >
               <h1>
                 Building Info
-              </h1>,
+              </h1>
               <h2>
                 Name: 
-              </h2>,
+                <span />
+              </h2>
               <h2>
                 Address: 
-              </h2>,
-            ],
+                <span />
+              </h2>
+            </div>,
             "className": "main-content",
           },
           "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Building Info",
-              },
-              "ref": null,
-              "rendered": "Building Info",
-              "type": "h1",
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h1>
+                  Building Info
+                </h1>,
+                <h2>
+                  Name: 
+                  <span />
+                </h2>,
+                <h2>
+                  Address: 
+                  <span />
+                </h2>,
+              ],
+              "className": "building-details",
             },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": Array [
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Building Info",
+                },
+                "ref": null,
+                "rendered": "Building Info",
+                "type": "h1",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "Name: ",
+                    <span />,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
                   "Name: ",
-                  undefined,
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": undefined,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "span",
+                  },
                 ],
+                "type": "h2",
               },
-              "ref": null,
-              "rendered": Array [
-                "Name: ",
-                undefined,
-              ],
-              "type": "h2",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "Address: ",
+                    <span />,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
                   "Address: ",
-                  undefined,
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": undefined,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "span",
+                  },
                 ],
+                "type": "h2",
               },
-              "ref": null,
-              "rendered": Array [
-                "Address: ",
-                undefined,
-              ],
-              "type": "h2",
-            },
-          ],
+            ],
+            "type": "div",
+          },
           "type": "div",
         },
       ],

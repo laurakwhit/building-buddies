@@ -17,9 +17,16 @@ class MyNeighbors extends Component {
     const { neighbors } = this.props;
     if (!neighbors) return <LoadingSpinner />;
     return neighbors.map((neighbor, i) => (
-      <div className="neighbor" key={`${neighbor.name}-${i}`}>
-        <Link to={`/neighbors/${neighbor.id}`}>{neighbor.name}</Link>
-      </div>
+      <Link
+        className="name-link"
+        to={`/neighbors/${neighbor.id}`}
+        key={`${neighbor.name}-${i}`}
+      >
+        <div className="neighbor">
+          <h4>{neighbor.name}</h4>
+          <i className="fas fa-angle-right" />
+        </div>
+      </Link>
     ));
   };
 

@@ -1,7 +1,8 @@
 .nav__section {
   height: 100vh;
-  width: 25rem;
+  width: 20rem;
   font-size: 2rem;
+
   img {
     height: 25%;
     margin-top: 3rem;
@@ -10,19 +11,47 @@
   nav {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    margin-top: 2rem;
     height: 55%;
+    margin-top: 2rem;
+
     .nav__section-links {
+      padding: 1.2rem 0;
       text-decoration: none;
-      color: black;
+      color: #112028;
+
       &:hover {
-        color: grey;
+        color: #fff;
+        background: #0f2027; /* fallback for old browsers */
+        background: -webkit-linear-gradient(
+          to right,
+          #2c5364,
+          #203a43,
+          #0f2027
+        ); /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(
+          to right,
+          #2c5364,
+          #203a43,
+          #0f2027
+        ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
       }
     }
     .selected {
-      color: red;
+      color: #fff;
+      background: #0f2027; /* fallback for old browsers */
+      background: -webkit-linear-gradient(
+        to right,
+        #2c5364,
+        #203a43,
+        #0f2027
+      ); /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(
+        to right,
+        #2c5364,
+        #203a43,
+        #0f2027
+      ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     }
   }
-  background-color: pink;
+  background-color: rgb(136, 172, 186);
 }

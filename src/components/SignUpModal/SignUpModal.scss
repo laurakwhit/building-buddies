@@ -17,16 +17,15 @@
     flex-direction: column;
     align-items: center;
 
-    height: 500px;
-    width: 70%;
-    background-color: crimson;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.8);
     border-radius: 10px;
   }
 
   .sign-up-form {
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 95%;
   }
 
   .sign-up-form input {
@@ -39,8 +38,70 @@
 
   #suggestions {
     display: block;
-    color: #fff;
     height: 100px;
     overflow: scroll;
+    background-color: rgb(141, 191, 194);
+  }
+
+  input {
+    outline: none;
+    border: none;
+    background-color: rgb(230, 230, 230);
+    padding: 0.7rem;
+    border-radius: 5px;
+  }
+
+  .building-input {
+    border-radius: 5px 5px 0px 0px;
+    -moz-border-radius: 5px 5px 0px 0px;
+    -webkit-border-radius: 5px 5px 0px 0px;
+    border: 0px solid #000000;
+  }
+
+  .interest-form {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: start;
+    grid-gap: 5px;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    color: #fff;
+    background: #0f2027; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #2c5364,
+      #203a43,
+      #0f2027
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #2c5364,
+      #203a43,
+      #0f2027
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    -webkit-box-shadow: 11px 10px 36px -12px rgba(0, 0, 0, 0.66);
+    -moz-box-shadow: 11px 10px 36px -12px rgba(0, 0, 0, 0.66);
+    box-shadow: 11px 10px 36px -12px rgba(0, 0, 0, 0.66);
+  }
+
+  .sign-up {
+    width: 90%;
+    margin: auto;
+    &:hover {
+      transform: scale(1.1);
+      transition: ease-in-out 0.2s;
+    }
+  }
+
+  .cancel {
+    font-size: 0.8;
+    color: crimson;
+    cursor: pointer;
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }
