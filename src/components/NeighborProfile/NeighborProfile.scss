@@ -5,13 +5,28 @@
     overflow: scroll;
     width: calc(100% - 20rem);
     padding-top: 3rem;
+    .neighbors-link {
+      color: #112229;
+      text-decoration: none;
+      .fas {
+        position: absolute;
+        left: 24rem;
+        font-size: 4rem;
+        cursor: pointer;
+        transition: ease-in-out 0.2s;
+        &:hover {
+          transform: scale(1.1);
+          text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.66);
+        }
+      }
+    }
     .profile-image {
       width: 300px;
       height: 300px;
       border-radius: 50%;
     }
+    .interests-container {
+      color: #76939e;
+    }
   }
 }
-
-// color: #112229;
-// color: #76939e;

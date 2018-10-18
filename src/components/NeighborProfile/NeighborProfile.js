@@ -1,7 +1,11 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
-import Nav from '../Nav/Nav';
+
 import { getUserInterests } from '../../utilities/userApiCalls';
+
+import Nav from '../Nav/Nav';
+
 import './NeighborProfile.scss';
 
 class NeighborProfile extends Component {
@@ -36,6 +40,9 @@ class NeighborProfile extends Component {
       <div className="neighbor-profile">
         <Nav />
         <div className="main-content">
+          <Link className="neighbors-link" to={'/neighbors'}>
+            <i className="fas fa-angle-left" />
+          </Link>
           <img
             src={require('../../assets/profile.jpg')}
             alt="profile"
