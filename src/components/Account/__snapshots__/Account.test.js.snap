@@ -3,7 +3,9 @@
 exports[`Account component should match the snapshot 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Account />,
+  Symbol(enzyme.__unrendered__): <Account
+    handleLogOut={[MockFunction]}
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -18,7 +20,9 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <Nav />,
+        <Nav
+          handleLogOut={[MockFunction]}
+        />,
         <div
           className="main-content"
         >
@@ -36,7 +40,7 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "function",
         "props": Object {
-          "handleLogOut": undefined,
+          "handleLogOut": [MockFunction],
         },
         "ref": null,
         "rendered": null,
@@ -76,7 +80,9 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <Nav />,
+          <Nav
+            handleLogOut={[MockFunction]}
+          />,
           <div
             className="main-content"
           >
@@ -94,7 +100,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "function",
           "props": Object {
-            "handleLogOut": undefined,
+            "handleLogOut": [MockFunction],
           },
           "ref": null,
           "rendered": null,

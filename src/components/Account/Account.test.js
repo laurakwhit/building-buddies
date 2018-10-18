@@ -5,9 +5,11 @@ import Account from './Account';
 
 describe('Account component', () => {
   let wrapper;
+  let mockHandleLogOut;
 
   beforeEach(() => {
-    wrapper = shallow(<Account />);
+    mockHandleLogOut = jest.fn();
+    wrapper = shallow(<Account handleLogOut={mockHandleLogOut} />);
   });
 
   it('should match the snapshot', () => {
