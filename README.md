@@ -24,8 +24,8 @@ You can run tests with npm test in both front-end and back-end directories
 
 ## Result
 
-![layout1](src/assets/layout1.gif)
-![layout2](src/assets/layout2.gif)
+![layout1](src/assets/layout1.gif)(https://building-buddies.herokuapp.com/)
+![layout2](src/assets/layout2.gif)(https://building-buddies.herokuapp.com/)
 
 ## Contributors
 
