@@ -1,0 +1,375 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Nav component should match the snapshhot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Nav />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <img
+          alt="profile"
+          src="profile.jpg"
+        />,
+        <nav>
+          <NavLink
+            activeClassName="selected"
+            aria-current="page"
+            className="nav__section-links"
+            to="/profile"
+          >
+            My Profile
+          </NavLink>
+          <NavLink
+            activeClassName="selected"
+            aria-current="page"
+            className="nav__section-links"
+            to="/neighbors"
+          >
+            My Neighbors
+          </NavLink>
+          <NavLink
+            activeClassName="selected"
+            aria-current="page"
+            className="nav__section-links"
+            to="/building"
+          >
+            Building Info
+          </NavLink>
+          <NavLink
+            activeClassName="active"
+            aria-current="page"
+            className="nav__section-links"
+            to="/"
+          >
+            Log Out
+          </NavLink>
+        </nav>,
+      ],
+      "className": "nav__section",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "alt": "profile",
+          "src": "profile.jpg",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "img",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <NavLink
+              activeClassName="selected"
+              aria-current="page"
+              className="nav__section-links"
+              to="/profile"
+            >
+              My Profile
+            </NavLink>,
+            <NavLink
+              activeClassName="selected"
+              aria-current="page"
+              className="nav__section-links"
+              to="/neighbors"
+            >
+              My Neighbors
+            </NavLink>,
+            <NavLink
+              activeClassName="selected"
+              aria-current="page"
+              className="nav__section-links"
+              to="/building"
+            >
+              Building Info
+            </NavLink>,
+            <NavLink
+              activeClassName="active"
+              aria-current="page"
+              className="nav__section-links"
+              to="/"
+            >
+              Log Out
+            </NavLink>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "activeClassName": "selected",
+              "aria-current": "page",
+              "children": "My Profile",
+              "className": "nav__section-links",
+              "to": "/profile",
+            },
+            "ref": null,
+            "rendered": "My Profile",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "activeClassName": "selected",
+              "aria-current": "page",
+              "children": "My Neighbors",
+              "className": "nav__section-links",
+              "to": "/neighbors",
+            },
+            "ref": null,
+            "rendered": "My Neighbors",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "activeClassName": "selected",
+              "aria-current": "page",
+              "children": "Building Info",
+              "className": "nav__section-links",
+              "to": "/building",
+            },
+            "ref": null,
+            "rendered": "Building Info",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "activeClassName": "active",
+              "aria-current": "page",
+              "children": "Log Out",
+              "className": "nav__section-links",
+              "onClick": undefined,
+              "to": "/",
+            },
+            "ref": null,
+            "rendered": "Log Out",
+            "type": [Function],
+          },
+        ],
+        "type": "nav",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <img
+            alt="profile"
+            src="profile.jpg"
+          />,
+          <nav>
+            <NavLink
+              activeClassName="selected"
+              aria-current="page"
+              className="nav__section-links"
+              to="/profile"
+            >
+              My Profile
+            </NavLink>
+            <NavLink
+              activeClassName="selected"
+              aria-current="page"
+              className="nav__section-links"
+              to="/neighbors"
+            >
+              My Neighbors
+            </NavLink>
+            <NavLink
+              activeClassName="selected"
+              aria-current="page"
+              className="nav__section-links"
+              to="/building"
+            >
+              Building Info
+            </NavLink>
+            <NavLink
+              activeClassName="active"
+              aria-current="page"
+              className="nav__section-links"
+              to="/"
+            >
+              Log Out
+            </NavLink>
+          </nav>,
+        ],
+        "className": "nav__section",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "alt": "profile",
+            "src": "profile.jpg",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "img",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <NavLink
+                activeClassName="selected"
+                aria-current="page"
+                className="nav__section-links"
+                to="/profile"
+              >
+                My Profile
+              </NavLink>,
+              <NavLink
+                activeClassName="selected"
+                aria-current="page"
+                className="nav__section-links"
+                to="/neighbors"
+              >
+                My Neighbors
+              </NavLink>,
+              <NavLink
+                activeClassName="selected"
+                aria-current="page"
+                className="nav__section-links"
+                to="/building"
+              >
+                Building Info
+              </NavLink>,
+              <NavLink
+                activeClassName="active"
+                aria-current="page"
+                className="nav__section-links"
+                to="/"
+              >
+                Log Out
+              </NavLink>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "activeClassName": "selected",
+                "aria-current": "page",
+                "children": "My Profile",
+                "className": "nav__section-links",
+                "to": "/profile",
+              },
+              "ref": null,
+              "rendered": "My Profile",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "activeClassName": "selected",
+                "aria-current": "page",
+                "children": "My Neighbors",
+                "className": "nav__section-links",
+                "to": "/neighbors",
+              },
+              "ref": null,
+              "rendered": "My Neighbors",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "activeClassName": "selected",
+                "aria-current": "page",
+                "children": "Building Info",
+                "className": "nav__section-links",
+                "to": "/building",
+              },
+              "ref": null,
+              "rendered": "Building Info",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "activeClassName": "active",
+                "aria-current": "page",
+                "children": "Log Out",
+                "className": "nav__section-links",
+                "onClick": undefined,
+                "to": "/",
+              },
+              "ref": null,
+              "rendered": "Log Out",
+              "type": [Function],
+            },
+          ],
+          "type": "nav",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
