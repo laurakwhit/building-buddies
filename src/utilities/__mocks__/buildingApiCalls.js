@@ -1,11 +1,4 @@
-import {
-  mockUser,
-  mockInterests,
-  mockNeighbors,
-  mockUserInterests,
-  mockUserBuilding,
-  mockBuildings
-} from '../mockData';
+import { mockNeighbors, mockBuildings } from '../mockData';
 
 export const getAllBuildings = jest
   .fn()

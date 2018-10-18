@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import './Account.scss';
 import Nav from '../Nav/Nav';
 
@@ -15,5 +16,9 @@ class Account extends Component {
     );
   }
 }
+
+Account.propTypes = {
+  handleLogOut: PropTypes.func.isRequired
+};
 
 export default Account;

@@ -1,15 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import { Routes } from './Routes';
-import {
-  mockUser,
-  mockInterests,
-  mockNeighbors,
-  mockUserInterests,
-  mockUserBuilding,
-  mockBuildings,
-  mockHistory
-} from '../../utilities/mockData';
+import { mockBuildings, mockHistory } from '../../utilities/mockData';
 
 import { addUser, addUserInterest } from '../../utilities/userApiCalls';
 

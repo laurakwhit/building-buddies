@@ -1,10 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import {
-  mockBuildings,
-  interests,
-  mockInterests
-} from '../../utilities/mockData';
+import { mockBuildings, mockInterests } from '../../utilities/mockData';
 import SignUpModal from './SignUpModal';
 
 describe('SignUpModal component', () => {
