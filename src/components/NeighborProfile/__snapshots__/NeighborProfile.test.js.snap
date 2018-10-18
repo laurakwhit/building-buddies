@@ -301,3 +301,313 @@ ShallowWrapper {
   },
 }
 `;
+
+exports[`NeighborProfile component should match the snapshot with neighbor interests 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <NeighborProfile
+    neighbor={
+      Object {
+        "building_id": 1,
+        "created_at": "2018-10-14T18:06:35.045Z",
+        "email": "boolean.brandon@gmail.com",
+        "id": 4,
+        "name": "Boolean Brandon",
+        "password": "asdfasdf",
+        "updated_at": "2018-10-14T18:06:35.045Z",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <Nav />,
+        <div
+          className="main-content"
+        >
+          <img
+            alt="profile"
+            className="profile-image"
+            src="profile.jpg"
+          />
+          <h1>
+            Boolean Brandon
+             likes...
+          </h1>
+          <div
+            className="interests-container"
+          >
+            <p>
+              golf
+            </p>
+          </div>
+        </div>,
+      ],
+      "className": "neighbor-profile",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <img
+              alt="profile"
+              className="profile-image"
+              src="profile.jpg"
+            />,
+            <h1>
+              Boolean Brandon
+               likes...
+            </h1>,
+            <div
+              className="interests-container"
+            >
+              <p>
+                golf
+              </p>
+            </div>,
+          ],
+          "className": "main-content",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "profile",
+              "className": "profile-image",
+              "src": "profile.jpg",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "Boolean Brandon",
+                " likes...",
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              "Boolean Brandon",
+              " likes...",
+            ],
+            "type": "h1",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <p>
+                  golf
+                </p>,
+              ],
+              "className": "interests-container",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "1-0",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "golf",
+                },
+                "ref": null,
+                "rendered": "golf",
+                "type": "p",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <Nav />,
+          <div
+            className="main-content"
+          >
+            <img
+              alt="profile"
+              className="profile-image"
+              src="profile.jpg"
+            />
+            <h1>
+              Boolean Brandon
+               likes...
+            </h1>
+            <div
+              className="interests-container"
+            >
+              <p>
+                golf
+              </p>
+            </div>
+          </div>,
+        ],
+        "className": "neighbor-profile",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <img
+                alt="profile"
+                className="profile-image"
+                src="profile.jpg"
+              />,
+              <h1>
+                Boolean Brandon
+                 likes...
+              </h1>,
+              <div
+                className="interests-container"
+              >
+                <p>
+                  golf
+                </p>
+              </div>,
+            ],
+            "className": "main-content",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "profile",
+                "className": "profile-image",
+                "src": "profile.jpg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "Boolean Brandon",
+                  " likes...",
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                "Boolean Brandon",
+                " likes...",
+              ],
+              "type": "h1",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <p>
+                    golf
+                  </p>,
+                ],
+                "className": "interests-container",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": "1-0",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "golf",
+                  },
+                  "ref": null,
+                  "rendered": "golf",
+                  "type": "p",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

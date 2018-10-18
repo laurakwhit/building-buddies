@@ -14,4 +14,13 @@ describe('NeighborProfile component', () => {
   it('should match the snapshhot', () => {
     expect(wrapper).toMatchSnapshot();
   });
+
+  it('should have an initial state', () => {
+    expect(wrapper.state('neighborInterests')).toEqual([]);
+  });
+
+  it('should match the snapshot with neighbor interests', () => {
+    wrapper.setState({ neighborInterests: [{ id: 1, name: 'golf' }] });
+    expect(wrapper).toMatchSnapshot();
+  });
 });
