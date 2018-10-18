@@ -2496,14 +2496,16 @@ Denver, CO
               </label>
             </div>
           </div>
-          <button>
+          <button
+            className="sign-up"
+          >
             Sign Up
           </button>
           <p
             className="cancel"
             onClick={[MockFunction]}
           >
-            X Cancel
+            Cancel
           </p>
         </form>
       </div>,
@@ -2736,14 +2738,16 @@ Denver, CO
               </label>
             </div>
           </div>
-          <button>
+          <button
+            className="sign-up"
+          >
             Sign Up
           </button>
           <p
             className="cancel"
             onClick={[MockFunction]}
           >
-            X Cancel
+            Cancel
           </p>
         </form>,
         "className": "modal-inner",
@@ -2972,14 +2976,16 @@ Denver, CO
                 </label>
               </div>
             </div>,
-            <button>
+            <button
+              className="sign-up"
+            >
               Sign Up
             </button>,
             <p
               className="cancel"
               onClick={[MockFunction]}
             >
-              X Cancel
+              Cancel
             </p>,
           ],
           "className": "sign-up-form",
@@ -3961,6 +3967,7 @@ Denver, CO
             "nodeType": "host",
             "props": Object {
               "children": "Sign Up",
+              "className": "sign-up",
             },
             "ref": null,
             "rendered": "Sign Up",
@@ -3971,12 +3978,12 @@ Denver, CO
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": "X Cancel",
+              "children": "Cancel",
               "className": "cancel",
               "onClick": [MockFunction],
             },
             "ref": null,
-            "rendered": "X Cancel",
+            "rendered": "Cancel",
             "type": "p",
           },
         ],
@@ -4216,14 +4223,16 @@ Denver, CO
                 </label>
               </div>
             </div>
-            <button>
+            <button
+              className="sign-up"
+            >
               Sign Up
             </button>
             <p
               className="cancel"
               onClick={[MockFunction]}
             >
-              X Cancel
+              Cancel
             </p>
           </form>
         </div>,
@@ -4456,14 +4465,16 @@ Denver, CO
                 </label>
               </div>
             </div>
-            <button>
+            <button
+              className="sign-up"
+            >
               Sign Up
             </button>
             <p
               className="cancel"
               onClick={[MockFunction]}
             >
-              X Cancel
+              Cancel
             </p>
           </form>,
           "className": "modal-inner",
@@ -4692,14 +4703,16 @@ Denver, CO
                   </label>
                 </div>
               </div>,
-              <button>
+              <button
+                className="sign-up"
+              >
                 Sign Up
               </button>,
               <p
                 className="cancel"
                 onClick={[MockFunction]}
               >
-                X Cancel
+                Cancel
               </p>,
             ],
             "className": "sign-up-form",
@@ -5681,6 +5694,7 @@ Denver, CO
               "nodeType": "host",
               "props": Object {
                 "children": "Sign Up",
+                "className": "sign-up",
               },
               "ref": null,
               "rendered": "Sign Up",
@@ -5691,12 +5705,12 @@ Denver, CO
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": "X Cancel",
+                "children": "Cancel",
                 "className": "cancel",
                 "onClick": [MockFunction],
               },
               "ref": null,
-              "rendered": "X Cancel",
+              "rendered": "Cancel",
               "type": "p",
             },
           ],

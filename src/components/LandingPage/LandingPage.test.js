@@ -1,13 +1,20 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-
+import { mockBuildings, mockInterests } from '../../utilities/mockData';
 import LandingPage from './LandingPage';
 
 describe('LandingPage', () => {
   let wrapper;
+  let mockUserSignUp
 
   beforeEach(() => {
-    wrapper = shallow(<LandingPage />);
+    mockUserSignUp = jest.fn();
+    wrapper = shallow(
+    <LandingPage 
+      buildings={mockBuildings}
+      interests={mockInterests}
+      userSignUp={mockUserSignUp}
+    />);
   });
 
   it('should match the snapshot', () => {

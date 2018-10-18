@@ -3,7 +3,2261 @@
 exports[`LandingPage should match the snapshot 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <LandingPage />,
+  Symbol(enzyme.__unrendered__): <LandingPage
+    buildings={
+      Array [
+        Object {
+          "address": "1910 S Josephine St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 1,
+          "name": "Modera Observatory Park",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "6301 W Hampden Ave
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 2,
+          "name": "The Modern Apartment Homes",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "1600 Glenarm Pl
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 3,
+          "name": "1600 Glenarm",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "9888 E Vassar Dr
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 4,
+          "name": "Alta Springs",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "2200 Market St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 5,
+          "name": "Premier Lofts",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "7555 E Warren Dr
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 6,
+          "name": "The Parc at Cherry Creek",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "1776 Broadway
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 7,
+          "name": "SkyHouse Denver",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "2002 W 76th Ave
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 8,
+          "name": "The Villas on 76th",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "7100 E Mississippi Ave
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 9,
+          "name": "Spyglass Hill",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "7571 Technology Way
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 10,
+          "name": "Pearl Apartments",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "3550 S Kendall St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 11,
+          "name": "Advenir Bear Valley",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "2905 Inca St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 12,
+          "name": "Griffis Union Station",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "2424 W Caithness Pl
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 13,
+          "name": "LoHi Gold Apartments",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "1211 S Quebec Way
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 14,
+          "name": "Advenir at Cherry Creek South",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "1755 S Beeler St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 15,
+          "name": "Whisper Sky",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "2900 Roslyn Street
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 16,
+          "name": "Botanica Town Center",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "7500 E Quincy Ave
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 17,
+          "name": "Edge DTC",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "240 S Monaco Pkwy
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 18,
+          "name": "The Lex at Lowry",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "3215 Tejon Street
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 19,
+          "name": "Alexan LoHi at Dixon Plaza",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "201 East Mississippi Avenue
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 20,
+          "name": "The Henry",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "1880 Arapahoe St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 21,
+          "name": "The Apartments at Denver Place",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "55 N Cook St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 22,
+          "name": "Alexan Cherry Creek",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "901 Sherman St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 23,
+          "name": "Archer Tower",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "350 S Jackson St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 24,
+          "name": "Talavera Apartments",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "4665 S Monaco St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 25,
+          "name": "Monaco Row",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "2020 Lawrence St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 26,
+          "name": "2020 Lawrence",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "360 S Monroe St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 27,
+          "name": "Gables Cherry Creek",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "9110 E Florida Ave
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 28,
+          "name": "Addison at Cherry Creek",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "1975 19th St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 29,
+          "name": "Alara Union Station",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "255 E Speer Blvd
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 30,
+          "name": "Gables Speer Blvd",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "530 25th St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 31,
+          "name": "The Wheatley",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "4000 Albion St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 32,
+          "name": "Park Hill 4000",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "2360 E Evans Ave
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 33,
+          "name": "One Observatory Park",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "330 Acoma St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 34,
+          "name": "Baker Tower",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "1001 S Havana St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 35,
+          "name": "Meridian Garden",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "2855 Arapahoe St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 36,
+          "name": "The Villages at Curtis Park",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "888 S Oneida St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 37,
+          "name": "Cedar Run",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "1859 28th St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 38,
+          "name": "Post River North",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "1101 E Bayaud Ave
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 39,
+          "name": "Country Club Towers II & III",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "1001 E Bayaud Ave
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 40,
+          "name": "Country Club Tower & Gardens",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "1801 Arapahoe St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 41,
+          "name": "Skyline 1801",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "300 E 17th Ave
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 42,
+          "name": "300 East Seventeenth",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "4363 S Quebec St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 43,
+          "name": "Parliament",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "1503 S Galena Way
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 44,
+          "name": "Apres Apartment Homes",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "2300 Walnut St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 45,
+          "name": "The Douglas",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "2350 S University Blvd
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 46,
+          "name": "Observatory Park Place",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "1550 Raleigh St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 47,
+          "name": "Regatta Sloan’s Lake",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "8400 E Yale Ave
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 48,
+          "name": "Ascent",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "8000 W Crestline Ave
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 49,
+          "name": "Westlake Greens",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "4775 Argonne St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 50,
+          "name": "Redstone Ranch",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "13500 Albrook Dr
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 51,
+          "name": "The Crossing Apartment Homes",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "3257 S Parker Rd
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 52,
+          "name": "Axis at Nine Mile Station",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "2785 N Speer Blvd
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 53,
+          "name": "2785 Speer",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "1035 Sherman St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 54,
+          "name": "Poets Row",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "2234 S Trenton Way
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 55,
+          "name": "The Covington on Cherry Creek Apartments by Cortland",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "2121 Delgany St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 56,
+          "name": "The Metro Urban Apartments",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "1000 S Broadway
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 57,
+          "name": "1000 S. Broadway Apartments",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "6515 E Union Ave
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 58,
+          "name": "Camden Belleview Station Apartments",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "5250 E Cherry Creek South Dr
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 59,
+          "name": "Creekside Apartments",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "8008 Montview Blvd
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 60,
+          "name": "Advenir At Stapleton Apartments",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "817 17th St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 61,
+          "name": "Bank and Boston Lofts Apartments",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "3201 Brighton Blvd
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 62,
+          "name": "Dylan",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "7500 Dakin St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 63,
+          "name": "Boulder Crossroads",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "2525 Wewatta Way
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 64,
+          "name": "AMLI Denargo Market",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "1300 S Willow St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 65,
+          "name": "Allure",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "5100 Leetsdale Dr
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 66,
+          "name": "The Atrii",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "1800 W 85th Ave
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 67,
+          "name": "Tuscan Heights Apartments",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "4982 S Ulster St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 68,
+          "name": "Arabella",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "755 E 19th Ave
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 69,
+          "name": "AMLI Park Avenue",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "970 Pennsylvania St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 70,
+          "name": "970 Pennsylvania Apartments",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "10050 E Harvard Ave
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 71,
+          "name": "Woodstream Village",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "1000 Grant St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 72,
+          "name": "1000 Grant",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "1935 N. Logan St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 73,
+          "name": "Radius Uptown Apartments",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "8330 E Quincy Ave
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 74,
+          "name": "Summit Ridge",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "805 Dahlia St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 75,
+          "name": "805 Dahlia",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "2560 Welton St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 76,
+          "name": "The Lydian",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "10000 E Alameda Ave
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 77,
+          "name": "The Ridge at Lowry",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "75 S Washington St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 78,
+          "name": "45-75 S. WASHINGTON",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "929 Marion St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 79,
+          "name": "The Stanley",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "4500 S Monaco St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 80,
+          "name": "Cierra Crest Apartment Homes",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "1950 Pennsylvania St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 81,
+          "name": "Uptown Square Apartment Homes",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "816 Acoma St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 82,
+          "name": "Acoma",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "3222 E 1st Ave
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 83,
+          "name": "Steele Creek",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "515 Clarkson St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 84,
+          "name": "515 Clarkson",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "2570 S Dayton Way
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 85,
+          "name": "Dayton Crossing",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "825 Dahlia St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 86,
+          "name": "825 Dahlia",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "4697 E Louisiana Ave
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 87,
+          "name": "The Lodge Apartment Homes",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "1550 Platte St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 88,
+          "name": "Commons Park West",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "3400 South Lowell Boulevard
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 89,
+          "name": "Loretto Heights Apartments",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "80 S Broadway
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 90,
+          "name": "The Werner",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "1 E Bayaud Ave
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 91,
+          "name": "White Palace",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "7200 E Evans Ave
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 92,
+          "name": "The Croft",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "1855 Gaylord St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 93,
+          "name": "The Edge",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "1742 Champa St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 94,
+          "name": "Buerger Brothers Lofts",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "1726 Champa St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 95,
+          "name": "Chamber Lofts",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "636 Pearl St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 96,
+          "name": "Pearl",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "1756 Clarkson St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 97,
+          "name": "The Clarkson",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "1975 Mile High Stadium Cir
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 98,
+          "name": "Turntable Studios",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "2125 Buchtel Blvd
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 99,
+          "name": "Trivium",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "7201 Leetsdale Dr
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 100,
+          "name": "Sage Brook",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "120 E Grace Pl
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 101,
+          "name": "Windom Peak Apartments",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "1421 Steele St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 102,
+          "name": "Steele Manor",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "619 Logan St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 103,
+          "name": "The Logan",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "2300 W 76th Ave
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 104,
+          "name": "Parkside Apartments",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "1465 North Jasmine Street
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 105,
+          "name": "Jasmine",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "794 North Cherry Street
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 106,
+          "name": "Cherry St. Townhomes",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "2701 Federal Blvd
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 107,
+          "name": "2701 Federal",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "1330 W Mississippi Ave
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 108,
+          "name": "Mariposa Apartments",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "214 West Ellsworth Avenue
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 109,
+          "name": "Baker 6",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "1510 E 9th Ave
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 110,
+          "name": "Del Prado",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "455 29th St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 111,
+          "name": "Flats on 29th",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "3885 Tennyson St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 112,
+          "name": "Tennyson Place",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "210 Saint Paul St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 113,
+          "name": "St Paul Collection",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "1265 Downing St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 114,
+          "name": "1265 Downing Apartments",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "3310 S Kenton St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 115,
+          "name": "Andante at Nine Mile Station",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "1412 Steele St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 116,
+          "name": "Liv on Steele",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "7575 E Arkansas Ave
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 117,
+          "name": "Torrey Pines Apartments",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "1211 Vine St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 118,
+          "name": "Nuvo",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "10025 E Girard Ave
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 119,
+          "name": "The Artisan",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "3550 W 38th Ave
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 120,
+          "name": "Alexan West Highland",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "3372 W 38th Ave
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 121,
+          "name": "Highland Place",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "99 East Arizona Avenue
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 122,
+          "name": "Hanover Platt Park",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "1050 Sherman St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 123,
+          "name": "Belmont Buckingham",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "1515 Vrain Street
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 124,
+          "name": "1515 Flats",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "2775 S Federal Blvd
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 125,
+          "name": "Amherst Apartments",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "2975 Huron Street
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 126,
+          "name": "Griffis North Union",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "8000 E Girard Ave
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 127,
+          "name": "The Paramount",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "2840 Blake Street
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 128,
+          "name": "Modera River North",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "415 S Cherokee St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 129,
+          "name": "Denizen",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "425 S Galena Way
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 130,
+          "name": "Stratford at Lowry",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "9600 E Girard Ave
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 131,
+          "name": "Grammercy Apartment Homes",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "1956 Lawrence St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 132,
+          "name": "Solera Apartments",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "1251 S Bellaire St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 133,
+          "name": "Mint Urban Infinity",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "3234 Navajo St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 134,
+          "name": "Lumina Apartments",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "6715 E Union Ave
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 135,
+          "name": "Cielo Apartments",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "444 E 19th Ave
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 136,
+          "name": "One City Block",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "1250 Cherokee St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 137,
+          "name": "EVIVA On Cherokee",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "2853 Roslyn St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 138,
+          "name": "Botanica Eastbridge",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "1776 Curtis St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 139,
+          "name": "The Quincy",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "4380 S Monaco St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 140,
+          "name": "Bell Denver Tech Center",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "3205 W Floyd Ave
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 141,
+          "name": "Fielders Creek",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "3498 E Ellsworth Ave
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 142,
+          "name": "The Seasons of Cherry Creek",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "828 Broadway
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 143,
+          "name": "Via",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "150 W 9th Ave
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 144,
+          "name": "The Boulevard Apartments",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "901 Colorado Blvd
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 145,
+          "name": "Colorado Pointe",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "1250 S Dayton St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 146,
+          "name": "Legend Oaks",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "2800 S Syracuse Way
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 147,
+          "name": "Arapahoe Club",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "4255 Kittredge St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 148,
+          "name": "Gateway Park",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "1150 S Cherry St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 149,
+          "name": "Four Mile Flats",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "10700 E Dartmouth Ave
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 150,
+          "name": "Pembrooke on the Green",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "9999 E Yale Ave
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 151,
+          "name": "Retreat at Water’s Edge",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "3500 Rockmont Dr
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 152,
+          "name": "WestEnd",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "4699 Kittredge St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 153,
+          "name": "Lakecrest at Gateway Park",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "16505 Green Valley Ranch Blvd
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 154,
+          "name": "Strata",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "3481 S Fenton St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 155,
+          "name": "Velo Apartments",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "8501 E Alameda Ave
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 156,
+          "name": "Lowry Park",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "4300 E 9th Ave
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 157,
+          "name": "Broadstone on 9th",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "3700 E Jewell Ave
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 158,
+          "name": "RedPeak Colorado Station",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "175 E 7th Ave
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 159,
+          "name": "7/S Denver Haus",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "3190 W 14th Ave
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 160,
+          "name": "The Overlook",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "1170 Logan St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 161,
+          "name": "1170 Logan",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "2375 E Evans Ave
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 162,
+          "name": "East Evans",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "1075 Corona St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 163,
+          "name": "The Patrician",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "90 S Logan St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 164,
+          "name": "Red Owl",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "2101 Market St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 165,
+          "name": "TwentyOne01 on Market Apartments",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "1260 S Bellaire St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 166,
+          "name": "Cambridge Place",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "800 Pennsylvania St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 167,
+          "name": "Arrive 800 Penn",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "1531 Stout St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 168,
+          "name": "Arrive on Stout",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "8000 E 12th Ave
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 169,
+          "name": "Advenir at Lowry",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "7470 29th Avenue
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 170,
+          "name": "Crescent Flats",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "1490 Delgany St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 171,
+          "name": "Verve",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "1781 York St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 172,
+          "name": "The York on City Park",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "1771 S Quebec Way
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 173,
+          "name": "Deerfield at Indian Creek Apartment Homes",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "5370 Zuni St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 174,
+          "name": "Z53",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "3655 S Verbena St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 175,
+          "name": "Chestnut Ridge",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "960 Grant St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 176,
+          "name": "960 Grant",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "1131 South Sherman Street
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 177,
+          "name": "RedPeak Platt Park Townhomes",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "833 Dexter St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 178,
+          "name": "833 Dexter",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "1311 Cook St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 179,
+          "name": "1311 Cook",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "1375 N. High St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 180,
+          "name": "1375 High",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "1190 Birch St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 181,
+          "name": "1190 Birch Apartments",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "1044 Downing St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 182,
+          "name": "1044 Downing",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "880 Dexter St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 183,
+          "name": "880 & 890 Dexter",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "1451 24th St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 184,
+          "name": "Ballpark Lofts",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "2749 Walnut St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 185,
+          "name": "Hartley Flats",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "2120 Blake St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 186,
+          "name": "The Battery on Blake Street",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "2555 17TH ST
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 187,
+          "name": "Studio LoHi",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "4875 DTC Blvd.
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 188,
+          "name": "Carriage Place",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "11100 E Dartmouth Ave
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 189,
+          "name": "One Dartmouth Place",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "2131 Lawrence St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 190,
+          "name": "Point 21",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "101 Grant St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 191,
+          "name": "Vita Flats",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "1801 Chestnut Pl
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 192,
+          "name": "City House Apartments",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "870 Cherry St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 193,
+          "name": "870 Cherry",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "1900 Little Raven St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 194,
+          "name": "AMLI Riverfront Park",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "70 Clarkson St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 195,
+          "name": "70 Clarkson",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "801 S Cherry St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 196,
+          "name": "Solana Cherry Creek",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "1105 S Cherry St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 197,
+          "name": "Vantage Point",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "1560 Boulder St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 198,
+          "name": "Line 28 at LoHi",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "5031 S Ulster St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 199,
+          "name": "Outlook DTC",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "1736 Boulder St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 200,
+          "name": "B Street LoHi",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "275 S Cherokee St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 201,
+          "name": "IMT Alameda Station",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "2900 E 16th Ave
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 202,
+          "name": "Venue on 16th",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "3063 North Brighton Boulevard
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 203,
+          "name": "Edison At Rino",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "777 Emerson St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 204,
+          "name": "Emerson Lofts",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "1250 S Clermont St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 205,
+          "name": "Infinity Flats",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "3251 Lowell Blvd
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 206,
+          "name": "Highlands 32",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "1355 Pearl St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 207,
+          "name": "Shambhala",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "60 Corona St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 208,
+          "name": "60 Corona",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "2270 S University Blvd
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 209,
+          "name": "Muse Apartments",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "1441 Little Raven St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 210,
+          "name": "The Confluence",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "1000 North Colorado Boulevard
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 211,
+          "name": "The Theo",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "3446 S Akron St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 212,
+          "name": "Forest Cove Apartments",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "1436 S Irving St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 213,
+          "name": "Parkwood Plaza",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "18493 E Elmendorf Rd
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 214,
+          "name": "Watermark at First Creek",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "12175 Albrook Dr
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 215,
+          "name": "Villages at Gateway",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "2190 E 11th Ave
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 216,
+          "name": "Amaranth Apartments",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "1011 Colorado Blvd
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 217,
+          "name": "Metropolis",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "7575 E 29th Pl
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 218,
+          "name": "Mint Town Center",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "3405 W 32nd Ave
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 219,
+          "name": "Julian 32",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "5121 East Yale Avenue
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 220,
+          "name": "Yale 25",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "818 S Dexter St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 221,
+          "name": "180 Flats",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "2930 E 2nd Ave
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 222,
+          "name": "Residences at Fillmore Plaza",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "820 Sherman St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 223,
+          "name": "MOTO Apartments",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "2525 18th St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 224,
+          "name": "Centric LoHi",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "1284 Downing St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 225,
+          "name": "Alta Vera",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "1430 Humboldt St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 226,
+          "name": "1430 Humboldt",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "1282 Detroit St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 227,
+          "name": "Avon Apartments",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "136 S Pennsylvania St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 228,
+          "name": "136 S Penn",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "3400 E 17th Ave
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 229,
+          "name": "The Kent Apartments",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "4560 S. Balsam Way
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 230,
+          "name": "M2",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "8965 E Florida Ave
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 231,
+          "name": "Alton Green Apartments",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "8405 E Hampden Ave
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 232,
+          "name": "Hampden Heights",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "1707 Chestnut Pl
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 233,
+          "name": "The Grand",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "2700 N Decatur St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 234,
+          "name": "Decatur Point",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "100 Steele St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 235,
+          "name": "Coda",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "675 E Louisiana Ave
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 236,
+          "name": "Wash Park Station",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "2085 S Josephine St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 237,
+          "name": "South Josephine Apartments",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "3860 Tennyson St
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 238,
+          "name": "Colewood",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "2298 W 28th Ave
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 239,
+          "name": "Infinity Lohi",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+        Object {
+          "address": "4750 Cherry Creek South Dr
+Denver, CO
+",
+          "created_at": "2018-10-14T18:06:35.020Z",
+          "id": 240,
+          "name": "IMT Cherry Creek",
+          "updated_at": "2018-10-14T18:06:35.020Z",
+        },
+      ]
+    }
+    interests={
+      Array [
+        Object {
+          "created_at": "2018-10-10T19:53:00.107Z",
+          "id": 1,
+          "name": "golf",
+          "updated_at": "2018-10-10T19:53:00.107Z",
+        },
+        Object {
+          "created_at": "2018-10-10T19:53:00.107Z",
+          "id": 2,
+          "name": "gardening",
+          "updated_at": "2018-10-10T19:53:00.107Z",
+        },
+        Object {
+          "created_at": "2018-10-10T19:53:00.107Z",
+          "id": 3,
+          "name": "camping",
+          "updated_at": "2018-10-10T19:53:00.107Z",
+        },
+        Object {
+          "created_at": "2018-10-10T19:53:00.107Z",
+          "id": 4,
+          "name": "rock climbing",
+          "updated_at": "2018-10-10T19:53:00.107Z",
+        },
+        Object {
+          "created_at": "2018-10-10T19:53:00.107Z",
+          "id": 5,
+          "name": "fly fishing",
+          "updated_at": "2018-10-10T19:53:00.107Z",
+        },
+        Object {
+          "created_at": "2018-10-10T19:53:00.107Z",
+          "id": 6,
+          "name": "coding",
+          "updated_at": "2018-10-10T19:53:00.107Z",
+        },
+        Object {
+          "created_at": "2018-10-10T19:53:00.107Z",
+          "id": 7,
+          "name": "working on cars",
+          "updated_at": "2018-10-10T19:53:00.107Z",
+        },
+        Object {
+          "created_at": "2018-10-10T19:53:00.107Z",
+          "id": 8,
+          "name": "bowling",
+          "updated_at": "2018-10-10T19:53:00.107Z",
+        },
+        Object {
+          "created_at": "2018-10-10T19:53:00.107Z",
+          "id": 9,
+          "name": "cooking",
+          "updated_at": "2018-10-10T19:53:00.107Z",
+        },
+        Object {
+          "created_at": "2018-10-10T19:53:00.107Z",
+          "id": 10,
+          "name": "hiking",
+          "updated_at": "2018-10-10T19:53:00.107Z",
+        },
+        Object {
+          "created_at": "2018-10-10T19:53:00.107Z",
+          "id": 11,
+          "name": "skiing",
+          "updated_at": "2018-10-10T19:53:00.107Z",
+        },
+        Object {
+          "created_at": "2018-10-10T19:53:00.107Z",
+          "id": 12,
+          "name": "snowboarding",
+          "updated_at": "2018-10-10T19:53:00.107Z",
+        },
+        Object {
+          "created_at": "2018-10-10T19:53:00.107Z",
+          "id": 13,
+          "name": "mountain biking",
+          "updated_at": "2018-10-10T19:53:00.107Z",
+        },
+        Object {
+          "created_at": "2018-10-10T19:53:00.107Z",
+          "id": 14,
+          "name": "knitting",
+          "updated_at": "2018-10-10T19:53:00.107Z",
+        },
+      ]
+    }
+    userSignUp={[MockFunction]}
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
