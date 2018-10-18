@@ -16,7 +16,7 @@ describe('MyProfile component', () => {
   beforeEach(() => {
     mockHandleLogOut = jest.fn();
     mockUpdateUserInterests = jest.fn();
-
+    
     wrapper = shallow(
       <MyProfile
         currentUser={mockUser}
@@ -24,11 +24,21 @@ describe('MyProfile component', () => {
         userInterests={mockUserInterests}
         updateUserInterests={mockUpdateUserInterests}
         handleLogOut={mockHandleLogOut}
+
       />
     );
   });
 
   it('should match the snapshot', () => {
     expect(wrapper).toMatchSnapshot();
+  });
+
+  it('should update user interests when checkbox is clicked', () => {
+    const mockEvent = { target: { name: 'golf' } };
+    wrapper
+      .find('.checkbox-cell input')
+      .first()
+      .simulate('change', mockEvent);
+    expect(mockUpdateUserInterests).toHaveBeenCalled();
   });
 });

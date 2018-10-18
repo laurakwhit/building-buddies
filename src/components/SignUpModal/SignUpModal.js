@@ -139,9 +139,9 @@ class SignUpModal extends Component {
               placeholder="password"
             />
             <div className="interest-form">{displayedInterests}</div>
-            <button>Sign Up</button>
+            <button className="sign-up">Sign Up</button>
             <p onClick={handleModalClose} className="cancel">
-              X Cancel
+              Cancel
             </p>
           </form>
         </div>

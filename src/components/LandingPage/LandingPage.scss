@@ -20,7 +20,7 @@
     margin: 1.5rem;
     font-size: 7rem;
     color: #fff;
-    text-shadow: 11px 10px 32px -15px rgba(0, 0, 0, 0.66);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.66);
   }
 
   button {
@@ -49,10 +49,9 @@
       #203a43,
       #0f2027
     ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    transition: ease-in-out 0.2s;
     &:hover {
       transform: scale(1.1);
-      transition: ease-in-out 0.2s;
     }
   }
 }

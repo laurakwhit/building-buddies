@@ -2,6 +2,45 @@
   display: flex;
   .main-content {
     overflow: scroll;
+    height: 100vh;
     width: calc(100% - 20rem);
+    .name-link {
+      text-decoration: none;
+    }
+    .neighbor {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 3rem;
+      width: 55%;
+      margin: 2rem auto;
+      border-radius: 10px;
+      background: #0f2027; /* fallback for old browsers */
+      background: -webkit-linear-gradient(
+        to right,
+        #2c5364,
+        #203a43,
+        #0f2027
+      ); /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(
+        to right,
+        #2c5364,
+        #203a43,
+        #0f2027
+      ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+      -webkit-box-shadow: 11px 10px 36px -12px rgba(0, 0, 0, 0.66);
+      -moz-box-shadow: 11px 10px 36px -12px rgba(0, 0, 0, 0.66);
+      box-shadow: 11px 10px 36px -12px rgba(0, 0, 0, 0.66);
+      color: #fff;
+      font-size: 2rem;
+      .fas {
+        padding-left: 2rem;
+      }
+      &:hover {
+        transform: scale(1.1);
+        transition: ease-in-out 0.2s;
+      }
+    }
   }
 }
