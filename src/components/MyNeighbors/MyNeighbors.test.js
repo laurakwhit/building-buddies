@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { mockNeighbors } from '../../utilities/mockData';
+import { mockNeighbors, mockUserBuilding } from '../../utilities/mockData';
 import MyNeighbors from './MyNeighbors';
 
 describe('MyNeighbors component', () => {
@@ -10,7 +10,11 @@ describe('MyNeighbors component', () => {
   beforeEach(() => {
     mockGetNeighbors = jest.fn();
     wrapper = shallow(
-      <MyNeighbors getNeighbors={mockGetNeighbors} neighbors={mockNeighbors} />
+      <MyNeighbors
+        getNeighbors={mockGetNeighbors}
+        neighbors={mockNeighbors}
+        userBuilding={mockUserBuilding}
+      />
     );
   });
 

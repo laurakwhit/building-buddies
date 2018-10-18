@@ -48,6 +48,17 @@ ShallowWrapper {
         },
       ]
     }
+    userBuilding={
+      Object {
+        "address": "1910 S Josephine St
+Denver, CO
+",
+        "created_at": "2018-10-14T18:06:35.020Z",
+        "id": 1,
+        "name": "Modera Observatory Park",
+        "updated_at": "2018-10-14T18:06:35.020Z",
+      }
+    }
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
