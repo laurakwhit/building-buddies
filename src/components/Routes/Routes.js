@@ -20,7 +20,7 @@ import BuildingInfo from '../BuildingInfo/BuildingInfo';
 import NeighborProfile from '../NeighborProfile/NeighborProfile';
 import Account from '../Account/Account';
 
-class Routes extends Component {
+export class Routes extends Component {
   state = {
     buildings: [],
     interests: [],
