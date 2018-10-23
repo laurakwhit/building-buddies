@@ -1,4 +1,5 @@
 # Building Buddies
+[![Build Status](https://travis-ci.org/laurakwhit/building-buddies.svg?branch=master)](https://travis-ci.org/laurakwhit/building-buddies)
 
 [Project](http://frontend.turing.io/projects/build-your-own-backend.html) that allows neighbors to find each other based on similar interests. [Back-end](https://github.com/laurakwhit/building-buddies-api) built using Express, knex, and PostgreSQL with data scraped from [Appartment List](https://www.apartmentlist.com/co/denver/). Front-end built using [React](https://github.com/facebook/create-react-app).
 
